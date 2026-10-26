@@ -1,0 +1,400 @@
+{
+  "id": "english",
+  "title": { "en": "English for luxury service", "es": "Inglés para servicio de lujo" },
+  "emoji": "🎩",
+  "color": "#2f8f83",
+  "cards": [
+    {
+      "id": "english-001",
+      "tags": ["phrases", "register", "courtesy"],
+      "title": { "en": "\"Certainly\", not \"No problem\"", "es": "«Certainly», no «No problem»" },
+      "idea": {
+        "en": "\"No problem\" suggests the request could have been a problem. In luxury service, prefer \"Certainly\", \"Of course\" or \"With pleasure\". They sound confident and gracious.",
+        "es": "«No problem» insinúa que la petición podría haber sido un problema. En el servicio de lujo, mejor «Certainly», «Of course» o «With pleasure». Suenan seguros y elegantes."
+      },
+      "example": {
+        "en": "Guest: \"Could we have some more bread?\" — You: \"Certainly, I'll bring it right away.\"",
+        "es": "Cliente: «Could we have some more bread?» — Tú: «Certainly, I'll bring it right away.» (Por supuesto, se lo traigo enseguida)."
+      },
+      "quiz": {
+        "q": { "en": "Give two elegant alternatives to \"No problem\".", "es": "Da dos alternativas elegantes a «No problem»." },
+        "a": { "en": "\"Certainly\", \"Of course\", \"With pleasure\".", "es": "«Certainly», «Of course», «With pleasure»." }
+      }
+    },
+    {
+      "id": "english-002",
+      "tags": ["phrases", "courtesy"],
+      "title": { "en": "\"My pleasure\"", "es": "«My pleasure»" },
+      "idea": {
+        "en": "The classic reply to \"thank you\" in luxury hospitality is \"My pleasure\" or \"It's my pleasure\" — warmer than \"You're welcome\" and far better than \"No worries\". Say it while making eye contact.",
+        "es": "La respuesta clásica a «thank you» en hostelería de lujo es «My pleasure» o «It's my pleasure» (es un placer): más cálida que «You're welcome» y mucho mejor que «No worries». Dila mirando a los ojos."
+      },
+      "example": {
+        "en": "Guest: \"Thank you, that was perfect.\" — You: \"It's my pleasure, Mrs Collins. Enjoy the rest of your evening.\"",
+        "es": "Cliente: «Thank you, that was perfect.» — Tú: «It's my pleasure, Mrs Collins. Enjoy the rest of your evening.» (Es un placer. Disfrute del resto de la velada)."
+      }
+    },
+    {
+      "id": "english-003",
+      "tags": ["grammar", "register", "courtesy"],
+      "title": { "en": "\"May I…\" vs \"Can I…\"", "es": "«May I…» frente a «Can I…»" },
+      "idea": {
+        "en": "\"Can I…?\" asks about ability; \"May I…?\" asks for permission and sounds more formal. In fine dining, \"May I…?\" is the standard: \"May I take your coat?\", \"May I suggest…?\". \"Could I…?\" is a polite middle ground.",
+        "es": "«Can I…?» pregunta por la capacidad; «May I…?» pide permiso y suena más formal. En alta cocina, «May I…?» es lo estándar: «May I take your coat?», «May I suggest…?». «Could I…?» es un término medio cortés."
+      },
+      "example": {
+        "en": "Instead of \"Can I take this?\": \"May I clear your plate, sir?\"",
+        "es": "En lugar de «Can I take this?»: «May I clear your plate, sir?» (¿Me permite retirarle el plato, señor?)."
+      }
+    },
+    {
+      "id": "english-004",
+      "tags": ["phrases", "offering"],
+      "title": { "en": "\"Would you care for…?\"", "es": "«Would you care for…?»" },
+      "idea": {
+        "en": "\"Would you care for…?\" is an elegant way to offer something, more refined than \"Do you want…?\". Similar options: \"Would you like…?\" and \"May I offer you…?\". \"Do you want…?\" sounds too direct in a luxury setting.",
+        "es": "«Would you care for…?» es una forma elegante de ofrecer algo, más refinada que «Do you want…?». Opciones parecidas: «Would you like…?» y «May I offer you…?». «Do you want…?» suena demasiado directo en un entorno de lujo."
+      },
+      "example": {
+        "en": "\"Would you care for a digestif? We have a lovely Williams pear brandy from Valais.\"",
+        "es": "«Would you care for a digestif? We have a lovely Williams pear brandy from Valais.» (¿Le apetece un digestivo? Tenemos un aguardiente de pera Williams del Valais delicioso)."
+      },
+      "quiz": {
+        "q": { "en": "Make \"Do you want coffee?\" more elegant.", "es": "Haz más elegante «Do you want coffee?»." },
+        "a": { "en": "\"Would you care for a coffee?\"", "es": "«Would you care for a coffee?»" }
+      }
+    },
+    {
+      "id": "english-005",
+      "tags": ["phrases", "no", "complaints"],
+      "title": { "en": "Never a flat \"no\"", "es": "Nunca un «no» a secas" },
+      "idea": {
+        "en": "Luxury service avoids a plain \"no\". Use the structure: \"Unfortunately…, however, what I can offer is…\". The guest hears the alternative, not the refusal.",
+        "es": "El servicio de lujo evita el «no» a secas. Usa la estructura: «Unfortunately…, however, what I can offer is…» (Lamentablemente…, sin embargo, lo que puedo ofrecerle es…). El cliente escucha la alternativa, no la negativa."
+      },
+      "example": {
+        "en": "\"Unfortunately, the terrace is closed this evening because of the wind. However, I can offer you our best table by the window, with a view of the Matterhorn.\"",
+        "es": "«Unfortunately, the terrace is closed this evening because of the wind. However, I can offer you our best table by the window, with a view of the Matterhorn.» (La terraza está cerrada por el viento, pero puedo ofrecerle nuestra mejor mesa junto a la ventana, con vistas al Cervino)."
+      }
+    },
+    {
+      "id": "english-006",
+      "tags": ["phrases", "not-knowing"],
+      "title": { "en": "Instead of \"I don't know\"", "es": "En lugar de «I don't know»" },
+      "idea": {
+        "en": "\"I don't know\" ends the conversation. \"Let me find out for you\" or \"Allow me to check with the chef\" keeps it going and shows ownership. Then always come back with the answer.",
+        "es": "«I don't know» cierra la conversación. «Let me find out for you» (Permítame averiguarlo) o «Allow me to check with the chef» (Permítame consultarlo con el chef) la mantienen abierta y muestran que te haces cargo. Después, vuelve siempre con la respuesta."
+      },
+      "example": {
+        "en": "Guest: \"Is the butter made with raw milk?\" — \"That's a very good question. Allow me to check with the kitchen, I'll be right back.\"",
+        "es": "Cliente: «Is the butter made with raw milk?» — «That's a very good question. Allow me to check with the kitchen, I'll be right back.» (Muy buena pregunta; permítame consultarlo en cocina, vuelvo enseguida)."
+      }
+    },
+    {
+      "id": "english-007",
+      "tags": ["phrases", "checking"],
+      "title": { "en": "Checking on the table", "es": "Preguntar en la mesa cómo va todo" },
+      "idea": {
+        "en": "\"Is everything all right?\" invites a quick \"fine\". Better: \"How is the venison?\" (specific) or \"Is everything to your liking?\" (formal). Ask after the first two or three bites, not with a full mouth.",
+        "es": "«Is everything all right?» invita a un rápido «fine». Mejor: «How is the venison?» (concreto) o «Is everything to your liking?» (formal: ¿Está todo a su gusto?). Pregunta tras los dos o tres primeros bocados, no con la boca llena."
+      },
+      "example": {
+        "en": "\"How are you finding the Petite Arvine with the char?\" — the guest talks about the pairing, and you learn something useful.",
+        "es": "«How are you finding the Petite Arvine with the char?» (¿Qué le parece la Petite Arvine con el salvelino?): el cliente habla del maridaje y tú aprendes algo útil."
+      }
+    },
+    {
+      "id": "english-008",
+      "tags": ["phrases", "recommending"],
+      "title": { "en": "Recommending without pushing", "es": "Recomendar sin presionar" },
+      "idea": {
+        "en": "Soft openers make recommendations feel like advice, not sales: \"May I suggest…\", \"If I may…\", \"A personal favourite of mine is…\", \"You might enjoy…\". Give one clear reason why.",
+        "es": "Las entradas suaves hacen que una recomendación suene a consejo y no a venta: «May I suggest…», «If I may…», «A personal favourite of mine is…» (Uno de mis favoritos es…), «You might enjoy…». Da una razón clara."
+      },
+      "example": {
+        "en": "\"If I may, a personal favourite of mine is the Cornalin: it has the depth you enjoy in Syrah, but with Alpine freshness.\"",
+        "es": "«If I may, a personal favourite of mine is the Cornalin: it has the depth you enjoy in Syrah, but with Alpine freshness.» (Si me permite, uno de mis favoritos es el Cornalin: tiene la profundidad que le gusta de la Syrah, pero con frescura alpina)."
+      }
+    },
+    {
+      "id": "english-009",
+      "tags": ["phrases", "waiting", "apology"],
+      "title": { "en": "Thank them for their patience", "es": "Agradece su paciencia" },
+      "idea": {
+        "en": "\"Sorry for the wait\" focuses on the failure. \"Thank you for your patience\" focuses on the guest's kindness. If the delay was long, use both: \"I do apologise for the wait, and thank you for your patience.\"",
+        "es": "«Sorry for the wait» se centra en el fallo. «Thank you for your patience» se centra en la amabilidad del cliente. Si la espera fue larga, usa las dos: «I do apologise for the wait, and thank you for your patience.»"
+      },
+      "example": {
+        "en": "Arriving with the mains after a delay: \"Thank you so much for your patience. Here is your lamb, with our compliments of a glass of wine.\"",
+        "es": "Al llegar con los principales tras un retraso: «Thank you so much for your patience. Here is your lamb, with our compliments of a glass of wine.» (Muchas gracias por su paciencia. Aquí tiene su cordero, y una copa de vino por cortesía de la casa)."
+      }
+    },
+    {
+      "id": "english-010",
+      "tags": ["grammar", "politeness"],
+      "title": { "en": "The emphatic \"do\"", "es": "El «do» enfático" },
+      "idea": {
+        "en": "Adding \"do\" before a verb makes it warmer and more sincere: \"I do apologise\", \"Please do let me know\", \"Do enjoy your evening\". It's very common in British upscale service.",
+        "es": "Añadir «do» antes del verbo lo hace más cálido y sincero: «I do apologise» (le pido sinceras disculpas), «Please do let me know» (no dude en decírmelo), «Do enjoy your evening». Es muy habitual en el servicio británico de alto nivel."
+      },
+      "example": {
+        "en": "\"If there's anything else you need, please do let me know.\"",
+        "es": "«If there's anything else you need, please do let me know.» (Si necesita cualquier otra cosa, no dude en decírmelo)."
+      }
+    },
+    {
+      "id": "english-011",
+      "tags": ["vocabulary", "british-american"],
+      "title": { "en": "Starter, main, entrée: careful!", "es": "Starter, main, entrée: ¡cuidado!" },
+      "idea": {
+        "en": "In British English: starter, main course, dessert/pudding. In American English: appetizer, entrée, dessert. Careful: an American \"entrée\" is the main course, while in French (and in much of Europe) it is the starter.",
+        "es": "En inglés británico: starter, main course, dessert/pudding. En inglés americano: appetizer, entrée, dessert. Cuidado: el «entrée» americano es el plato principal, mientras que en francés (y en gran parte de Europa) es el entrante."
+      },
+      "example": {
+        "en": "An American guest says: \"I'll skip the appetizer and just have the entrée.\" He means: no starter, only the main course.",
+        "es": "Un cliente estadounidense dice: «I'll skip the appetizer and just have the entrée». Quiere decir: sin entrante, solo el principal."
+      },
+      "quiz": {
+        "q": { "en": "For an American, \"entrée\" is…?", "es": "Para un estadounidense, «entrée» es…" },
+        "a": { "en": "The main course.", "es": "El plato principal." }
+      }
+    },
+    {
+      "id": "english-012",
+      "tags": ["vocabulary", "british-american", "bill"],
+      "title": { "en": "The bill or the check", "es": "«The bill» o «the check»" },
+      "idea": {
+        "en": "British guests ask for \"the bill\"; Americans for \"the check\". Other pairs: \"still/sparkling water\" in both, \"chips\" (UK) = \"fries\" (US), \"crisps\" (UK) = \"chips\" (US). Mirror the guest's word.",
+        "es": "Los británicos piden «the bill»; los estadounidenses, «the check». Otros pares: «still/sparkling water» en ambos, «chips» (UK) = «fries» (US), «crisps» (UK) = «chips» (US). Usa la palabra que use el cliente."
+      },
+      "example": {
+        "en": "An American couple: \"Could we get the check?\" — \"Of course, I'll bring the check right away. Shall I charge it to your room?\"",
+        "es": "Una pareja estadounidense: «Could we get the check?» — «Of course, I'll bring the check right away. Shall I charge it to your room?» (Por supuesto, se la traigo ahora. ¿La cargo a su habitación?)."
+      }
+    },
+    {
+      "id": "english-013",
+      "tags": ["phrases", "bill", "hotel"],
+      "title": { "en": "Charging to the room", "es": "Cargar a la habitación" },
+      "idea": {
+        "en": "Useful phrases: \"Would you like me to charge this to your room?\", \"May I have your room number, please?\", \"Could you sign here, please?\". Never say the room number out loud near other guests — it is private.",
+        "es": "Frases útiles: «Would you like me to charge this to your room?», «May I have your room number, please?», «Could you sign here, please?». Nunca digas el número de habitación en voz alta cerca de otros clientes: es privado."
+      },
+      "example": {
+        "en": "You hand over the folder discreetly: \"If you'd like to charge it to your room, please write your room number and sign here.\"",
+        "es": "Entregas la carpeta con discreción: «If you'd like to charge it to your room, please write your room number and sign here.» (Si desea cargarlo a la habitación, escriba el número y firme aquí)."
+      }
+    },
+    {
+      "id": "english-014",
+      "tags": ["phrases", "addressing-guests"],
+      "title": { "en": "Addressing guests by name", "es": "Dirigirse a los clientes por su nombre" },
+      "idea": {
+        "en": "Use title and surname — \"Mr Smith\", \"Mrs Smith\", \"Ms Smith\", \"Dr Smith\" — until the guest invites you to use first names. \"Sir\" and \"Madam\" work when you don't know the name. In British English \"Mr\" has no full stop; in American English it does (\"Mr.\").",
+        "es": "Usa tratamiento y apellido —«Mr Smith», «Mrs Smith», «Ms Smith», «Dr Smith»— hasta que el cliente te invite a usar el nombre de pila. «Sir» y «Madam» sirven cuando no sabes el nombre. En inglés británico «Mr» va sin punto; en americano, con punto («Mr.»)."
+      },
+      "example": {
+        "en": "\"Welcome back, Mr Anderson. Your usual table by the window is ready.\"",
+        "es": "«Welcome back, Mr Anderson. Your usual table by the window is ready.» (Bienvenido de nuevo, Sr. Anderson. Su mesa de siempre junto a la ventana está lista)."
+      },
+      "quiz": {
+        "q": { "en": "Which title fits a woman when you don't know if she's married?", "es": "¿Qué tratamiento usas con una mujer si no sabes si está casada?" },
+        "a": { "en": "Ms (pronounced \"miz\").", "es": "Ms (se pronuncia «miz»)." }
+      }
+    },
+    {
+      "id": "english-015",
+      "tags": ["phrases", "groups", "register"],
+      "title": { "en": "Greeting a group without \"guys\"", "es": "Saludar a un grupo sin «guys»" },
+      "idea": {
+        "en": "\"Hi guys\" is too casual for a 5-star dining room. Use \"Good evening, ladies and gentlemen\", \"Good evening, everyone\" or simply \"Good evening\" with a smile to each guest. \"Folks\" is also too informal.",
+        "es": "«Hi guys» es demasiado informal para un comedor de 5 estrellas. Usa «Good evening, ladies and gentlemen», «Good evening, everyone» o simplemente «Good evening» con una sonrisa a cada cliente. «Folks» también es demasiado informal."
+      },
+      "example": {
+        "en": "Approaching a table of six: \"Good evening, everyone, and welcome. My name is David, and I'll be looking after you tonight.\"",
+        "es": "Llegando a una mesa de seis: «Good evening, everyone, and welcome. My name is David, and I'll be looking after you tonight.» (Buenas noches a todos y bienvenidos. Me llamo David y esta noche me ocuparé de ustedes)."
+      }
+    },
+    {
+      "id": "english-016",
+      "tags": ["phrases", "introduction"],
+      "title": { "en": "\"I'll be looking after you\"", "es": "«I'll be looking after you»" },
+      "idea": {
+        "en": "\"I'll be looking after you this evening\" is the elegant way to introduce yourself, warmer than \"I'm your waiter\". The future continuous (\"I'll be + -ing\") sounds polite and planned. Another option: \"It's my pleasure to take care of you tonight.\"",
+        "es": "«I'll be looking after you this evening» es la forma elegante de presentarte, más cálida que «I'm your waiter». El futuro continuo («I'll be + -ing») suena cortés y planificado. Otra opción: «It's my pleasure to take care of you tonight.»"
+      },
+      "example": {
+        "en": "\"Good evening, Mr and Mrs Laurent. I'm David, your sommelier, and I'll be looking after your wine this evening.\"",
+        "es": "«Good evening, Mr and Mrs Laurent. I'm David, your sommelier, and I'll be looking after your wine this evening.» (Soy David, su sumiller, y esta noche me ocuparé de su vino)."
+      }
+    },
+    {
+      "id": "english-017",
+      "tags": ["phrases", "interrupting", "courtesy"],
+      "title": { "en": "Interrupting gracefully", "es": "Interrumpir con elegancia" },
+      "idea": {
+        "en": "Wait for a natural pause, then: \"Excuse me for interrupting…\" or \"Pardon the interruption…\". Keep it brief and leave quickly. Never reach across a guest without saying \"Excuse me\".",
+        "es": "Espera una pausa natural y di: «Excuse me for interrupting…» o «Pardon the interruption…» (Disculpen la interrupción…). Sé breve y retírate rápido. Nunca te estires por delante de un cliente sin decir «Excuse me»."
+      },
+      "example": {
+        "en": "During a business dinner: \"Pardon the interruption — your main courses will be served in five minutes. May I pour some more wine?\"",
+        "es": "En una cena de negocios: «Pardon the interruption — your main courses will be served in five minutes. May I pour some more wine?» (Disculpen la interrupción: los principales saldrán en cinco minutos. ¿Les sirvo más vino?)."
+      }
+    },
+    {
+      "id": "english-018",
+      "tags": ["phrases", "listening"],
+      "title": { "en": "When you didn't hear", "es": "Cuando no has oído bien" },
+      "idea": {
+        "en": "Never \"What?\" or \"Huh?\". Use \"I beg your pardon?\" (very formal), \"Pardon?\" or \"I'm sorry, could you repeat that, please?\". In a noisy room, lean in slightly and repeat back the order to confirm.",
+        "es": "Nunca «What?» ni «Huh?». Usa «I beg your pardon?» (muy formal), «Pardon?» o «I'm sorry, could you repeat that, please?». En una sala ruidosa, acércate un poco y repite la comanda para confirmarla."
+      },
+      "example": {
+        "en": "\"I'm sorry, could you repeat that, please? … Very good: one fillet, medium rare, with the sauce on the side.\"",
+        "es": "«I'm sorry, could you repeat that, please? … Very good: one fillet, medium rare, with the sauce on the side.» (Disculpe, ¿podría repetirlo? … Perfecto: un solomillo al punto menos, con la salsa aparte)."
+      }
+    },
+    {
+      "id": "english-019",
+      "tags": ["vocabulary", "meat", "ordering"],
+      "title": { "en": "Steak doneness in English", "es": "Puntos de la carne en inglés" },
+      "idea": {
+        "en": "Rare (red, cool centre), medium rare (red, warm centre), medium (pink), medium well (slightly pink), well done (no pink). Ask: \"How would you like your steak cooked?\" — not \"How do you want it?\".",
+        "es": "Rare (rojo, centro frío), medium rare (rojo, centro templado), medium (rosado), medium well (ligeramente rosado), well done (sin rosa). Pregunta: «How would you like your steak cooked?», no «How do you want it?»."
+      },
+      "example": {
+        "en": "\"How would you like your fillet cooked, madam?\" — \"Medium rare.\" — \"Perfect. And would you like the béarnaise or the red wine jus?\"",
+        "es": "«How would you like your fillet cooked, madam?» — «Medium rare.» — «Perfect. And would you like the béarnaise or the red wine jus?» (¿Desea la bearnesa o el jugo al vino tinto?)."
+      },
+      "quiz": {
+        "q": { "en": "Which is pinker: medium or medium well?", "es": "¿Cuál está más rosado: medium o medium well?" },
+        "a": { "en": "Medium.", "es": "Medium." }
+      }
+    },
+    {
+      "id": "english-020",
+      "tags": ["vocabulary", "wine", "tasting"],
+      "title": { "en": "Describing wine to guests", "es": "Describir el vino a los clientes" },
+      "idea": {
+        "en": "Natural, elegant wine phrases: \"It has lovely freshness\", \"a touch of oak\", \"well-balanced\", \"soft, silky tannins\", \"a long, elegant finish\", \"crisp and mineral\". Two or three words plus one food link are enough.",
+        "es": "Frases naturales y elegantes sobre vino: «It has lovely freshness» (tiene una frescura preciosa), «a touch of oak» (un toque de barrica), «well-balanced» (equilibrado), «soft, silky tannins» (taninos suaves y sedosos), «a long, elegant finish» (final largo y elegante), «crisp and mineral» (fresco y mineral). Basta con dos o tres expresiones y una referencia al plato."
+      },
+      "example": {
+        "en": "\"This Pinot Noir is light and silky, with red cherry and a long, elegant finish — lovely with the veal.\"",
+        "es": "«This Pinot Noir is light and silky, with red cherry and a long, elegant finish — lovely with the veal.» (Este Pinot Noir es ligero y sedoso, con cereza roja y un final largo y elegante: delicioso con la ternera)."
+      }
+    },
+    {
+      "id": "english-021",
+      "tags": ["phrases", "compliments"],
+      "title": { "en": "Receiving compliments", "es": "Recibir elogios" },
+      "idea": {
+        "en": "Accept compliments gracefully and share them: \"Thank you, that's very kind. I'll pass that on to the chef.\" Avoid dismissing them (\"Oh, it was nothing\") — it can sound as if you disagree with the guest.",
+        "es": "Acepta los elogios con elegancia y compártelos: «Thank you, that's very kind. I'll pass that on to the chef.» (Muchas gracias, es muy amable; se lo transmitiré al chef). Evita quitarles importancia («Oh, it was nothing»): puede sonar a que no estás de acuerdo con el cliente."
+      },
+      "example": {
+        "en": "Guest: \"That lamb was the best I've ever had.\" — \"How wonderful to hear. I'll make sure the chef knows — he'll be delighted.\"",
+        "es": "Cliente: «That lamb was the best I've ever had.» — «How wonderful to hear. I'll make sure the chef knows — he'll be delighted.» (Qué alegría oírlo. Me aseguraré de que el chef lo sepa; estará encantado)."
+      }
+    },
+    {
+      "id": "english-022",
+      "tags": ["phrases", "complaints", "apology"],
+      "title": { "en": "Phrases for a complaint", "es": "Frases para una queja" },
+      "idea": {
+        "en": "Show understanding first, then act: \"I completely understand\", \"I'm so sorry this happened\", \"Leave it with me\", \"I'll see to it personally\", \"Rest assured, it will be taken care of\". Avoid \"calm down\" and never blame the kitchen.",
+        "es": "Primero muestra comprensión y después actúa: «I completely understand», «I'm so sorry this happened», «Leave it with me» (déjelo en mis manos), «I'll see to it personally» (me encargo personalmente), «Rest assured, it will be taken care of» (puede estar tranquilo, se resolverá). Evita «calm down» y nunca culpes a cocina."
+      },
+      "example": {
+        "en": "\"I'm so sorry your soup arrived cold. Leave it with me — I'll see to it personally that a fresh one is with you in a few minutes.\"",
+        "es": "«I'm so sorry your soup arrived cold. Leave it with me — I'll see to it personally that a fresh one is with you in a few minutes.» (Siento mucho que la sopa llegara fría. Déjelo en mis manos: me encargo personalmente de que tenga otra en unos minutos)."
+      },
+      "quiz": {
+        "q": { "en": "Which phrase should you never use with an upset guest?", "es": "¿Qué frase no debes usar nunca con un cliente molesto?" },
+        "a": { "en": "\"Calm down.\"", "es": "«Calm down» (cálmese)." }
+      }
+    },
+    {
+      "id": "english-023",
+      "tags": ["small-talk", "zermatt"],
+      "title": { "en": "Small talk that works", "es": "Charla ligera que funciona" },
+      "idea": {
+        "en": "Safe topics: their day, the mountains, the weather, the food, their trip. Avoid politics, money and personal questions. Open questions keep it light: \"Did you make it up to the Gornergrat today?\", \"Is this your first time in Zermatt?\".",
+        "es": "Temas seguros: su día, la montaña, el tiempo, la comida, su viaje. Evita la política, el dinero y las preguntas personales. Las preguntas abiertas mantienen la charla ligera: «Did you make it up to the Gornergrat today?» (¿Han subido hoy al Gornergrat?), «Is this your first time in Zermatt?»."
+      },
+      "example": {
+        "en": "\"Is this your first time in Zermatt? … Then you were lucky — the Matterhorn has been hiding behind clouds all week, but tonight it's perfectly clear.\"",
+        "es": "«Is this your first time in Zermatt? … Then you were lucky — the Matterhorn has been hiding behind clouds all week, but tonight it's perfectly clear.» (¿Es su primera vez en Zermatt? Entonces han tenido suerte: el Cervino lleva toda la semana escondido entre nubes y esta noche está totalmente despejado)."
+      }
+    },
+    {
+      "id": "english-024",
+      "tags": ["grammar", "politeness", "softeners"],
+      "title": { "en": "Softeners: just, perhaps, might", "es": "Suavizadores: just, perhaps, might" },
+      "idea": {
+        "en": "Small words make requests and suggestions gentler: \"Could I just ask you to sign here?\", \"Perhaps you'd prefer the table by the fire?\", \"You might like to try…\". Native speakers use them constantly; without them, C1 English can sound abrupt.",
+        "es": "Pequeñas palabras hacen más suaves las peticiones y sugerencias: «Could I just ask you to sign here?», «Perhaps you'd prefer the table by the fire?», «You might like to try…». Los nativos las usan constantemente; sin ellas, un inglés C1 puede sonar brusco."
+      },
+      "example": {
+        "en": "Instead of \"You need to wait 10 minutes\": \"Your table will just be another ten minutes. Perhaps you'd like a drink at the bar in the meantime?\"",
+        "es": "En vez de «You need to wait 10 minutes»: «Your table will just be another ten minutes. Perhaps you'd like a drink at the bar in the meantime?» (Su mesa estará lista en solo diez minutos. ¿Quizá les apetezca tomar algo en el bar mientras tanto?)."
+      }
+    },
+    {
+      "id": "english-025",
+      "tags": ["phrases", "special-occasions"],
+      "title": { "en": "Celebrating special occasions", "es": "Celebrar ocasiones especiales" },
+      "idea": {
+        "en": "Useful phrases: \"Many happy returns!\" (birthday, British), \"Congratulations on your anniversary\", \"We've prepared a little something for you\", \"With the compliments of the house\". Keep it discreet unless you know the guest enjoys attention.",
+        "es": "Frases útiles: «Many happy returns!» (cumpleaños, británico), «Congratulations on your anniversary», «We've prepared a little something for you» (les hemos preparado un pequeño detalle), «With the compliments of the house» (cortesía de la casa). Sé discreto salvo que sepas que al cliente le gusta ser el centro de atención."
+      },
+      "example": {
+        "en": "Bringing a dessert with a candle: \"Congratulations on your anniversary, Mr and Mrs Davies. A little something with the compliments of the house.\"",
+        "es": "Llevando un postre con una vela: «Congratulations on your anniversary, Mr and Mrs Davies. A little something with the compliments of the house.» (Feliz aniversario. Un pequeño detalle cortesía de la casa)."
+      }
+    },
+    {
+      "id": "english-026",
+      "tags": ["phrases", "farewell"],
+      "title": { "en": "A memorable goodbye", "es": "Una despedida memorable" },
+      "idea": {
+        "en": "The farewell shapes the memory (remember the peak-end rule). Use the name and something personal: \"It was a pleasure having you with us, Mrs Bauer. We look forward to welcoming you back.\" Wish them well for tomorrow's plans.",
+        "es": "La despedida marca el recuerdo (recuerda la regla del pico y el final). Usa el nombre y algo personal: «It was a pleasure having you with us, Mrs Bauer. We look forward to welcoming you back.» (Ha sido un placer tenerla con nosotros. Esperamos darle la bienvenida de nuevo). Deséale suerte con sus planes de mañana."
+      },
+      "example": {
+        "en": "\"Good night, Mr and Mrs Chen. Enjoy your ski tour to Cervinia tomorrow — I hope the weather is on your side!\"",
+        "es": "«Good night, Mr and Mrs Chen. Enjoy your ski tour to Cervinia tomorrow — I hope the weather is on your side!» (Buenas noches. Disfruten mañana de la excursión de esquí a Cervinia; ¡ojalá les acompañe el tiempo!)."
+      }
+    },
+    {
+      "id": "english-027",
+      "tags": ["phrases", "anticipation"],
+      "title": { "en": "Anticipating needs", "es": "Anticiparse a las necesidades" },
+      "idea": {
+        "en": "Luxury is answering a need before it's expressed. Phrases: \"I noticed you…, so I took the liberty of…\", \"I thought you might like…\". \"Took the liberty\" is a lovely, humble formula.",
+        "es": "El lujo es responder a una necesidad antes de que se exprese. Frases: «I noticed you…, so I took the liberty of…» (Me fijé en que…, así que me he permitido…), «I thought you might like…» (Pensé que quizá le gustaría…). «Took the liberty» es una fórmula humilde y preciosa."
+      },
+      "example": {
+        "en": "\"I noticed you're left-handed, so I took the liberty of setting your glasses on the left side.\"",
+        "es": "«I noticed you're left-handed, so I took the liberty of setting your glasses on the left side.» (Me fijé en que es zurdo, así que me he permitido colocarle las copas a la izquierda)."
+      }
+    },
+    {
+      "id": "english-028",
+      "tags": ["phrases", "register", "vocabulary"],
+      "title": { "en": "Upgrade your everyday words", "es": "Mejora tus palabras de cada día" },
+      "idea": {
+        "en": "Small swaps lift your register: \"Sure\" → \"Certainly\". \"Wait a sec\" → \"One moment, please\". \"Here you go\" → \"Here you are\" or \"Enjoy\". \"Yeah\" → \"Yes, of course\". \"OK\" → \"Very good\".",
+        "es": "Pequeños cambios elevan tu registro: «Sure» → «Certainly». «Wait a sec» → «One moment, please». «Here you go» → «Here you are» o «Enjoy». «Yeah» → «Yes, of course». «OK» → «Very good»."
+      },
+      "example": {
+        "en": "Guest: \"Could we have the wine list?\" — Not \"Sure, wait a sec\", but \"Certainly, one moment, please.\"",
+        "es": "Cliente: «Could we have the wine list?» — No «Sure, wait a sec», sino «Certainly, one moment, please.»."
+      },
+      "quiz": {
+        "q": { "en": "Upgrade: \"Here you go.\"", "es": "Mejora: «Here you go»." },
+        "a": { "en": "\"Here you are.\"", "es": "«Here you are»." }
+      }
+    }
+  ]
+}

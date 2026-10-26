@@ -1,0 +1,400 @@
+{
+  "id": "team",
+  "title": { "en": "Team & hospitality psychology", "es": "Equipo y psicología de la hospitalidad" },
+  "emoji": "🧭",
+  "color": "#5b7fd1",
+  "cards": [
+    {
+      "id": "team-001",
+      "tags": ["psychological-safety", "leadership", "teamwork"],
+      "title": { "en": "Psychological safety", "es": "Seguridad psicológica" },
+      "idea": {
+        "en": "Psychological safety is the shared belief that you can speak up, ask or admit a mistake without being punished or humiliated. Amy Edmondson (Harvard) showed that teams with more of it report more errors, because they hide fewer, not because they make more. Google's Project Aristotle found it was the strongest predictor of team effectiveness.",
+        "es": "La seguridad psicológica es la creencia compartida de que puedes hablar, preguntar o admitir un error sin que te castiguen ni te humillen. Amy Edmondson (Harvard) demostró que los equipos con más seguridad reportan más errores porque esconden menos, no porque cometan más. El Proyecto Aristóteles de Google la identificó como el mejor predictor de la eficacia de un equipo."
+      },
+      "example": {
+        "en": "A commis admits he sent table 12 the wrong main. Instead of snapping, you say: \"Thanks for telling me straight away — let's fix it together.\" Next time, he will tell you before the guest notices.",
+        "es": "Un commis admite que mandó a la mesa 12 el principal equivocado. En lugar de saltar, le dices: «Gracias por decírmelo enseguida, vamos a arreglarlo juntos». La próxima vez te avisará antes de que el cliente se dé cuenta."
+      },
+      "quiz": {
+        "q": { "en": "Do psychologically safe teams make more mistakes?", "es": "¿Los equipos con seguridad psicológica cometen más errores?" },
+        "a": { "en": "No — they report more of them, so problems get fixed earlier.", "es": "No: reportan más, así que los problemas se corrigen antes." }
+      }
+    },
+    {
+      "id": "team-002",
+      "tags": ["feedback", "communication"],
+      "title": { "en": "SBI feedback: Situation, Behaviour, Impact", "es": "Feedback SBI: Situación, Comportamiento, Impacto" },
+      "idea": {
+        "en": "The SBI model (Center for Creative Leadership) keeps feedback factual instead of personal. Describe the specific Situation, the observable Behaviour (what you saw or heard, not what you assume), and its Impact. Then stop and listen.",
+        "es": "El modelo SBI (Center for Creative Leadership) mantiene el feedback en los hechos y no en lo personal. Describe la Situación concreta, el Comportamiento observable (lo que viste u oíste, no lo que supones) y su Impacto. Después, calla y escucha."
+      },
+      "example": {
+        "en": "\"Last night at table 7 (S), you cleared the plates while two guests were still eating (B). The host looked uncomfortable and his friends felt rushed (I). How did you see it?\"",
+        "es": "«Anoche en la mesa 7 (S), retiraste los platos mientras dos clientes aún comían (C). El anfitrión pareció incómodo y sus amigos se sintieron apresurados (I). ¿Cómo lo viste tú?»"
+      },
+      "quiz": {
+        "q": { "en": "Is \"you were careless\" a behaviour in SBI?", "es": "¿«Fuiste descuidado» es un comportamiento en SBI?" },
+        "a": { "en": "No, it's a judgement. A behaviour is something observable.", "es": "No, es un juicio. Un comportamiento es algo observable." }
+      }
+    },
+    {
+      "id": "team-003",
+      "tags": ["feedback", "recognition"],
+      "title": { "en": "Praise in public, correct in private", "es": "Elogia en público, corrige en privado" },
+      "idea": {
+        "en": "Public correction triggers a threat response: people focus on saving face, not on learning. Recognition in front of peers multiplies its effect and shows everyone what good looks like. The rule is old, but it still works.",
+        "es": "Corregir en público activa una respuesta de amenaza: la persona se centra en salvar la cara, no en aprender. El reconocimiento delante de los compañeros multiplica su efecto y enseña a todos qué es hacerlo bien. La regla es antigua, pero sigue funcionando."
+      },
+      "example": {
+        "en": "In the pre-shift briefing: \"Yesterday Lucía remembered that Mr Keller is allergic to nuts before he even mentioned it — that's our standard.\" The pouring mistake you noticed? You mention it to the waiter one-to-one, by the service station.",
+        "es": "En el briefing previo al servicio: «Ayer Lucía recordó que el Sr. Keller es alérgico a los frutos secos antes de que él lo dijera: ese es nuestro estándar». ¿El error al servir que viste? Se lo comentas al camarero a solas, junto al office."
+      }
+    },
+    {
+      "id": "team-004",
+      "tags": ["feedback", "leadership", "communication"],
+      "title": { "en": "Radical Candor", "es": "Franqueza radical (Radical Candor)" },
+      "idea": {
+        "en": "Kim Scott's framework crosses two axes: care personally and challenge directly. Caring without challenging is \"ruinous empathy\"; challenging without caring is \"obnoxious aggression\". Good managers do both at once.",
+        "es": "El modelo de Kim Scott cruza dos ejes: preocuparte personalmente y desafiar directamente. Preocuparte sin desafiar es «empatía ruinosa»; desafiar sin preocuparte es «agresividad odiosa». Los buenos responsables hacen las dos cosas a la vez."
+      },
+      "example": {
+        "en": "A friendly runner keeps arriving late. Saying nothing to protect the relationship is ruinous empathy. Radical candor: \"I like working with you, and that's why I'm telling you: being late three times this week puts pressure on the whole team.\"",
+        "es": "Un runner muy simpático llega tarde una y otra vez. No decir nada para proteger la relación es empatía ruinosa. Franqueza radical: «Me gusta trabajar contigo y por eso te lo digo: llegar tarde tres veces esta semana presiona a todo el equipo»."
+      }
+    },
+    {
+      "id": "team-005",
+      "tags": ["motivation", "psychology"],
+      "title": { "en": "Autonomy, competence, relatedness", "es": "Autonomía, competencia, pertenencia" },
+      "idea": {
+        "en": "Self-Determination Theory (Deci & Ryan) says lasting motivation grows when three needs are met. Autonomy: some control over how I work. Competence: feeling I am getting better. Relatedness: feeling part of the group.",
+        "es": "La Teoría de la Autodeterminación (Deci y Ryan) dice que la motivación duradera crece cuando se cubren tres necesidades. Autonomía: algo de control sobre cómo trabajo. Competencia: sentir que mejoro. Pertenencia: sentirme parte del grupo."
+      },
+      "example": {
+        "en": "Let a waiter choose how to set up his station (autonomy), teach him to decant (competence), and include him in the staff meal conversation and the team's jokes (relatedness).",
+        "es": "Deja que un camarero decida cómo montar su estación (autonomía), enséñale a decantar (competencia) e inclúyelo en la conversación de la comida de personal y en las bromas del equipo (pertenencia)."
+      },
+      "quiz": {
+        "q": { "en": "Name the three needs.", "es": "Nombra las tres necesidades." },
+        "a": { "en": "Autonomy, competence and relatedness.", "es": "Autonomía, competencia y pertenencia." }
+      }
+    },
+    {
+      "id": "team-006",
+      "tags": ["motivation", "psychology"],
+      "title": { "en": "Herzberg: hygiene vs. motivators", "es": "Herzberg: higiene frente a motivadores" },
+      "idea": {
+        "en": "Frederick Herzberg separated two kinds of factors. Hygiene factors (pay, schedules, staff accommodation) cause dissatisfaction when they are bad, but don't motivate when they are fine. Motivators (achievement, recognition, responsibility, growth) are what drive people to give more.",
+        "es": "Frederick Herzberg separó dos tipos de factores. Los factores de higiene (sueldo, horarios, alojamiento del personal) generan insatisfacción si son malos, pero no motivan cuando están bien. Los motivadores (logro, reconocimiento, responsabilidad, crecimiento) son los que hacen que la gente dé más."
+      },
+      "example": {
+        "en": "Fixing the broken staff coffee machine stops complaints — but it won't create passion. Giving your best waiter responsibility for the cheese trolley might.",
+        "es": "Arreglar la cafetera rota del personal acaba con las quejas, pero no crea pasión. Darle a tu mejor camarero la responsabilidad del carro de quesos sí puede hacerlo."
+      }
+    },
+    {
+      "id": "team-007",
+      "tags": ["expectations", "psychology", "leadership"],
+      "title": { "en": "The Pygmalion effect", "es": "El efecto Pigmalión" },
+      "idea": {
+        "en": "Robert Rosenthal showed that a leader's expectations tend to become self-fulfilling. When you believe someone can grow, you give them more attention, harder tasks and better feedback — and they do grow. Low expectations work the same way in reverse (the Golem effect).",
+        "es": "Robert Rosenthal demostró que las expectativas de un líder tienden a cumplirse solas. Cuando crees que alguien puede crecer, le das más atención, tareas más difíciles y mejor feedback, y crece. Las expectativas bajas funcionan igual pero al revés (efecto Golem)."
+      },
+      "example": {
+        "en": "Tell a quiet new commis: \"I think you'd be good at the wine side — want to shadow me on the cellar check?\" Your belief changes how you treat her, and how she treats the job.",
+        "es": "Dile a una commis nueva y callada: «Creo que se te daría bien el vino, ¿quieres acompañarme a revisar la bodega?». Tu confianza cambia cómo la tratas y cómo ella se toma el trabajo."
+      }
+    },
+    {
+      "id": "team-008",
+      "tags": ["delegation", "leadership"],
+      "title": { "en": "Situational leadership", "es": "Liderazgo situacional" },
+      "idea": {
+        "en": "Hersey and Blanchard's model says there is no single best style: adapt to the person's competence and commitment on that specific task. The four styles are Directing, Coaching, Supporting and Delegating. The same person may need directing for wine and delegating for table setting.",
+        "es": "El modelo de Hersey y Blanchard dice que no hay un único estilo ideal: adáptate a la competencia y al compromiso de la persona en esa tarea concreta. Los cuatro estilos son Dirigir, Entrenar (coaching), Apoyar y Delegar. La misma persona puede necesitar que la dirijas con el vino y que le delegues el montaje de mesas."
+      },
+      "example": {
+        "en": "New waiter, first wine service: you show each step (directing). Experienced waiter feeling unsure after a complaint: you ask questions and encourage (supporting). Your senior: \"Section B is yours tonight\" (delegating).",
+        "es": "Camarero nuevo, primer servicio de vino: le enseñas cada paso (dirigir). Camarero con experiencia inseguro tras una queja: le preguntas y le animas (apoyar). Tu persona más veterana: «Esta noche la sección B es tuya» (delegar)."
+      },
+      "quiz": {
+        "q": { "en": "Is leadership style about the person or about the task?", "es": "¿El estilo de liderazgo depende de la persona o de la tarea?" },
+        "a": { "en": "Both: it's the person's level on that specific task.", "es": "De ambas: del nivel de la persona en esa tarea concreta." }
+      }
+    },
+    {
+      "id": "team-009",
+      "tags": ["delegation", "time-management"],
+      "title": { "en": "Don't take the monkey", "es": "No te quedes con el mono" },
+      "idea": {
+        "en": "In a classic Harvard Business Review article (Oncken & Wass, 1974), a \"monkey\" is the next move on a problem. When a team member says \"we have a problem\" and you answer \"let me think about it\", the monkey jumps onto your back. Ask instead: \"What do you suggest?\"",
+        "es": "En un artículo clásico de Harvard Business Review (Oncken y Wass, 1974), el «mono» es el siguiente paso de un problema. Cuando alguien del equipo dice «tenemos un problema» y contestas «déjame pensarlo», el mono salta a tu espalda. Pregunta mejor: «¿Tú qué propones?»."
+      },
+      "example": {
+        "en": "\"Chef, we're out of the Cornalin on the list.\" Instead of solving it yourself: \"Which two alternatives would you offer the guest, and at what price?\" He comes back with an answer, not a problem.",
+        "es": "«Jefe, se ha acabado el Cornalin de la carta.» En vez de resolverlo tú: «¿Qué dos alternativas le ofrecerías al cliente y a qué precio?». Vuelve con una respuesta, no con un problema."
+      }
+    },
+    {
+      "id": "team-010",
+      "tags": ["delegation", "leadership"],
+      "title": { "en": "Delegate the outcome, not just the task", "es": "Delega el resultado, no solo la tarea" },
+      "idea": {
+        "en": "Good delegation explains what \"done well\" looks like, why it matters, the deadline and the limits of authority. Then agree on a check-in point instead of hovering. Taking the task back at the first mistake teaches people that delegation is fake.",
+        "es": "Delegar bien es explicar qué significa «bien hecho», por qué importa, el plazo y los límites de autoridad. Después acordad un momento de revisión, en vez de estar encima. Quitarle la tarea a alguien al primer error le enseña que la delegación era falsa."
+      },
+      "example": {
+        "en": "\"Please organise the wine pairing briefing for the Christmas menu: all 6 wines tasted by the team before Friday, 20 minutes max. You can open the bottles you need. Show me the plan on Wednesday.\"",
+        "es": "«Organiza el briefing del maridaje del menú de Navidad: que el equipo pruebe los 6 vinos antes del viernes, 20 minutos como máximo. Puedes abrir las botellas que necesites. Enséñame el plan el miércoles.»"
+      }
+    },
+    {
+      "id": "team-011",
+      "tags": ["conflict", "communication"],
+      "title": { "en": "Five ways to handle conflict", "es": "Cinco formas de gestionar un conflicto" },
+      "idea": {
+        "en": "The Thomas-Kilmann model describes five modes: competing, collaborating, compromising, avoiding and accommodating. None is always right — competing fits an emergency, collaborating fits important long-term issues. The trap is using the same mode for everything.",
+        "es": "El modelo Thomas-Kilmann describe cinco modos: competir, colaborar, negociar (compromiso), evitar y complacer. Ninguno es siempre el correcto: competir encaja en una emergencia; colaborar, en temas importantes a largo plazo. La trampa es usar el mismo modo para todo."
+      },
+      "example": {
+        "en": "Mid-service, two waiters argue over a table: you decide on the spot (competing). Next morning, you sit with both and redesign the section plan together (collaborating).",
+        "es": "En pleno servicio, dos camareros discuten por una mesa: decides en el momento (competir). A la mañana siguiente te sientas con los dos y rediseñáis juntos el reparto de secciones (colaborar)."
+      },
+      "quiz": {
+        "q": { "en": "Which mode fits a mid-service emergency?", "es": "¿Qué modo encaja en una emergencia en pleno servicio?" },
+        "a": { "en": "Competing — decide quickly and clearly.", "es": "Competir: decidir rápido y con claridad." }
+      }
+    },
+    {
+      "id": "team-012",
+      "tags": ["conflict", "psychology"],
+      "title": { "en": "Fundamental attribution error", "es": "Error fundamental de atribución" },
+      "idea": {
+        "en": "We tend to explain other people's mistakes by their character (\"he's lazy\") and our own by circumstances (\"I was overloaded\"). This bias poisons conflicts between floor and kitchen. Before judging, ask what situation might explain the behaviour.",
+        "es": "Tendemos a explicar los errores de los demás por su carácter («es un vago») y los nuestros por las circunstancias («estaba desbordado»). Este sesgo envenena los conflictos entre sala y cocina. Antes de juzgar, pregúntate qué situación podría explicar ese comportamiento."
+      },
+      "example": {
+        "en": "The pass is slow and a waiter mutters \"the kitchen doesn't care\". You check: a chef de partie went home sick. Sharing that context turns blame into teamwork.",
+        "es": "El pase va lento y un camarero murmura «a cocina le da igual». Lo compruebas: un jefe de partida se ha ido a casa enfermo. Compartir ese contexto convierte la culpa en trabajo en equipo."
+      }
+    },
+    {
+      "id": "team-013",
+      "tags": ["teamwork", "leadership"],
+      "title": { "en": "Forming, storming, norming, performing", "es": "Formación, conflicto, normalización, rendimiento" },
+      "idea": {
+        "en": "Bruce Tuckman (1965) described how teams develop: forming (polite, unsure), storming (friction over roles), norming (shared rules emerge) and performing (smooth autonomy). In 1977 he added adjourning, when the team breaks up. Storming is normal, not a sign of failure.",
+        "es": "Bruce Tuckman (1965) describió cómo se desarrollan los equipos: formación (educados, inseguros), conflicto (roces por los roles), normalización (surgen normas compartidas) y rendimiento (autonomía fluida). En 1977 añadió la disolución, cuando el equipo se separa. El conflicto es normal, no una señal de fracaso."
+      },
+      "example": {
+        "en": "Every December in Zermatt, the seasonal team arrives. Week two brings tensions about sections and closing duties. Expect it, set clear rules early, and the team reaches \"performing\" before the Christmas peak.",
+        "es": "Cada diciembre en Zermatt llega el equipo de temporada. La segunda semana trae tensiones por secciones y cierres. Cuenta con ello, fija reglas claras pronto y el equipo llegará a «rendimiento» antes del pico de Navidad."
+      }
+    },
+    {
+      "id": "team-014",
+      "tags": ["guest-psychology", "service-recovery"],
+      "title": { "en": "The peak-end rule", "es": "La regla del pico y el final" },
+      "idea": {
+        "en": "Daniel Kahneman's research shows we remember an experience mainly by its most intense moment and by how it ended, not by its average. A long dinner is judged by its peak and its farewell. The goodbye is not a formality — it is half the memory.",
+        "es": "Las investigaciones de Daniel Kahneman muestran que recordamos una experiencia sobre todo por su momento más intenso y por cómo terminó, no por la media. Una cena larga se juzga por su pico y por la despedida. El adiós no es un trámite: es la mitad del recuerdo."
+      },
+      "example": {
+        "en": "Design a peak (the sommelier opening a magnum at the table for a birthday) and protect the end: coats ready, a warm goodbye by name, perhaps a small truffle for the road.",
+        "es": "Diseña un pico (el sumiller abriendo un mágnum en la mesa por un cumpleaños) y cuida el final: abrigos preparados, una despedida cálida por su nombre y quizá una trufa para el camino."
+      },
+      "quiz": {
+        "q": { "en": "Which two moments shape the memory most?", "es": "¿Qué dos momentos marcan más el recuerdo?" },
+        "a": { "en": "The peak and the end.", "es": "El pico y el final." }
+      }
+    },
+    {
+      "id": "team-015",
+      "tags": ["service-recovery", "guest-psychology"],
+      "title": { "en": "The service recovery paradox", "es": "La paradoja de la recuperación del servicio" },
+      "idea": {
+        "en": "Sometimes a guest who had a problem that was solved brilliantly ends up more loyal than one who had no problem at all. Research shows this is not guaranteed, so never create problems on purpose. But it proves that a complaint is an opportunity, not only a threat.",
+        "es": "A veces un cliente que tuvo un problema resuelto de forma brillante acaba siendo más fiel que uno que no tuvo ningún problema. La investigación muestra que no está garantizado, así que nunca provoques problemas a propósito. Pero demuestra que una queja es una oportunidad, no solo una amenaza."
+      },
+      "example": {
+        "en": "A corked bottle of Dézaley: you replace it immediately, thank the guest for noticing, and later offer a taste of a rare Amigne with dessert. He talks about it for years.",
+        "es": "Una botella de Dézaley con corcho: la cambias al instante, das las gracias al cliente por notarlo y más tarde le ofreces una copa de un Amigne poco común con el postre. Lo contará durante años."
+      }
+    },
+    {
+      "id": "team-016",
+      "tags": ["service-recovery", "complaints", "communication"],
+      "title": { "en": "HEARD: a recipe for complaints", "es": "HEARD: una receta para las quejas" },
+      "idea": {
+        "en": "A model used at Disney: Hear (let them finish), Empathize, Apologize, Resolve, Diagnose. The last step happens afterwards: find the cause so it doesn't happen again. Most complaints escalate because staff jump to the solution before the guest feels heard.",
+        "es": "Un modelo que se usa en Disney: Hear (escucha hasta el final), Empatiza, Discúlpate, Resuelve y Diagnostica. El último paso viene después: buscar la causa para que no se repita. La mayoría de las quejas escalan porque el personal salta a la solución antes de que el cliente se sienta escuchado."
+      },
+      "example": {
+        "en": "A guest says her steak is overcooked. Listen fully, \"I completely understand, that's not what you ordered,\" apologise, offer a new one with a time estimate — then check with the kitchen what happened.",
+        "es": "Una clienta dice que su carne está demasiado hecha. Escúchala entera, «Lo entiendo perfectamente, no es lo que pidió», discúlpate, ofrece una nueva con un tiempo estimado y después habla con cocina para ver qué pasó."
+      }
+    },
+    {
+      "id": "team-017",
+      "tags": ["emotional-labour", "wellbeing", "psychology"],
+      "title": { "en": "Emotional labour", "es": "Trabajo emocional" },
+      "idea": {
+        "en": "Sociologist Arlie Hochschild (The Managed Heart, 1983) named the effort of showing emotions the job requires. \"Surface acting\" (faking a smile) drains people faster than \"deep acting\" (genuinely shifting your perspective). Leaders can protect the team by recognising this effort, not just the visible work.",
+        "es": "La socióloga Arlie Hochschild (The Managed Heart, 1983) dio nombre al esfuerzo de mostrar las emociones que exige el trabajo. La «actuación superficial» (fingir una sonrisa) agota más rápido que la «actuación profunda» (cambiar de verdad tu perspectiva). Un líder puede proteger al equipo reconociendo ese esfuerzo, no solo el trabajo visible."
+      },
+      "example": {
+        "en": "After a waiter handles a rude guest perfectly, say: \"That was hard, and you stayed elegant. Take five minutes before your next table.\"",
+        "es": "Después de que un camarero gestione perfectamente a un cliente maleducado, dile: «Eso ha sido duro y has mantenido la elegancia. Tómate cinco minutos antes de tu próxima mesa»."
+      }
+    },
+    {
+      "id": "team-018",
+      "tags": ["empowerment", "luxury-service", "leadership"],
+      "title": { "en": "Empowerment, the Ritz-Carlton way", "es": "Empoderamiento al estilo Ritz-Carlton" },
+      "idea": {
+        "en": "The Ritz-Carlton famously allows each employee to spend up to $2,000 per guest to solve a problem, without asking a manager. The number matters less than the message: \"We trust your judgement.\" Their motto describes staff as \"Ladies and Gentlemen serving Ladies and Gentlemen\".",
+        "es": "Es conocido que el Ritz-Carlton permite a cada empleado gastar hasta 2.000 dólares por cliente para resolver un problema sin preguntar a un responsable. Importa menos la cifra que el mensaje: «Confiamos en tu criterio». Su lema describe al personal como «Damas y caballeros al servicio de damas y caballeros»."
+      },
+      "example": {
+        "en": "Define your own team rule: \"Any waiter can offer a dessert or a glass of wine to fix a problem, then tell me after service.\" Fewer delays, happier guests, more ownership.",
+        "es": "Define tu propia regla de equipo: «Cualquier camarero puede invitar a un postre o a una copa de vino para resolver un problema y contármelo después del servicio». Menos esperas, clientes más contentos y más implicación."
+      }
+    },
+    {
+      "id": "team-019",
+      "tags": ["communication", "routine", "leadership"],
+      "title": { "en": "The daily line-up", "es": "El briefing diario (line-up)" },
+      "idea": {
+        "en": "A short, standing briefing before every service aligns the team: VIPs, allergies, menu changes, sold-out items, one service standard to focus on. Ritz-Carlton hotels hold one every day across the world. Keep it under 10 minutes, energetic, and end with a clear focus.",
+        "es": "Un briefing corto y de pie antes de cada servicio alinea al equipo: VIP, alergias, cambios en la carta, platos agotados y un estándar de servicio en el que centrarse. Los hoteles Ritz-Carlton lo hacen cada día en todo el mundo. Que dure menos de 10 minutos, con energía, y que acabe con un foco claro."
+      },
+      "example": {
+        "en": "\"Tonight: 62 covers, table 4 is a honeymoon, table 9 coeliac. The lamb is sold out — offer the venison. Focus of the day: wine refills before the glass is empty.\"",
+        "es": "«Esta noche: 62 cubiertos, la mesa 4 es una luna de miel y la 9, celiaca. El cordero está agotado: ofreced el ciervo. Foco del día: rellenar el vino antes de que la copa esté vacía.»"
+      }
+    },
+    {
+      "id": "team-020",
+      "tags": ["coaching", "communication"],
+      "title": { "en": "GROW: coaching with questions", "es": "GROW: entrenar con preguntas" },
+      "idea": {
+        "en": "John Whitmore's GROW model structures a coaching conversation: Goal (what do you want?), Reality (what's happening now?), Options (what could you do?), Will (what will you do, and when?). Asking good questions builds more independence than giving answers.",
+        "es": "El modelo GROW de John Whitmore estructura una conversación de coaching: Goal (¿qué quieres conseguir?), Reality (¿qué pasa ahora?), Options (¿qué podrías hacer?), Will (¿qué vas a hacer y cuándo?). Hacer buenas preguntas crea más autonomía que dar respuestas."
+      },
+      "example": {
+        "en": "A waiter wants to sell more wine. Goal: \"Two more bottles per night.\" Reality: \"I only recommend when asked.\" Options: describe one wine per table, offer pairings… Will: \"Tonight I'll suggest a wine at every table.\"",
+        "es": "Un camarero quiere vender más vino. Meta: «Dos botellas más por noche». Realidad: «Solo recomiendo si me preguntan». Opciones: describir un vino en cada mesa, ofrecer maridajes… Compromiso: «Esta noche sugeriré un vino en todas las mesas»."
+      },
+      "quiz": {
+        "q": { "en": "What does the W in GROW stand for?", "es": "¿Qué significa la W de GROW?" },
+        "a": { "en": "Will — the concrete commitment: what, and when.", "es": "Will: el compromiso concreto, qué y cuándo." }
+      }
+    },
+    {
+      "id": "team-021",
+      "tags": ["leadership", "promotion"],
+      "title": { "en": "From colleague to boss", "es": "De compañero a jefe" },
+      "idea": {
+        "en": "Being promoted over former peers is one of the hardest transitions. Talk openly with each person about the change early, instead of pretending nothing happened. Stay warm, but stop joining the gossip and stop hiding friends' mistakes — fairness is now your job.",
+        "es": "Ser ascendido por encima de antiguos compañeros es una de las transiciones más difíciles. Habla abiertamente del cambio con cada persona pronto, en lugar de fingir que no ha pasado nada. Sigue siendo cercano, pero deja de entrar en los cotilleos y de tapar los errores de los amigos: ahora la justicia es tu trabajo."
+      },
+      "example": {
+        "en": "In January, as Chef de Service, sit with your closest colleague: \"Our friendship matters to me. At work I'll have to be fair with everyone, including you. If it ever feels strange, tell me.\"",
+        "es": "En enero, ya como Chef de Service, siéntate con tu compañero más cercano: «Nuestra amistad me importa. En el trabajo tendré que ser justo con todos, también contigo. Si alguna vez se hace raro, dímelo»."
+      }
+    },
+    {
+      "id": "team-022",
+      "tags": ["communication", "expectations"],
+      "title": { "en": "Clear is kind", "es": "Ser claro es ser amable" },
+      "idea": {
+        "en": "Brené Brown sums it up: \"Clear is kind. Unclear is unkind.\" Vague expectations feel nice in the moment but lead to failure and frustration later. Say exactly what good looks like, and check it was understood.",
+        "es": "Brené Brown lo resume así: «Ser claro es amable; no serlo es cruel». Las expectativas vagas resultan agradables en el momento, pero después llevan al fracaso y la frustración. Di exactamente qué es hacerlo bien y comprueba que se ha entendido."
+      },
+      "example": {
+        "en": "Instead of \"Keep an eye on the water\": \"No glass below one third. If a table is on still water, refill without asking.\"",
+        "es": "En lugar de «Atento al agua»: «Ningún vaso por debajo de un tercio. Si una mesa toma agua sin gas, rellena sin preguntar»."
+      }
+    },
+    {
+      "id": "team-023",
+      "tags": ["feedback", "coaching"],
+      "title": { "en": "Feedforward", "es": "Feedforward" },
+      "idea": {
+        "en": "Marshall Goldsmith proposes focusing on the future instead of the past: ask for, and give, suggestions for next time. People can't change what happened, and future-focused ideas feel less like judgement. It works especially well with sensitive or experienced staff.",
+        "es": "Marshall Goldsmith propone centrarse en el futuro en lugar del pasado: pedir y dar sugerencias para la próxima vez. Nadie puede cambiar lo que pasó, y las ideas orientadas al futuro se sienten menos como un juicio. Funciona especialmente bien con personas sensibles o con mucha experiencia."
+      },
+      "example": {
+        "en": "Rather than reviewing what went wrong with last night's banquet, ask the team: \"For the next banquet, what's one thing we should do differently?\"",
+        "es": "En vez de repasar lo que salió mal en el banquete de anoche, pregunta al equipo: «Para el próximo banquete, ¿qué cosa deberíamos hacer diferente?»."
+      }
+    },
+    {
+      "id": "team-024",
+      "tags": ["wellbeing", "burnout"],
+      "title": { "en": "Spotting burnout", "es": "Detectar el burnout" },
+      "idea": {
+        "en": "Christina Maslach describes burnout in three dimensions: exhaustion, cynicism (detachment from the job and the guests), and a falling sense of effectiveness. Cynicism is often the first visible sign on the floor. It is a workload and environment problem, not a personal weakness.",
+        "es": "Christina Maslach describe el burnout en tres dimensiones: agotamiento, cinismo (desapego del trabajo y de los clientes) y una sensación de eficacia cada vez menor. El cinismo suele ser la primera señal visible en sala. Es un problema de carga y de entorno, no una debilidad personal."
+      },
+      "example": {
+        "en": "Your most passionate waiter starts saying \"whatever, they're just tourists\". Don't scold the attitude — ask how he's doing, check his days off, and lighten his section for a week.",
+        "es": "Tu camarero más apasionado empieza a decir «da igual, solo son turistas». No le riñas por la actitud: pregúntale cómo está, revisa sus días libres y aligera su sección una semana."
+      }
+    },
+    {
+      "id": "team-025",
+      "tags": ["guest-psychology", "communication", "psychology"],
+      "title": { "en": "Emotional contagion", "es": "Contagio emocional" },
+      "idea": {
+        "en": "Research by Elaine Hatfield and others shows that people unconsciously mimic the expressions and moods around them. A stressed manager spreads stress to the team, and the team spreads it to the guests. Your calm is a service tool.",
+        "es": "Las investigaciones de Elaine Hatfield y otros muestran que imitamos sin darnos cuenta las expresiones y estados de ánimo de quienes nos rodean. Un responsable estresado contagia el estrés al equipo, y el equipo a los clientes. Tu calma es una herramienta de servicio."
+      },
+      "example": {
+        "en": "Saturday, full house, the printer jams. You walk, not run, speak slowly and smile at the team: \"Handwritten tickets, everyone. We've got this.\" The room never notices.",
+        "es": "Sábado, lleno, se atasca la impresora. Caminas, no corres, hablas despacio y sonríes al equipo: «Comandas a mano, todos. Lo tenemos». La sala ni se entera."
+      }
+    },
+    {
+      "id": "team-026",
+      "tags": ["leadership", "routine"],
+      "title": { "en": "Management by walking around", "es": "Dirigir paseando (MBWA)" },
+      "idea": {
+        "en": "\"Management by walking around\" became famous at Hewlett-Packard and in Peters and Waterman's book In Search of Excellence (1982). Leaders who are visible on the floor hear problems early and model the standard. The goal is to observe and support, not to inspect.",
+        "es": "«Dirigir paseando» se hizo famoso en Hewlett-Packard y en el libro En busca de la excelencia de Peters y Waterman (1982). Los líderes que se dejan ver en sala detectan los problemas pronto y dan ejemplo del estándar. El objetivo es observar y apoyar, no inspeccionar."
+      },
+      "example": {
+        "en": "Every 15 minutes during service, do a slow lap: check the pace at each table, help clear a section that's behind, and give a quiet word of thanks.",
+        "es": "Cada 15 minutos durante el servicio, da una vuelta tranquila: comprueba el ritmo de cada mesa, echa una mano en la sección que vaya retrasada y da las gracias en voz baja."
+      }
+    },
+    {
+      "id": "team-027",
+      "tags": ["culture", "feedback", "communication"],
+      "title": { "en": "Feedback across cultures", "es": "Feedback entre culturas" },
+      "idea": {
+        "en": "Erin Meyer (The Culture Map) shows that cultures differ in how directly they give negative feedback. Germans and Dutch tend to be more direct, while British or many Asian cultures tend to soften the message. In an international team, the same words can sound brutal to one person and vague to another.",
+        "es": "Erin Meyer (The Culture Map) muestra que las culturas difieren en lo directo que es el feedback negativo. Alemanes y neerlandeses tienden a ser más directos, mientras que británicos o muchas culturas asiáticas suavizan el mensaje. En un equipo internacional, las mismas palabras pueden sonar brutales a uno y vagas a otro."
+      },
+      "example": {
+        "en": "With a German colleague you can say \"This is not correct, redo it\". With a Thai colleague, the same message may land better as \"Let's look at this together; maybe we can improve it.\" Check what was understood.",
+        "es": "Con un compañero alemán puedes decir «Esto no está bien, hazlo de nuevo». Con una compañera tailandesa, el mismo mensaje puede llegar mejor como «Mirémoslo juntos; quizá podamos mejorarlo». Comprueba qué se ha entendido."
+      }
+    },
+    {
+      "id": "team-028",
+      "tags": ["hiring", "psychology"],
+      "title": { "en": "Structured interviews beat gut feeling", "es": "Las entrevistas estructuradas ganan a la intuición" },
+      "idea": {
+        "en": "Large meta-analyses (Schmidt & Hunter) show that structured interviews — the same questions for every candidate, scored against clear criteria — predict job performance much better than informal chats. Unstructured interviews are vulnerable to the halo effect: one good trait colours everything.",
+        "es": "Grandes metaanálisis (Schmidt y Hunter) muestran que las entrevistas estructuradas, con las mismas preguntas para cada candidato y puntuadas con criterios claros, predicen el rendimiento mucho mejor que una charla informal. Las entrevistas sin estructura son vulnerables al efecto halo: un rasgo positivo lo tiñe todo."
+      },
+      "example": {
+        "en": "Ask every waiter candidate: \"Tell me about a time a guest was angry. What did you do?\" Score each answer from 1 to 5 before comparing — not just \"he seemed nice\".",
+        "es": "Pregunta a cada candidato a camarero: «Cuéntame una vez que un cliente estaba enfadado. ¿Qué hiciste?». Puntúa cada respuesta del 1 al 5 antes de comparar, y no te quedes en «parecía majo»."
+      }
+    }
+  ]
+}

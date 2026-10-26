@@ -1,0 +1,10 @@
+{
+  "name": "mise",
+  "private": true,
+  "type": "module",
+  "description": "Personal microlearning PWA. No build step: the files are served as they are.",
+  "scripts": {
+    "validate": "node tools/validate.mjs",
+    "serve": "python3 -m http.server 8080"
+  }
+}
