@@ -1,4 +1,28 @@
 {
+ "german-001": {
+  "dur": 4.99,
+  "text": "Guten Abend, herzlich willkommen! … Guten Abend, herzlich willkommen!"
+ },
+ "german-002": {
+  "dur": 5.25,
+  "text": "Grüezi! – Grüezi mitenand! … Grüezi! – Grüezi mitenand!"
+ },
+ "german-003": {
+  "dur": 7.16,
+  "text": "Haben Sie eine Reservierung? Auf welchen Namen, bitte? … Haben Sie eine Reservierung? Auf welchen Namen, bitte?"
+ },
+ "german-004": {
+  "dur": 4.52,
+  "text": "Darf ich Ihnen die Jacke abnehmen? … Darf ich Ihnen die Jacke abnehmen?"
+ },
+ "german-005": {
+  "dur": 7.24,
+  "text": "Bitte folgen Sie mir. Ist Ihnen dieser Tisch recht? … Bitte folgen Sie mir. Ist Ihnen dieser Tisch recht?"
+ },
+ "german-006": {
+  "dur": 5.8,
+  "text": "Darf ich Ihnen einen Aperitif anbieten? … Darf ich Ihnen einen Aperitif anbieten?"
+ },
  "team-001": {
   "dur": 39.24,
   "text": "Psychological safety. Psychological safety is the shared belief that you can speak up, ask or admit a mistake without being punished or humiliated. Amy Edmondson (Harvard) showed that teams with more of it report more errors, because they hide fewer, not because they make more. Google's Project Aristotle found it was the strongest predictor of team effectiveness. In the room: A commis admits he sent table 12 the wrong main. Instead of snapping, you say: \"Thanks for telling me straight away — let's fix it together.\" Next time, he will tell you before the guest notices."
@@ -110,5 +134,117 @@
  "team-028": {
   "dur": 36.28,
   "text": "Structured interviews beat gut feeling. Large meta-analyses (Schmidt & Hunter) show that structured interviews — the same questions for every candidate, scored against clear criteria — predict job performance much better than informal chats. Unstructured interviews are vulnerable to the halo effect: one good trait colours everything. In the room: Ask every waiter candidate: \"Tell me about a time a guest was angry. What did you do?\" Score each answer from 1 to 5 before comparing — not just \"he seemed nice\"."
+ },
+ "wine-001": {
+  "dur": 40.59,
+  "text": "Switzerland's six wine regions. Swiss wine is officially grouped into six regions: Valais, Vaud, Geneva, the Three Lakes (Neuchâtel, Biel and Murten/Vully), German-speaking Switzerland and Ticino. Valais and Vaud together hold well over half of the vineyards. Each region speaks a different language and has its own signature grapes. In the room: A guest asks: \"Is Swiss wine all the same?\" You answer: \"Not at all — from the Alpine Valais to Italian-speaking Ticino, it's six very different regions. May I start you with something from right here in Valais?\""
+ },
+ "wine-002": {
+  "dur": 35.4,
+  "text": "Valais: the largest wine canton. Valais grows about a third of all Swiss vines, on the steep, sunny slopes of the Rhône valley. It is one of the driest areas of Switzerland, and the warm foehn wind helps ripen the grapes. Its diversity of native grapes — Petite Arvine, Cornalin, Humagne, Amigne, Heida — is unique. In the room: \"Our wine list focuses on Valais: the vineyards are just down the valley from Zermatt, some of them on terraces so steep they are harvested by hand.\""
+ },
+ "wine-003": {
+  "dur": 35.87,
+  "text": "Chasselas, Fendant, Gutedel. Chasselas is Switzerland's most planted white grape and the pride of Vaud. In Valais its wine is traditionally called Fendant, and in German it is Gutedel. It is delicate, low in acidity and neutral on purpose: it shows the soil it grows in, from lime-blossom freshness to a flinty, mineral finish. In the room: A guest is confused: \"Fendant and Chasselas?\" — \"Same grape, different name: in Valais we call it Fendant. Light, fresh, perfect with the raclette.\""
+ },
+ "wine-004": {
+  "dur": 36.99,
+  "text": "Pinot Noir: Switzerland's most planted grape. Pinot Noir is the most planted grape variety in Switzerland, grown in every region. In German-speaking areas it is called Blauburgunder; the Bündner Herrschaft (Graubünden) is especially renowned for it. Expect red cherry and raspberry, fine tannins and fresh acidity. In the room: For a guest who loves Burgundy: \"If you enjoy Burgundy, try a Pinot Noir from the Bündner Herrschaft — same grape, Alpine freshness, and very hard to find outside Switzerland.\""
+ },
+ "wine-005": {
+  "dur": 31.56,
+  "text": "Petite Arvine: the salty star. Petite Arvine is a native Valais white and probably its most prestigious. It has lively acidity, notes of grapefruit, rhubarb and wisteria, and a typical salty finish. It is made both dry and sweet (from late-harvested or shrivelled grapes, often labelled \"flétri\"). In the room: \"With the char from the lake, I'd suggest a dry Petite Arvine: citrusy and slightly salty, it lifts the fish beautifully.\""
+ },
+ "wine-006": {
+  "dur": 33.72,
+  "text": "Cornalin: Valais' deep red. Cornalin (historically \"Rouge du Pays\") is a native Valais red, a cross of Petit Rouge and Mayolet. It is difficult to grow and needs warm sites, but gives deeply coloured wines with dark cherry, spice and firm, lively structure. It is one of the region's prized reds. In the room: \"With the venison, a Cornalin: dark cherry and spice, with enough freshness to balance the sauce. It's a grape you'll almost only find here in Valais.\""
+ },
+ "wine-007": {
+  "dur": 36.44,
+  "text": "Humagne Rouge vs Humagne Blanche. Despite the shared name, these two Valais grapes are not related. DNA analysis showed Humagne Rouge is the same variety as Cornalin from the Aosta Valley in Italy; it gives rustic reds with wild, earthy notes. Humagne Blanche is an old Valais white variety, delicate and discreet. In the room: A curious guest notices both on the list. You smile: \"A Swiss trick — same first name, different families. The Rouge is wild and earthy, lovely with game.\""
+ },
+ "wine-008": {
+  "dur": 30.43,
+  "text": "Amigne de Vétroz and its bees. Amigne is a rare Valais white grown almost entirely around the village of Vétroz. Producers there show sweetness with bees on the label: one bee is dry, two are off-dry, three are sweet. Its aromas often recall mandarin and orange peel. In the room: \"For your cheese course, a three-bee Amigne: sweet notes of mandarin with the blue cheese. And yes — the bees tell you how sweet it is.\""
+ },
+ "wine-009": {
+  "dur": 33.96,
+  "text": "Heida from Visperterminen. Heida (called Païen in French-speaking Valais) is the Savagnin Blanc grape, the same as in the Jura's vin jaune. In Visperterminen, just above Visp, it grows in some of the highest vineyards in Europe, up to around 1,150 m. The wines are full, spicy and fresh at the same time. In the room: \"You came up through Visp on the train? The vineyards above it produce this Heida — from some of Europe's highest vines, just half an hour from here.\""
+ },
+ "wine-010": {
+  "dur": 29.88,
+  "text": "Dôle: the Valais red blend. Dôle is a traditional Valais red made mainly from Pinot Noir and Gamay, with Pinot Noir dominant. It is fruity, supple and easy to pair. Its rosé version, Dôle Blanche, is a pale pink wine made from the same grapes. In the room: A family wants one bottle for the whole table — fish, veal and a vegetarian dish. \"A Dôle: light enough for the fish, fruity enough for the veal.\""
+ },
+ "wine-011": {
+  "dur": 33.31,
+  "text": "Lavaux: UNESCO terraces. The Lavaux terraces on Lake Geneva became a UNESCO World Heritage Site in 2007. Locals speak of \"three suns\": the sky, its reflection on the lake and the heat stored in the stone walls. Dézaley and Calamin are its Grand Cru appellations, both famous for Chasselas. In the room: \"This Dézaley Grand Cru comes from the Lavaux terraces — they say the vines get three suns: the sky, the lake and the warm stone walls.\""
+ },
+ "wine-012": {
+  "dur": 31.95,
+  "text": "Ticino: the kingdom of Merlot. Merlot arrived in Ticino in the early 20th century, after phylloxera destroyed the old vineyards, and now dominates the region. Ticino Merlots range from light and fruity to rich, oak-aged reds. A local curiosity is Merlot bianco: Merlot pressed quickly and made as a white wine. In the room: \"A white Merlot? Yes — in Ticino they press it straight away, so the juice stays pale. Would you like to taste it?\""
+ },
+ "wine-013": {
+  "dur": 35.4,
+  "text": "Neuchâtel: Œil-de-Perdrix and non-filtré. Œil-de-Perdrix (\"partridge's eye\") is a rosé made from Pinot Noir; the style originated in Neuchâtel. The region also releases an unfiltered, slightly cloudy Chasselas, the \"non-filtré\", every year on the third Wednesday of January. Both are signature wines of the Three Lakes region. In the room: A guest orders a rosé \"but not too sweet\". You suggest an Œil-de-Perdrix: \"Dry, delicate, from Pinot Noir — the name means partridge's eye, for its colour.\""
+ },
+ "wine-014": {
+  "dur": 34.27,
+  "text": "Müller-Thurgau, a Swiss invention. Müller-Thurgau was created in 1882 by Hermann Müller, a scientist from the Swiss canton of Thurgau, working in Geisenheim, Germany. It is a cross of Riesling and Madeleine Royale. In Switzerland it is often still called Riesling-Sylvaner and is the main white of German-speaking Switzerland. In the room: A German guest says Müller-Thurgau is German. You reply kindly: \"Created in Germany, yes — but by a Swiss scientist from Thurgau, hence the name.\""
+ },
+ "wine-015": {
+  "dur": 35.97,
+  "text": "Vin des Glaciers. In the Val d'Anniviers (Grimentz), families keep the \"glacier wine\", traditionally made from the old Rèze grape. It ages in larch casks that are never fully emptied: each year some wine is drawn and new wine is added, a system similar to a solera. The result is oxidative and nutty, reminiscent of Sherry. In the room: A Spanish guest tastes it and says it reminds him of Amontillado. \"Exactly — the casks are refilled like a solera. Some barrels in Grimentz are generations old.\""
+ },
+ "wine-016": {
+  "dur": 29.23,
+  "text": "Geneva and Gamay. Geneva is the third-largest wine canton in Switzerland, with vineyards surrounding the city. Gamay (the grape of Beaujolais) is one of its signatures, alongside Chasselas. Satigny, just outside the city, is one of the largest wine-growing communes in the country. In the room: \"For a light red with the charcuterie, a Gamay from Geneva: juicy red fruit, low tannin, lovely slightly chilled.\""
+ },
+ "wine-017": {
+  "dur": 32.37,
+  "text": "Why Swiss wine is rare abroad. Switzerland drinks almost all of its own wine: only around 1–2% is exported. Small, steep vineyards and high costs mean limited volumes. For international guests, this makes Swiss wine a genuine discovery they can't easily find at home. In the room: To an American couple hesitating over Bordeaux: \"You can find Bordeaux at home. This Cornalin, you probably can't — the Swiss keep almost everything for themselves.\""
+ },
+ "wine-018": {
+  "dur": 36.44,
+  "text": "Raclette and fondue: why Fendant works. Melted cheese is rich and coats the palate. A dry, light white like Fendant/Chasselas refreshes without competing, and its discreet fruit lets the cheese lead. It's also regional tradition: what grows together goes together. Heavy, tannic reds tend to clash with the cheese. In the room: A guest orders raclette and asks for a big Cabernet. You suggest gently: \"May I propose a Fendant? It cleans the palate between bites — the classic Valais pairing.\""
+ },
+ "wine-019": {
+  "dur": 35.16,
+  "text": "Four pairing principles. 1) Match weight: light dishes with light wines, rich with rich. 2) Acidity cuts through fat and salt. 3) Tannin loves protein and fat, but turns bitter with fish oils and spicy heat. 4) The wine should be at least as sweet as the dessert, or it tastes thin and sour. In the room: A guest wants a dry white with the chocolate dessert. \"May I suggest a small glass of sweet wine instead? With chocolate, a dry wine would taste sour.\""
+ },
+ "wine-020": {
+  "dur": 32.99,
+  "text": "Dried meat and Alpine reds. Viande séchée du Valais and Bündnerfleisch are air-dried beef specialities, both with protected geographical indication (IGP). Lean, salty and intense, they pair well with fruity reds of moderate tannin such as Pinot Noir or Dôle. Big tannins would make the lean meat feel drier. In the room: \"For the Valais platter — dried meat, ham and rye bread — a glass of Pinot Noir from Salgesch: fruity and fresh, it won't fight the salt.\""
+ },
+ "wine-021": {
+  "dur": 43,
+  "text": "Serving temperatures. As a guide: sparkling and sweet wines 6–10 °C, light whites 7–10 °C, fuller or oaked whites 10–13 °C, light reds around 13 °C, medium and full reds 15–18 °C. Too cold hides aromas; too warm makes alcohol stand out. \"Room temperature\" for reds was meant for old, cold dining rooms. In the room: Your Pinot Noir feels warm and alcoholic after sitting by the fireplace. \"May I give it five minutes in the ice bucket? You'll see the fruit come back.\""
+ },
+ "wine-022": {
+  "dur": 33.8,
+  "text": "The bottle ritual. Present the bottle to the host with the label facing them, and confirm producer, wine and vintage. Open it on the side table or in hand without turning the bottle, cut the foil below the lip and keep the cork silent. Pour a small taste for the host, then serve guests and finish with the host. In the room: \"Your Cornalin, Mr Weber — 2021, from Domaine…\" He nods. You open it quietly, pour a taste, and only serve the table once he says \"Very good\"."
+ },
+ "wine-023": {
+  "dur": 36.6,
+  "text": "Decant for two different reasons. Old wines are decanted to separate the sediment: stand the bottle upright beforehand, then pour slowly over a light source and stop when the sediment reaches the neck. Young, powerful wines are decanted to aerate them and soften their tannins. Very old, fragile wines may fade quickly once decanted, so serve them soon. In the room: A young Syrah from Valais: decant it at the start of the starter. A 30-year-old Bordeaux: decant gently at the last moment, with a candle under the neck."
+ },
+ "wine-024": {
+  "dur": 33.31,
+  "text": "Corked wine (TCA). \"Corked\" wine is mostly caused by TCA (2,4,6-trichloroanisole), a compound that can come from tainted corks. It smells of damp cardboard, wet dog or a musty cellar and mutes the fruit. It has nothing to do with bits of cork floating in the glass, which are harmless. In the room: Before serving the host, you nose the wine discreetly: wet cardboard. \"I'm sorry, this bottle is not in perfect condition. Let me bring you another one.\""
+ },
+ "wine-025": {
+  "dur": 34.04,
+  "text": "Opening sparkling wine: a sigh, not a pop. Keep your thumb on the cork from the moment the wire cage is loosened. Hold the bottle at about 45°, pointing away from guests, and turn the bottle, not the cork. Let the pressure out slowly so it opens with a soft sigh — a loud pop wastes wine and is considered inelegant. In the room: At a birthday table you open the Champagne with a whisper-quiet sigh, then pour in two movements so the foam doesn't overflow."
+ },
+ "wine-026": {
+  "dur": 32.68,
+  "text": "Describing structure. Structure is the backbone of a wine. Acidity makes your mouth water; tannin dries your gums; body is the sense of weight (like skimmed vs whole milk); the finish is how long the flavour lasts after swallowing. Guests rarely understand jargon, so translate it into feelings. In the room: Instead of \"high acidity, medium body\": \"It's fresh and mouth-watering, not heavy — like biting into a green apple.\""
+ },
+ "wine-027": {
+  "dur": 34.77,
+  "text": "Cellar words in four languages. Grape variety: cépage (FR), Rebsorte (DE), vitigno (IT). Vintage: millésime, Jahrgang, annata. Estate: domaine, Weingut, tenuta. Dry: sec, trocken, secco. In multilingual Switzerland you'll meet all of them on labels. In the room: A German guest asks: \"Welcher Jahrgang ist das?\" You answer: \"Zweitausendeinundzwanzig — 2021.\""
+ },
+ "wine-028": {
+  "dur": 37.72,
+  "text": "Malolactic fermentation. After the alcoholic fermentation, bacteria can convert sharp malic acid (as in green apples) into softer lactic acid (as in milk). This makes a wine rounder and can add buttery notes. Most reds go through it; for whites it is a style choice — many Swiss Chasselas do it, while Petite Arvine often keeps its crispness. In the room: A guest finds the Chasselas \"softer than expected\". \"That's partly the malolactic fermentation: it turns the sharp apple-like acid into a rounder one.\""
  }
 }
