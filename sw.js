@@ -2,8 +2,10 @@
 // Strategy: serve from cache instantly, refresh the cache in the background
 // (stale-while-revalidate). New content appears on the next app launch.
 // Bump VERSION when you add/rename files in PRECACHE.
+// Narration MP3s (audio/*.mp3) are not precached: each one is cached the
+// first time it plays, so the app stays light.
 
-const VERSION = 'mise-v1';
+const VERSION = 'mise-v2';
 
 const PRECACHE = [
   './',
@@ -15,10 +17,12 @@ const PRECACHE = [
   'js/content.js',
   'js/dom.js',
   'js/i18n.js',
+  'js/music.js',
+  'js/narration.js',
+  'js/player.js',
   'js/icons.js',
   'js/prompt.js',
   'js/schema.js',
-  'js/speech.js',
   'js/srs.js',
   'js/stats.js',
   'js/storage.js',
@@ -29,6 +33,7 @@ const PRECACHE = [
   'js/views/me.js',
   'js/views/saved.js',
   'content/index.json',
+  'audio/index.json',
   'content/team.json',
   'content/wine.json',
   'content/german.json',

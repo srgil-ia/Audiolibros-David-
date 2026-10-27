@@ -9,7 +9,7 @@ import { state, save, cardState } from '../storage.js';
 import { READ_MS, markRead, markAgain } from '../srs.js';
 import { signal, pickNext, LONG_READ_MS, SKIP_MS } from '../taste.js';
 import { countRead, todayCount, streak } from '../stats.js';
-import { speak } from '../speech.js';
+import * as player from '../player.js';
 import { renderCard as renderCardView } from './card.js';
 
 const AHEAD = 3; // cards kept rendered ahead of the current one
@@ -22,6 +22,7 @@ let observer;
 let recent = [];
 let active = null; // { id, card, start, readTimer, el }
 let filterDeck = null;
+let visible = true; // false while another tab is open
 
 export function mountFeed(container) {
   root = container;
@@ -66,16 +67,56 @@ export function renderHeader() {
   const pct = Math.min(1, done / goal);
   const deck = filterDeck && library.decks.get(filterDeck);
 
-  header.replaceChildren(
+  const { voice, music } = state.settings;
+  header.replaceChildren(...[
     h('div.pill.streak', { title: t('me.streak') },
       h('span', { html: icons.flame }), String(streak())),
     deck
       ? h('button.pill.filter', { onclick: () => setFeedFilter(null) },
-          `${deck.emoji || ''} ${pick(deck.title)}`, h('span', { html: icons.close }))
-      : h('div.pill.filter.muted', {}, t('feed.allDecks')),
+          h('span.ellipsis', {}, `${deck.emoji || ''} ${pick(deck.title)}`), h('span', { html: icons.close }))
+      : h('div.pill.filter.muted', {}, h('span.ellipsis', {}, t('feed.allDecks'))),
+    h('button.pill.icon', {
+      class: voice ? 'on' : '',
+      'aria-label': t('feed.voice'),
+      html: voice ? icons.speaker : icons.mute,
+      onclick: () => toggleSetting('voice'),
+    }),
+    h('button.pill.icon', {
+      class: music ? 'on' : '',
+      'aria-label': t('feed.music'),
+      html: icons.music,
+      onclick: () => toggleSetting('music'),
+    }),
     h('div.pill.goal', { style: { '--pct': pct }, class: pct >= 1 ? 'done' : '' },
       h('span.ring'), `${Math.min(done, goal)}/${goal}`),
-  );
+    !player.isUnlocked() && (voice || music)
+      ? h('div.sound-hint', {}, h('span', { html: icons.speaker }), t('feed.tapSound'))
+      : null,
+  ].filter(Boolean));
+}
+
+function toggleSetting(key) {
+  state.settings[key] = !state.settings[key];
+  save();
+  player.refresh();
+  renderHeader();
+}
+
+player.onUnlock(() => renderHeader());
+
+// Called by the app when switching tabs: only the visible feed makes sound.
+export function setFeedVisible(on) {
+  visible = on;
+  if (!on) player.stop();
+  else if (active) startAudio(active.el);
+}
+
+function startAudio(slide) {
+  if (!visible) return;
+  player.play(slide._card, slide._view.setProgress);
+  // Warm up the next recordings so the voice starts instantly.
+  let next = slide.nextElementSibling;
+  for (let i = 0; i < 2 && next; i++, next = next.nextElementSibling) player.preload(next._card);
 }
 
 function appendNext() {
@@ -117,7 +158,7 @@ function renderCard(card, st) {
       save();
     },
     onTranslate: () => signal(card, 'translate'),
-    onSpeak: () => speak(card.de.text, 'de-DE'),
+    onSpeak: () => player.replay(),
   });
   return view;
 }
@@ -147,11 +188,13 @@ function enter(slide) {
   const idx = slides.indexOf(slide);
   for (let i = slides.length - 1 - idx; i < AHEAD; i++) appendNext();
   if (idx > MAX_SLIDES) trimAbove(idx - MAX_SLIDES);
+  startAudio(slide);
 }
 
 function leaveActive() {
   if (!active) return;
   clearTimeout(active.readTimer);
+  player.stop();
   const dwell = Date.now() - active.start;
   if (dwell < SKIP_MS) signal(active.card, 'skip');
   else if (dwell > LONG_READ_MS) signal(active.card, 'longRead');

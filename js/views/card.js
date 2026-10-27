@@ -6,12 +6,18 @@ import { t, pick, lang, otherLang } from '../i18n.js';
 import { library } from '../content.js';
 
 // Renders the card. `handlers` = { onLike, onSave, onAgain, onTranslate, onSpeak }
-// Returns { el, setLiked(b), setSaved(b), fit() }  — call fit() once the card is in the page.
+// Returns { el, setLiked(b), setSaved(b), fit(), setProgress(f) }
+// — call fit() once the card is in the page; setProgress(0..1 | null) drives
+// the read-along subtitles while the narration plays.
 export function renderCard(card, cardSt, handlers) {
   const deck = library.decks.get(card.deck) || {};
   let shown = lang();
   let revealed = false; // German translation revealed
   let quizStep = 0; // 0 closed, 1 question, 2 answer
+  let words = []; // read-along: [{ el, at }] with `at` = char offset in the narration
+  let chars = 0;
+  let lastWord = -1;
+  let progress = null;
 
   const body = h('div.card-body');
   const deckLabel = h('div.card-deck', {}, deck.emoji ? `${deck.emoji} ` : '', '');
@@ -24,27 +30,82 @@ export function renderCard(card, cardSt, handlers) {
 
   const rail = h('div.rail', {}, likeBtn, saveBtn, langBtn, againBtn, speakBtn);
 
+  const bar = h('span');
   const el = h(
     'article.card',
     { style: { '--deck': deck.color || 'var(--accent)' }, dataset: { id: card.id } },
+    h('div.card-glow'),
+    h('div.card-progress', {}, bar),
     h('div.card-inner', {}, deckLabel, body),
     rail,
   );
 
   function draw() {
+    words = [];
+    chars = 0;
+    lastWord = -1;
     deckLabel.lastChild.textContent = pick(deck.title, shown);
     langBtn.querySelector('.rail-label').textContent = otherLang(shown).toUpperCase();
     body.replaceChildren(...(card.de ? phraseContent() : ideaContent()).filter(Boolean));
     fit();
+    setProgress(progress);
+  }
+
+  // Splits narrated text into word spans for the read-along highlight.
+  // Only the English text (and the German phrase) is narrated.
+  function spoken(text, narrated) {
+    if (!narrated) return text;
+    return text.split(/(\s+)/).map((part) => {
+      if (!part.trim()) {
+        chars += part.length;
+        return part;
+      }
+      const w = h('span.w', {}, part);
+      words.push({ el: w, at: chars });
+      chars += part.length;
+      return w;
+    });
+  }
+
+  function setProgress(f) {
+    progress = f;
+    el.classList.toggle('playing', f != null);
+    bar.style.width = `${(f || 0) * 100}%`;
+    // The German phrase is said twice: highlight it twice.
+    const pos = (card.de ? (f * 2) % 1 : f) * chars;
+    let idx = -1;
+    if (f != null) while (idx + 1 < words.length && words[idx + 1].at <= pos) idx++;
+    if (idx === lastWord) return;
+    words.forEach((w, i) => {
+      w.el.classList.toggle('done', i < idx);
+      w.el.classList.toggle('now', i === idx);
+    });
+    lastWord = idx;
+    if (idx >= 0) keepVisible(words[idx].el);
+  }
+
+  // Long cards scroll inside: follow the voice.
+  function keepVisible(wordEl) {
+    const inner = el.querySelector('.card-inner');
+    if (inner.scrollHeight <= inner.clientHeight) return;
+    const top = wordEl.offsetTop - inner.offsetTop;
+    if (top < inner.scrollTop + 40 || top > inner.scrollTop + inner.clientHeight - 80) {
+      inner.scrollTo({ top: Math.max(0, top - inner.clientHeight / 3), behavior: 'smooth' });
+    }
   }
 
   function ideaContent() {
+    const en = shown === 'en';
+    const title = h('h2.card-title', {}, spoken(pick(card.title, shown), en));
+    chars += 2; // ". "
+    const idea = h('p.card-idea', {}, spoken(pick(card.idea, shown), en));
+    chars += ' In the room: '.length;
     return [
-      h('h2.card-title', {}, pick(card.title, shown)),
-      h('p.card-idea', {}, pick(card.idea, shown)),
+      title,
+      idea,
       h('div.card-example', {},
         h('span.label', {}, t('feed.example')),
-        h('p', {}, pick(card.example, shown)),
+        h('p', {}, spoken(pick(card.example, shown), en)),
       ),
       quizBlock(),
     ];
@@ -58,7 +119,7 @@ export function renderCard(card, cardSt, handlers) {
       : h('div.card-translation.hint', {}, t('feed.tapTranslate'));
     return [
       h('div.card-situation', {}, pick(card.title, shown)),
-      h('p.card-phrase', { lang: 'de' }, card.de.text),
+      h('p.card-phrase', { lang: 'de' }, spoken(card.de.text, true)),
       h('p.card-pron', {}, h('span.label', {}, t('feed.pron')), ' ', card.de.pron),
       tr,
       card.idea && h('div.card-example', {},
@@ -128,6 +189,7 @@ export function renderCard(card, cardSt, handlers) {
     setLiked: (on) => likeBtn.classList.toggle('on', !!on),
     setSaved: (on) => saveBtn.classList.toggle('on', !!on),
     fit,
+    setProgress,
   };
   api.setLiked(cardSt.liked);
   api.setSaved(cardSt.saved);

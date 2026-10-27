@@ -142,9 +142,29 @@ svg { display: block; }
 }
 .pill svg { width: 17px; height: 17px; }
 .pill.streak svg { color: #e8743b; fill: color-mix(in srgb, #e8743b 25%, transparent); }
-.pill.filter { flex: 1; justify-content: center; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.pill.filter { flex: 1; justify-content: center; min-width: 0; }
+.pill .ellipsis { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pill.filter svg { flex: none; }
 .pill.filter svg { width: 15px; height: 15px; opacity: 0.6; }
 .pill.muted { color: var(--muted); font-weight: 500; }
+.pill.icon {
+  width: 34px; padding: 0; justify-content: center; flex: none;
+  color: var(--muted);
+}
+.pill.icon svg { width: 17px; height: 17px; }
+.pill.icon.on { color: var(--accent); }
+.sound-hint {
+  position: absolute; left: 50%; top: calc(100% + 6px);
+  transform: translateX(-50%);
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 8px 14px; border-radius: 999px;
+  background: var(--text); color: var(--bg);
+  font-size: 13.5px; font-weight: 600; white-space: nowrap;
+  animation: hint-pulse 1.6s ease-in-out infinite;
+  pointer-events: none;
+}
+.sound-hint svg { width: 16px; height: 16px; }
+@keyframes hint-pulse { 50% { transform: translateX(-50%) scale(1.05); } }
 .pill.goal .ring {
   display: inline-block;
   width: 16px; height: 16px; border-radius: 50%;
@@ -214,6 +234,39 @@ svg { display: block; }
 .quiz-btn {
   font-size: 14px; font-weight: 600; padding: 7px 12px; border-radius: 999px;
   background: var(--surface-2); color: var(--text);
+}
+
+/* ===== Video mode: progress, glow, read-along ===== */
+.card-progress {
+  position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: color-mix(in srgb, var(--deck) 15%, transparent);
+  z-index: 2;
+}
+.card-progress span { display: block; height: 100%; width: 0; background: var(--deck); }
+.card-glow {
+  position: absolute; inset: -30%;
+  background:
+    radial-gradient(35% 30% at 30% 30%, color-mix(in srgb, var(--deck) 28%, transparent), transparent 70%),
+    radial-gradient(30% 30% at 70% 70%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.8s;
+  pointer-events: none;
+}
+.card.playing .card-glow { opacity: 1; animation: glow-drift 14s ease-in-out infinite alternate; }
+@keyframes glow-drift {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(6%, -5%) rotate(25deg); }
+  100% { transform: translate(-5%, 6%) rotate(-20deg); }
+}
+.card-inner, .rail { position: relative; z-index: 1; }
+.rail { position: absolute; }
+.card.playing .w { opacity: 0.5; transition: opacity 0.25s, color 0.25s; }
+.card.playing .w.done { opacity: 1; }
+.card.playing .w.now {
+  opacity: 1;
+  color: color-mix(in srgb, var(--deck) 70%, var(--text));
+  text-decoration: underline 2px color-mix(in srgb, var(--deck) 60%, transparent);
+  text-underline-offset: 4px;
 }
 
 /* Auto-fit: smaller text when a card is too long for the screen */

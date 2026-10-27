@@ -5,7 +5,8 @@ import { icons } from './icons.js';
 import { t } from './i18n.js';
 import { state } from './storage.js';
 import { loadLibrary } from './content.js';
-import { mountFeed, setFeedFilter, refreshFeed, renderHeader } from './views/feed.js';
+import { mountFeed, setFeedFilter, refreshFeed, renderHeader, setFeedVisible } from './views/feed.js';
+import { unlock, isUnlocked, loadAudioManifest } from './player.js';
 import { renderDecks } from './views/decks.js';
 import { renderSaved } from './views/saved.js';
 import { renderMe } from './views/me.js';
@@ -45,6 +46,7 @@ function show(view) {
   if (view === 'saved') renderSaved(el);
   if (view === 'me') renderMe(el, { onChange });
   if (view === 'feed') renderHeader();
+  setFeedVisible(view === 'feed');
   if (view !== 'feed') el.scrollTop = 0;
   renderTabbar();
 }
@@ -61,8 +63,15 @@ async function start() {
   renderTabbar();
   document.body.dataset.view = 'feed';
   const feedEl = document.getElementById('view-feed');
+  // iOS only allows sound after the first touch.
+  const unlockOnce = () => {
+    unlock();
+    if (isUnlocked()) ['touchend', 'click'].forEach((e) => document.removeEventListener(e, unlockOnce, true));
+  };
+  ['touchend', 'click'].forEach((e) => document.addEventListener(e, unlockOnce, true));
+
   try {
-    await loadLibrary();
+    await Promise.all([loadLibrary(), loadAudioManifest()]);
     mountFeed(feedEl);
   } catch (err) {
     console.error(err);
