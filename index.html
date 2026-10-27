@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mise</title>
+  <meta name="description" content="Personal microlearning for hospitality: team, wine, German and English for service.">
+  <meta name="theme-color" content="#0f0f12" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f3ee" media="(prefers-color-scheme: light)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Mise">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main id="views">
+    <section id="view-feed" class="view" data-view="feed"></section>
+    <section id="view-decks" class="view page" data-view="decks" hidden></section>
+    <section id="view-saved" class="view page" data-view="saved" hidden></section>
+    <section id="view-me" class="view page" data-view="me" hidden></section>
+  </main>
+
+  <nav id="tabbar" aria-label="Main"></nav>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
