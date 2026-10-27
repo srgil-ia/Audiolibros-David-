@@ -2,7 +2,7 @@
 // Nothing leaves the phone. Shape of the state:
 // {
 //   version: 1,
-//   settings: { lang: 'en'|'es', theme: 'auto'|'light'|'dark', goal: number },
+//   settings: { lang: 'en'|'es', theme: 'auto'|'light'|'dark', goal: number, voice: bool, music: bool },
 //   cards:    { [cardId]: { seen, last, due, ivl, ease, liked, saved, savedAt, readOn } },
 //   taste:    { tags: { [tag]: score }, decks: { [deckId]: score } },
 //   days:     { 'YYYY-MM-DD': cardsReadThatDay },
@@ -14,7 +14,7 @@ export const BACKUP_KIND = 'mise-backup';
 
 const defaults = () => ({
   version: 1,
-  settings: { lang: 'en', theme: 'auto', goal: 10 },
+  settings: { lang: 'en', theme: 'auto', goal: 10, voice: true, music: true },
   cards: {},
   taste: { tags: {}, decks: {} },
   days: {},
