@@ -1,4 +1,40 @@
 {
+ "english-001": {
+  "dur": 22.44,
+  "text": "\"Certainly\", not \"No problem\". \"No problem\" suggests the request could have been a problem. In luxury service, prefer \"Certainly\", \"Of course\" or \"With pleasure\". They sound confident and gracious. In the room: Guest: \"Could we have some more bread?\" — You: \"Certainly, I'll bring it right away.\""
+ },
+ "english-002": {
+  "dur": 24.76,
+  "text": "\"My pleasure\". The classic reply to \"thank you\" in luxury hospitality is \"My pleasure\" or \"It's my pleasure\" — warmer than \"You're welcome\" and far better than \"No worries\". Say it while making eye contact. In the room: Guest: \"Thank you, that was perfect.\" — You: \"It's my pleasure, Mrs Collins. Enjoy the rest of your evening.\""
+ },
+ "english-003": {
+  "dur": 24.69,
+  "text": "\"May I…\" vs \"Can I…\". \"Can I…?\" asks about ability; \"May I…?\" asks for permission and sounds more formal. In fine dining, \"May I…?\" is the standard: \"May I take your coat?\", \"May I suggest…?\". \"Could I…?\" is a polite middle ground. In the room: Instead of \"Can I take this?\": \"May I clear your plate, sir?\""
+ },
+ "english-004": {
+  "dur": 23.17,
+  "text": "\"Would you care for…?\". \"Would you care for…?\" is an elegant way to offer something, more refined than \"Do you want…?\". Similar options: \"Would you like…?\" and \"May I offer you…?\". \"Do you want…?\" sounds too direct in a luxury setting. In the room: \"Would you care for a digestif? We have a lovely Williams pear brandy from Valais.\""
+ },
+ "english-005": {
+  "dur": 24.53,
+  "text": "Never a flat \"no\". Luxury service avoids a plain \"no\". Use the structure: \"Unfortunately…, however, what I can offer is…\". The guest hears the alternative, not the refusal. In the room: \"Unfortunately, the terrace is closed this evening because of the wind. However, I can offer you our best table by the window, with a view of the Matterhorn.\""
+ },
+ "english-006": {
+  "dur": 22.52,
+  "text": "Instead of \"I don't know\". \"I don't know\" ends the conversation. \"Let me find out for you\" or \"Allow me to check with the chef\" keeps it going and shows ownership. Then always come back with the answer. In the room: Guest: \"Is the butter made with raw milk?\" — \"That's a very good question. Allow me to check with the kitchen, I'll be right back.\""
+ },
+ "english-007": {
+  "dur": 23.56,
+  "text": "Checking on the table. \"Is everything all right?\" invites a quick \"fine\". Better: \"How is the venison?\" (specific) or \"Is everything to your liking?\" (formal). Ask after the first two or three bites, not with a full mouth. In the room: \"How are you finding the Petite Arvine with the char?\" — the guest talks about the pairing, and you learn something useful."
+ },
+ "english-008": {
+  "dur": 25.39,
+  "text": "Recommending without pushing. Soft openers make recommendations feel like advice, not sales: \"May I suggest…\", \"If I may…\", \"A personal favourite of mine is…\", \"You might enjoy…\". Give one clear reason why. In the room: \"If I may, a personal favourite of mine is the Cornalin: it has the depth you enjoy in Syrah, but with Alpine freshness.\""
+ },
+ "english-010": {
+  "dur": 19.8,
+  "text": "The emphatic \"do\". Adding \"do\" before a verb makes it warmer and more sincere: \"I do apologise\", \"Please do let me know\", \"Do enjoy your evening\". It's very common in British upscale service. In the room: \"If there's anything else you need, please do let me know.\""
+ },
  "german-001": {
   "dur": 4.99,
   "text": "Guten Abend, herzlich willkommen! … Guten Abend, herzlich willkommen!"
@@ -22,6 +58,94 @@
  "german-006": {
   "dur": 5.8,
   "text": "Darf ich Ihnen einen Aperitif anbieten? … Darf ich Ihnen einen Aperitif anbieten?"
+ },
+ "german-007": {
+  "dur": 6.43,
+  "text": "Hier ist die Weinkarte. Ich berate Sie gerne. … Hier ist die Weinkarte. Ich berate Sie gerne."
+ },
+ "german-008": {
+  "dur": 3.71,
+  "text": "Haben Sie schon gewählt? … Haben Sie schon gewählt?"
+ },
+ "german-009": {
+  "dur": 6.69,
+  "text": "Haben Sie Allergien oder Unverträglichkeiten? … Haben Sie Allergien oder Unverträglichkeiten?"
+ },
+ "german-010": {
+  "dur": 5.96,
+  "text": "Heute empfehle ich Ihnen den Rehrücken. … Heute empfehle ich Ihnen den Rehrücken."
+ },
+ "german-011": {
+  "dur": 5.15,
+  "text": "Wie möchten Sie das Fleisch gebraten haben? … Wie möchten Sie das Fleisch gebraten haben?"
+ },
+ "german-012": {
+  "dur": 6.27,
+  "text": "Darf ich Ihnen einen passenden Wein dazu empfehlen? … Darf ich Ihnen einen passenden Wein dazu empfehlen?"
+ },
+ "german-013": {
+  "dur": 4.05,
+  "text": "Möchten Sie den Wein probieren? … Möchten Sie den Wein probieren?"
+ },
+ "german-014": {
+  "dur": 4.6,
+  "text": "Mit oder ohne Kohlensäure? … Mit oder ohne Kohlensäure?"
+ },
+ "german-015": {
+  "dur": 4.75,
+  "text": "Guten Appetit! – En Guete! … Guten Appetit! – En Guete!"
+ },
+ "german-016": {
+  "dur": 3.24,
+  "text": "Hat es Ihnen geschmeckt? … Hat es Ihnen geschmeckt?"
+ },
+ "german-017": {
+  "dur": 3.16,
+  "text": "Darf ich abräumen? … Darf ich abräumen?"
+ },
+ "german-018": {
+  "dur": 6.35,
+  "text": "Darf es noch ein Dessert oder ein Kaffee sein? … Darf es noch ein Dessert oder ein Kaffee sein?"
+ },
+ "german-019": {
+  "dur": 7.63,
+  "text": "Das tut mir sehr leid. Ich kümmere mich sofort darum. … Das tut mir sehr leid. Ich kümmere mich sofort darum."
+ },
+ "german-020": {
+  "dur": 5.41,
+  "text": "Ich bringe Ihnen sofort ein neues Gericht. … Ich bringe Ihnen sofort ein neues Gericht."
+ },
+ "german-021": {
+  "dur": 6.53,
+  "text": "Einen Moment, bitte – ich frage in der Küche nach. … Einen Moment, bitte – ich frage in der Küche nach."
+ },
+ "german-022": {
+  "dur": 11.55,
+  "text": "Leider ist der Fisch heute ausverkauft. Darf ich Ihnen stattdessen das Kalbsfilet empfehlen? … Leider ist der Fisch heute ausverkauft. Darf ich Ihnen stattdessen das Kalbsfilet empfehlen?"
+ },
+ "german-023": {
+  "dur": 8.28,
+  "text": "Soll ich es auf Ihr Zimmer buchen? Welche Zimmernummer haben Sie? … Soll ich es auf Ihr Zimmer buchen? Welche Zimmernummer haben Sie?"
+ },
+ "german-024": {
+  "dur": 4.6,
+  "text": "Darf ich Ihnen die Rechnung bringen? … Darf ich Ihnen die Rechnung bringen?"
+ },
+ "german-025": {
+  "dur": 7.08,
+  "text": "Vielen Dank für Ihren Besuch. Einen schönen Abend noch! … Vielen Dank für Ihren Besuch. Einen schönen Abend noch!"
+ },
+ "german-026": {
+  "dur": 5.15,
+  "text": "Hatten Sie einen schönen Tag auf der Piste? … Hatten Sie einen schönen Tag auf der Piste?"
+ },
+ "german-027": {
+  "dur": 3.4,
+  "text": "Merci vielmal! … Merci vielmal!"
+ },
+ "german-028": {
+  "dur": 3.4,
+  "text": "Freundliche Grüsse … Freundliche Grüsse"
  },
  "team-001": {
   "dur": 39.24,
