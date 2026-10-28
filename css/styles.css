@@ -206,35 +206,26 @@ svg { display: block; }
   color: color-mix(in srgb, var(--deck) 75%, var(--text));
   margin-bottom: 12px;
 }
-.card-title { font-size: 23px; line-height: 1.15; letter-spacing: -0.01em; margin: 0; font-weight: 750; }
-.card-idea { font-size: 16px; margin: 0; }
+.card-hook {
+  font-size: 30px; line-height: 1.12; letter-spacing: -0.02em;
+  margin: 0 0 4px; font-weight: 800;
+  text-wrap: balance;
+}
+.card-text { font-size: 18px; line-height: 1.45; margin: 0; white-space: pre-line; }
 .label {
   display: block;
   font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em;
   color: color-mix(in srgb, var(--deck) 70%, var(--muted));
   margin-bottom: 4px;
 }
-.card-example {
+.card-action {
   padding: 12px 14px;
   border-radius: 14px;
-  background: color-mix(in srgb, var(--deck) 9%, var(--surface-2));
+  background: color-mix(in srgb, var(--deck) 10%, var(--surface-2));
   border-left: 3px solid var(--deck);
 }
-.card-example p { margin: 0; font-size: 14.5px; }
-.quiz-toggle {
-  align-self: flex-start;
-  font-size: 13.5px; font-weight: 600;
-  padding: 7px 12px; border-radius: 999px;
-  border: 1px dashed var(--line);
-  color: var(--muted);
-}
-.card-quiz { padding: 12px 14px; border-radius: 14px; border: 1px dashed var(--line); }
-.quiz-q { margin: 0 0 8px; font-weight: 600; font-size: 14.5px; }
-.quiz-a { margin: 0; font-size: 14.5px; color: var(--ok); }
-.quiz-btn {
-  font-size: 14px; font-weight: 600; padding: 7px 12px; border-radius: 999px;
-  background: var(--surface-2); color: var(--text);
-}
+.card-action p { margin: 0; font-size: 15.5px; font-weight: 600; }
+.card-by { margin: 0; font-size: 13.5px; color: var(--muted); font-style: italic; }
 
 /* ===== Video mode: progress, glow, read-along ===== */
 .card-progress {
@@ -270,31 +261,16 @@ svg { display: block; }
 }
 
 /* Auto-fit: smaller text when a card is too long for the screen */
-.card.dense .card-title { font-size: 21px; }
-.card.dense .card-idea { font-size: 15px; }
-.card.dense .card-example p, .card.dense .quiz-q, .card.dense .quiz-a { font-size: 13.5px; }
-.card.dense .card-phrase { font-size: 24px; }
+.card.dense .card-hook { font-size: 26px; }
+.card.dense .card-text { font-size: 16.5px; }
+.card.dense .card-action p { font-size: 14.5px; }
 .card.dense .card-body { gap: 10px; }
 .card.denser .card-deck { margin-bottom: 6px; }
-.card.denser .card-title { font-size: 19px; }
-.card.denser .card-idea { font-size: 14px; line-height: 1.38; }
-.card.denser .card-example { padding: 9px 11px; }
-.card.denser .card-example p, .card.denser .quiz-q, .card.denser .quiz-a { font-size: 13px; line-height: 1.38; }
-.card.denser .card-phrase { font-size: 22px; }
+.card.denser .card-hook { font-size: 23px; }
+.card.denser .card-text { font-size: 15px; line-height: 1.4; }
+.card.denser .card-action { padding: 9px 11px; }
+.card.denser .card-action p { font-size: 13.5px; }
 .card.denser .card-body { gap: 8px; }
-
-/* German phrase card */
-.card-situation { font-size: 15px; font-weight: 600; color: var(--muted); }
-.card-phrase { font-size: 27px; line-height: 1.2; font-weight: 750; margin: 0; letter-spacing: -0.01em; }
-.card-pron { margin: 0; font-size: 16px; color: var(--muted); }
-.card-pron .label { display: inline; }
-.card-translation p { margin: 0 0 4px; font-size: 16px; }
-.card-translation b { font-size: 11px; color: var(--muted); letter-spacing: 0.08em; margin-right: 4px; }
-.card-translation.hint {
-  font-size: 14px; color: var(--muted);
-  padding: 10px 14px; border-radius: 12px; border: 1px dashed var(--line);
-  text-align: center;
-}
 
 /* Action rail */
 .rail {
@@ -385,6 +361,7 @@ svg { display: block; }
 .saved-item summary::-webkit-details-marker { display: none; }
 .saved-body { padding: 0 14px 14px; }
 .saved-body p { margin: 0 0 10px; }
+.saved-body .pre { white-space: pre-line; }
 .copy-all { margin-bottom: 12px; }
 
 .stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }

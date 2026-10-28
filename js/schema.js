@@ -3,10 +3,12 @@
 //
 // Deck:
 // { id, title:{en,es}, emoji, color, cards:[Card] }
-// Card (normal):
-// { id, tags:[], title:{en,es}, idea:{en,es}, example:{en,es}, quiz?:{q:{en,es}, a:{en,es}} }
-// Card (language phrase, e.g. German):
-// { id, tags:[], title:{en,es}, de:{text, pron}, translation:{en,es}, idea?:{en,es}, quiz? }
+// Card (reel style):
+// { id, tags:[], hook:{en,es}, body:{en,es}, action:{en,es}, by? }
+//   hook   = the big line that stops the scroll
+//   body   = 2–3 short sentences: why it's true (line breaks with \n)
+//   action = one small thing to try
+//   by     = who the idea or quote comes from (optional)
 
 const isStr = (v) => typeof v === 'string' && v.trim().length > 0;
 const isBi = (v) => v && isStr(v.en) && isStr(v.es);
@@ -37,19 +39,10 @@ export function validateCard(card) {
   if (!card || typeof card !== 'object') return ['not an object'];
   if (!isStr(card.id) || !/^[a-z0-9-]+$/.test(card.id)) e.push('"id" must be lowercase letters, numbers or dashes');
   if (!Array.isArray(card.tags) || !card.tags.every(isStr)) e.push('"tags" must be a list of words');
-  if (!isBi(card.title)) e.push('"title" needs "en" and "es"');
-
-  if (card.de) {
-    if (!isStr(card.de.text)) e.push('"de.text" is required');
-    if (!isStr(card.de.pron)) e.push('"de.pron" is required');
-    if (!isBi(card.translation)) e.push('"translation" needs "en" and "es"');
-    if (card.idea && !isBi(card.idea)) e.push('"idea" needs "en" and "es"');
-  } else {
-    if (!isBi(card.idea)) e.push('"idea" needs "en" and "es"');
-    if (!isBi(card.example)) e.push('"example" needs "en" and "es"');
+  for (const key of ['hook', 'body', 'action']) {
+    if (!isBi(card[key])) e.push(`"${key}" needs "en" and "es"`);
   }
-  if (card.example && !isBi(card.example)) e.push('"example" needs "en" and "es"');
-  if (card.quiz && !(isBi(card.quiz.q) && isBi(card.quiz.a))) e.push('"quiz" needs "q" and "a", each with "en" and "es"');
+  if (card.by != null && !isStr(card.by)) e.push('"by" must be text');
   return e;
 }
 

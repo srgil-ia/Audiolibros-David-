@@ -1,7 +1,7 @@
 {
-  "name": "Mise — microlearning for service",
+  "name": "Mise — mindset & psychology",
   "short_name": "Mise",
-  "description": "Personal microlearning for hospitality: team, wine, German and English for service.",
+  "description": "Short mindset, psychology and leadership ideas, one swipe at a time.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

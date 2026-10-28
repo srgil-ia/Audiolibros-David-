@@ -1,8 +1,8 @@
 // Lists the narration text of every card that has no audio file yet.
-// Usage: node tools/narration.mjs [deckFile]   → JSON lines { id, lang, chars, text }
+// Usage: node tools/narration.mjs [deckFile]   → JSON lines { id, chars, text }
 
 import { readFileSync, existsSync } from 'node:fs';
-import { narrationText, narrationLang } from '../js/narration.js';
+import { narrationText } from '../js/narration.js';
 
 const root = new URL('../', import.meta.url);
 const index = JSON.parse(readFileSync(new URL('content/index.json', root), 'utf8'));
@@ -14,6 +14,6 @@ for (const file of index.decks) {
   for (const card of deck.cards) {
     if (existsSync(new URL(`audio/${card.id}.mp3`, root))) continue;
     const text = narrationText(card);
-    console.log(JSON.stringify({ id: card.id, lang: narrationLang(card), chars: text.length, text }));
+    console.log(JSON.stringify({ id: card.id, chars: text.length, text }));
   }
 }

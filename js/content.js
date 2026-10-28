@@ -14,7 +14,8 @@ export async function loadLibrary() {
   library.decks.clear();
   library.cards.clear();
   for (const deck of builtIn) addDeck(deck);
-  for (const deck of state.imported) addDeck(deck);
+  // Skip imports saved in an older card format.
+  for (const deck of state.imported) if (!validateDeck(deck).length) addDeck(deck);
   return library;
 }
 

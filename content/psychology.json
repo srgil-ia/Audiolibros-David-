@@ -1,0 +1,338 @@
+{
+  "id": "psychology",
+  "title": { "en": "How people work", "es": "Cómo funciona la gente" },
+  "emoji": "🔍",
+  "color": "#8a63d2",
+  "cards": [
+    {
+      "id": "psychology-001",
+      "tags": ["social-anxiety", "self-consciousness", "biases"],
+      "hook": { "en": "Nobody is watching you as much as you think.", "es": "Nadie te mira tanto como crees." },
+      "body": {
+        "en": "Cornell students wore an embarrassing Barry Manilow T-shirt into a room.\nThey guessed half the people noticed. Only about a quarter did.\nIt's the spotlight effect: everyone is too busy worrying about their own spotlight.",
+        "es": "Unos estudiantes de Cornell entraban en una sala con una camiseta vergonzosa de Barry Manilow.\nCreían que la mitad se había fijado. Solo lo hizo una cuarta parte.\nEs el efecto foco: todos están demasiado ocupados con su propio foco."
+      },
+      "action": { "en": "Do one thing today you've avoided because \"people will notice\".", "es": "Haz hoy algo que evitabas porque «la gente se va a fijar»." },
+      "by": "Gilovich, Medvec & Savitsky, 2000"
+    },
+    {
+      "id": "psychology-002",
+      "tags": ["negativity-bias", "relationships", "feedback"],
+      "hook": { "en": "One bad moment outweighs several good ones.", "es": "Un mal momento pesa más que varios buenos." },
+      "body": {
+        "en": "Psychologists call it negativity bias: \"bad is stronger than good\".\nJohn Gottman found that stable couples have about five positive interactions for every negative one.\nGood moments aren't extra. They're the balance you need.",
+        "es": "Los psicólogos lo llaman sesgo de negatividad: «lo malo es más fuerte que lo bueno».\nJohn Gottman vio que las parejas estables tienen unas cinco interacciones positivas por cada negativa.\nLos buenos momentos no son un extra. Son el equilibrio que necesitas."
+      },
+      "action": { "en": "After a tense exchange with someone today, add a few genuinely positive ones.", "es": "Después de un roce con alguien hoy, añade unas cuantas interacciones positivas de verdad." },
+      "by": "Baumeister et al., 2001; John Gottman"
+    },
+    {
+      "id": "psychology-003",
+      "tags": ["memory", "experience", "biases"],
+      "hook": { "en": "People don't remember the experience. They remember the peak and the end.", "es": "La gente no recuerda la experiencia. Recuerda el pico y el final." },
+      "body": {
+        "en": "Daniel Kahneman had people hold a hand in painfully cold water. Most preferred to repeat a longer trial that ended slightly less cold.\nMore pain, better ending, better memory.\nHow something finishes rewrites how it felt.",
+        "es": "Daniel Kahneman hizo que la gente metiera la mano en agua dolorosamente fría. La mayoría prefería repetir una prueba más larga que acababa algo menos fría.\nMás dolor, mejor final, mejor recuerdo.\nCómo termina algo reescribe cómo se vivió."
+      },
+      "action": { "en": "Make the last minute of your next conversation or shift the best one.", "es": "Haz que el último minuto de tu próxima conversación o turno sea el mejor." },
+      "by": "Kahneman et al., 1993"
+    },
+    {
+      "id": "psychology-004",
+      "tags": ["biases", "empathy", "judgment"],
+      "hook": { "en": "When you mess up, it's the situation. When they do, it's who they are.", "es": "Cuando fallas tú, es la situación. Cuando fallan ellos, es cómo son." },
+      "body": {
+        "en": "It's the fundamental attribution error.\nWe judge ourselves by our circumstances and others by their character.\nThe colleague who snapped at you might just be having the worst day of their month.",
+        "es": "Es el error fundamental de atribución.\nA nosotros nos juzgamos por las circunstancias; a los demás, por su carácter.\nEl compañero que te contestó mal quizá solo está teniendo el peor día de su mes."
+      },
+      "action": { "en": "Next time someone annoys you, think of one situation that could explain it.", "es": "La próxima vez que alguien te moleste, piensa en una situación que podría explicarlo." },
+      "by": "Lee Ross, 1977"
+    },
+    {
+      "id": "psychology-005",
+      "tags": ["biases", "thinking", "decisions"],
+      "hook": { "en": "Your brain looks for proof you're right — not for the truth.", "es": "Tu cerebro busca pruebas de que tienes razón, no la verdad." },
+      "body": {
+        "en": "Confirmation bias: we notice, remember and believe what fits what we already think.\nDecide someone is lazy, and you'll only see their lazy moments.\nThe fix is to hunt for evidence against yourself.",
+        "es": "El sesgo de confirmación: vemos, recordamos y creemos lo que encaja con lo que ya pensamos.\nDecide que alguien es vago y solo verás sus momentos de vagancia.\nEl antídoto es buscar pruebas en tu contra."
+      },
+      "action": { "en": "Pick one strong opinion you hold. Find one good argument against it.", "es": "Elige una opinión fuerte que tengas. Busca un buen argumento en contra." },
+      "by": "Peter Wason, 1960s"
+    },
+    {
+      "id": "psychology-006",
+      "tags": ["anchoring", "negotiation", "biases"],
+      "hook": { "en": "The first number you hear changes everything after it.", "es": "El primer número que oyes cambia todo lo que viene después." },
+      "body": {
+        "en": "Tversky and Kahneman spun a wheel that landed on 10 or 65, then asked how many African countries were in the UN.\nPeople who saw 10 guessed 25. Those who saw 65 guessed 45.\nA random number. A real effect.",
+        "es": "Tversky y Kahneman giraban una ruleta que caía en 10 o en 65 y luego preguntaban cuántos países africanos había en la ONU.\nQuienes vieron el 10 dijeron 25. Quienes vieron el 65 dijeron 45.\nUn número al azar. Un efecto real."
+      },
+      "action": { "en": "In your next negotiation, be the one who names the first number.", "es": "En tu próxima negociación, sé tú quien dice la primera cifra." },
+      "by": "Tversky & Kahneman, 1974"
+    },
+    {
+      "id": "psychology-007",
+      "tags": ["sunk-cost", "decisions", "biases"],
+      "hook": { "en": "Already paid for it isn't a reason to keep going.", "es": "«Ya lo he pagado» no es razón para seguir." },
+      "body": {
+        "en": "In a classic study, people who'd bought two ski trips for the same weekend picked the more expensive one — even when they expected to enjoy the cheaper one more.\nThat's the sunk cost fallacy.\nThe money is gone either way. Only the future is still yours.",
+        "es": "En un estudio clásico, quienes habían comprado dos viajes de esquí para el mismo fin de semana elegían el más caro, aunque esperaban disfrutar más del barato.\nEs la falacia del coste hundido.\nEl dinero ya no vuelve. Solo el futuro sigue siendo tuyo."
+      },
+      "action": { "en": "Ask about one thing you keep doing: \"Would I start this today?\"", "es": "Pregúntate sobre algo que sigues haciendo: «¿Lo empezaría hoy?»" },
+      "by": "Arkes & Blumer, 1985"
+    },
+    {
+      "id": "psychology-008",
+      "tags": ["planning", "time", "biases"],
+      "hook": { "en": "Everything takes longer than you think. Even when you know that.", "es": "Todo tarda más de lo que crees. Incluso sabiéndolo." },
+      "body": {
+        "en": "Students estimated they'd finish their thesis in about 34 days. The average was 55.\nIt's the planning fallacy: we imagine the best case and forget the interruptions.\nThe fix: look at how long it took last time.",
+        "es": "Unos estudiantes calcularon que acabarían su trabajo de fin de carrera en unos 34 días. La media fue de 55.\nEs la falacia de la planificación: imaginamos el mejor caso y olvidamos las interrupciones.\nEl antídoto: mira cuánto tardaste la última vez."
+      },
+      "action": { "en": "Take your next time estimate and add 50%.", "es": "Coge tu próxima estimación de tiempo y súmale un 50 %." },
+      "by": "Buehler, Griffin & Ross, 1994"
+    },
+    {
+      "id": "psychology-009",
+      "tags": ["likability", "vulnerability", "mistakes"],
+      "hook": { "en": "Competent people become more likable when they slip up.", "es": "La gente competente cae mejor cuando mete la pata." },
+      "body": {
+        "en": "In Elliot Aronson's study, a highly capable person who spilled coffee was rated more likable than one who didn't.\nIt's the pratfall effect: a small flaw makes excellence human.\nIt only works once you've shown you're good.",
+        "es": "En el estudio de Elliot Aronson, una persona muy capaz que se tiraba el café encima caía mejor que una que no.\nEs el efecto del tropiezo: un pequeño fallo hace humana la excelencia.\nSolo funciona cuando ya has demostrado que eres bueno."
+      },
+      "action": { "en": "Stop hiding a small mistake today. Own it with a smile.", "es": "Deja de esconder un pequeño error hoy. Asúmelo con una sonrisa." },
+      "by": "Aronson, Willerman & Floyd, 1966"
+    },
+    {
+      "id": "psychology-010",
+      "tags": ["relationships", "persuasion", "likability"],
+      "hook": { "en": "Want someone to like you? Ask them for a favour.", "es": "¿Quieres caerle bien a alguien? Pídele un favor." },
+      "body": {
+        "en": "Benjamin Franklin won over a rival by asking to borrow a rare book.\nIn a 1969 experiment, people who did someone a favour ended up liking them more.\nWe justify our actions: \"I helped them, so I must like them.\"",
+        "es": "Benjamin Franklin se ganó a un rival pidiéndole prestado un libro raro.\nEn un experimento de 1969, quienes le hacían un favor a alguien acababan apreciándolo más.\nJustificamos lo que hacemos: «Le ayudé, así que debe caerme bien»."
+      },
+      "action": { "en": "Ask someone you get on badly with for a small favour or their advice.", "es": "Pídele un pequeño favor o un consejo a alguien con quien no te llevas bien." },
+      "by": "Jecker & Landy, 1969"
+    },
+    {
+      "id": "psychology-011",
+      "tags": ["reciprocity", "service", "persuasion"],
+      "hook": { "en": "Two mints with the bill can change the tip.", "es": "Dos caramelos con la cuenta pueden cambiar la propina." },
+      "body": {
+        "en": "In a restaurant study, one mint raised tips about 3%, two mints about 14%.\nBut one mint, then coming back with another \"for you\", raised them about 23%.\nReciprocity works best when the gift feels personal.",
+        "es": "En un estudio en restaurantes, un caramelo subía la propina un 3 % y dos, un 14 %.\nPero dar uno y volver con otro «para vosotros» la subía un 23 %.\nLa reciprocidad funciona mejor cuando el detalle se siente personal."
+      },
+      "action": { "en": "Give one small, unexpected, personal gesture to someone today.", "es": "Haz hoy un gesto pequeño, inesperado y personal a alguien." },
+      "by": "Strohmetz et al., 2002"
+    },
+    {
+      "id": "psychology-012",
+      "tags": ["names", "connection", "likability"],
+      "hook": { "en": "The sweetest sound to anyone is their own name.", "es": "El sonido más dulce para cualquiera es su propio nombre." },
+      "body": {
+        "en": "Dale Carnegie wrote it in 1936, and brain studies later showed our own name lights up the brain differently from other names.\nUsing someone's name says: I see you, not just your role.\nOveruse it and it sounds like a sales script.",
+        "es": "Dale Carnegie lo escribió en 1936, y estudios posteriores vieron que nuestro nombre activa el cerebro de forma distinta a otros nombres.\nUsar el nombre de alguien dice: te veo a ti, no solo tu papel.\nAbusa de él y sonará a guion de ventas."
+      },
+      "action": { "en": "Learn and use the name of one person you see often but never call by name.", "es": "Aprende y usa el nombre de alguien que ves a menudo pero nunca llamas por su nombre." },
+      "by": "Dale Carnegie, How to Win Friends and Influence People"
+    },
+    {
+      "id": "psychology-013",
+      "tags": ["familiarity", "relationships", "liking"],
+      "hook": { "en": "We like what we see often.", "es": "Nos gusta lo que vemos a menudo." },
+      "body": {
+        "en": "Robert Zajonc showed people unfamiliar words and faces. The more often they'd seen something, the more they liked it.\nIt's the mere exposure effect.\nShowing up regularly builds trust before you say a word.",
+        "es": "Robert Zajonc enseñaba a la gente palabras y caras desconocidas. Cuantas más veces las habían visto, más les gustaban.\nEs el efecto de mera exposición.\nAparecer con regularidad genera confianza antes de decir nada."
+      },
+      "action": { "en": "Say a quick hello to someone you want a better relationship with — every day this week.", "es": "Saluda brevemente a alguien con quien quieres llevarte mejor, cada día de esta semana." },
+      "by": "Robert Zajonc, 1968"
+    },
+    {
+      "id": "psychology-014",
+      "tags": ["social-proof", "persuasion", "behaviour"],
+      "hook": { "en": "People do what they think others like them do.", "es": "La gente hace lo que cree que hacen los que son como ella." },
+      "body": {
+        "en": "In a hotel study, \"Help save the environment\" got 35% of guests to reuse towels.\n\"Most guests who stayed in this room reused their towels\" got 49%.\nNorms beat arguments.",
+        "es": "En un estudio en un hotel, «Ayuda a cuidar el medio ambiente» hizo que el 35 % de los huéspedes reutilizara las toallas.\n«La mayoría de los huéspedes de esta habitación reutilizaron sus toallas» lo subió al 49 %.\nLas normas sociales ganan a los argumentos."
+      },
+      "action": { "en": "When you want a change, show who's already doing it instead of explaining why.", "es": "Cuando quieras un cambio, muestra quién lo hace ya en vez de explicar por qué." },
+      "by": "Goldstein, Cialdini & Griskevicius, 2008"
+    },
+    {
+      "id": "psychology-015",
+      "tags": ["productivity", "urgency", "priorities"],
+      "hook": { "en": "Urgent hijacks important.", "es": "Lo urgente secuestra a lo importante." },
+      "body": {
+        "en": "In experiments by Zhu, Yang and Hsee, people chose tasks with a short deadline over tasks with a bigger reward — even when the reward was clearly better.\nIt's the mere urgency effect.\nA ticking clock feels like importance. It isn't.",
+        "es": "En experimentos de Zhu, Yang y Hsee, la gente elegía tareas con un plazo corto antes que tareas con mayor recompensa, aunque la recompensa fuera claramente mejor.\nEs el efecto de mera urgencia.\nUn reloj en marcha parece importancia. No lo es."
+      },
+      "action": { "en": "Before your next task, ask: \"Is this important, or just urgent?\"", "es": "Antes de tu próxima tarea, pregúntate: «¿Es importante o solo urgente?»" },
+      "by": "Zhu, Yang & Hsee, 2018"
+    },
+    {
+      "id": "psychology-016",
+      "tags": ["happiness", "money", "experiences"],
+      "hook": { "en": "Buy experiences, not things.", "es": "Compra experiencias, no cosas." },
+      "body": {
+        "en": "Van Boven and Gilovich found that experiential purchases — a trip, a concert, a dinner — made people happier than material ones.\nThings get old. Experiences become stories and part of who you are.",
+        "es": "Van Boven y Gilovich vieron que las compras de experiencias (un viaje, un concierto, una cena) hacían más feliz a la gente que las materiales.\nLas cosas se quedan viejas. Las experiencias se vuelven historias y parte de quién eres."
+      },
+      "action": { "en": "Plan one small experience with someone you like this month.", "es": "Planea este mes una pequeña experiencia con alguien que te importa." },
+      "by": "Van Boven & Gilovich, 2003"
+    },
+    {
+      "id": "psychology-017",
+      "tags": ["halo-effect", "first-impressions", "biases"],
+      "hook": { "en": "One good trait makes people see others that aren't there.", "es": "Un rasgo bueno hace que la gente vea otros que no existen." },
+      "body": {
+        "en": "In one study, students watched the same lecturer acting warm or cold. When warm, they rated even his looks and accent better.\nIt's the halo effect.\nFirst impressions spill over into everything.",
+        "es": "En un estudio, unos estudiantes veían al mismo profesor actuar de forma cálida o fría. Cuando era cálido, valoraban mejor incluso su físico y su acento.\nEs el efecto halo.\nLa primera impresión lo contamina todo."
+      },
+      "action": { "en": "Judging someone today? Rate the skill separately from whether you like them.", "es": "¿Vas a juzgar a alguien hoy? Valora la habilidad aparte de si te cae bien." },
+      "by": "Nisbett & Wilson, 1977"
+    },
+    {
+      "id": "psychology-018",
+      "tags": ["ownership", "motivation", "effort"],
+      "hook": { "en": "We love what we build ourselves.", "es": "Queremos lo que construimos nosotros mismos." },
+      "body": {
+        "en": "People were willing to pay about 63% more for IKEA boxes they'd assembled than for identical ready-made ones.\nIt's the IKEA effect: effort creates attachment.\nWant people to care about a plan? Let them build part of it.",
+        "es": "La gente estaba dispuesta a pagar un 63 % más por cajas de IKEA que habían montado ellos que por otras iguales ya montadas.\nEs el efecto IKEA: el esfuerzo crea apego.\n¿Quieres que a alguien le importe un plan? Deja que construya una parte."
+      },
+      "action": { "en": "Next time you need buy-in, ask people to shape one part of the decision.", "es": "La próxima vez que necesites implicación, pide a la gente que dé forma a una parte de la decisión." },
+      "by": "Norton, Mochon & Ariely, 2012"
+    },
+    {
+      "id": "psychology-019",
+      "tags": ["defaults", "nudges", "behaviour"],
+      "hook": { "en": "Most people never change the default.", "es": "Casi nadie cambia la opción por defecto." },
+      "body": {
+        "en": "Countries where you're an organ donor unless you opt out reach over 90% donors. Where you have to opt in, far fewer sign up.\nSame people, same values. Different default.\nWhatever is pre-set is what usually happens.",
+        "es": "En los países donde eres donante de órganos salvo que digas lo contrario, más del 90 % son donantes. Donde hay que apuntarse, muchos menos.\nMisma gente, mismos valores. Otra opción por defecto.\nLo que viene predeterminado es lo que suele pasar."
+      },
+      "action": { "en": "Make your best habit the default: set the alarm, prep the gym bag, schedule it.", "es": "Convierte tu mejor hábito en la opción por defecto: pon la alarma, prepara la bolsa, agéndalo." },
+      "by": "Johnson & Goldstein, 2003"
+    },
+    {
+      "id": "psychology-020",
+      "tags": ["loss-aversion", "decisions", "motivation"],
+      "hook": { "en": "Losing hurts about twice as much as winning feels good.", "es": "Perder duele el doble de lo que alegra ganar." },
+      "body": {
+        "en": "Kahneman and Tversky found losses weigh roughly twice as heavily as equal gains.\nThat's why we cling to bad situations and fear change.\nFraming something as what you'll lose by not acting is often more motivating.",
+        "es": "Kahneman y Tversky vieron que las pérdidas pesan más o menos el doble que las ganancias equivalentes.\nPor eso nos aferramos a situaciones malas y tememos el cambio.\nPlantear algo como lo que perderás si no actúas suele motivar más."
+      },
+      "action": { "en": "Stuck on a decision? Ask what you lose by staying the same.", "es": "¿Atascado en una decisión? Pregúntate qué pierdes si todo sigue igual." },
+      "by": "Kahneman & Tversky, prospect theory, 1979"
+    },
+    {
+      "id": "psychology-021",
+      "tags": ["communication", "teaching", "biases"],
+      "hook": { "en": "Once you know something, you can't imagine not knowing it.", "es": "Cuando sabes algo, no puedes imaginar no saberlo." },
+      "body": {
+        "en": "At Stanford, people tapped famous songs on a table. They predicted listeners would guess half of them.\nListeners guessed 3 out of 120.\nThe tapper hears the melody in their head. The listener only hears knocking. That's the curse of knowledge.",
+        "es": "En Stanford, unos voluntarios tamborileaban canciones famosas en una mesa. Predijeron que los oyentes acertarían la mitad.\nAcertaron 3 de 120.\nQuien tamborilea oye la melodía en su cabeza. Quien escucha solo oye golpes. Es la maldición del conocimiento."
+      },
+      "action": { "en": "Explaining something today? Ask them to repeat it back in their own words.", "es": "¿Vas a explicar algo hoy? Pide que te lo repitan con sus palabras." },
+      "by": "Elizabeth Newton, 1990"
+    },
+    {
+      "id": "psychology-022",
+      "tags": ["bystander-effect", "responsibility", "groups"],
+      "hook": { "en": "The more people see a problem, the less anyone acts.", "es": "Cuanta más gente ve un problema, menos actúa nadie." },
+      "body": {
+        "en": "In Darley and Latané's study, 85% of people alone helped someone having a seizure. With four others listening, only 31% did.\nResponsibility spreads thin in a crowd.\nThat's why \"someone should…\" means nobody will.",
+        "es": "En el estudio de Darley y Latané, el 85 % de quienes estaban solos ayudaban a alguien con un ataque. Con otras cuatro personas escuchando, solo el 31 %.\nLa responsabilidad se diluye en grupo.\nPor eso «alguien debería…» significa que nadie lo hará."
+      },
+      "action": { "en": "Need help? Point at one person and say their name.", "es": "¿Necesitas ayuda? Señala a una persona y di su nombre." },
+      "by": "Darley & Latané, 1968"
+    },
+    {
+      "id": "psychology-023",
+      "tags": ["rapport", "service", "communication"],
+      "hook": { "en": "Repeat their words, not your version of them.", "es": "Repite sus palabras, no tu versión de ellas." },
+      "body": {
+        "en": "In a Dutch restaurant study, waitresses who repeated the order word for word got noticeably bigger tips than those who paraphrased.\nMirroring someone's words makes them feel understood.\nIt builds rapport without trying.",
+        "es": "En un estudio en un restaurante holandés, las camareras que repetían el pedido palabra por palabra recibían propinas claramente mayores que las que lo parafraseaban.\nReflejar las palabras de alguien le hace sentirse entendido.\nCrea sintonía sin esfuerzo."
+      },
+      "action": { "en": "In your next conversation, repeat back someone's key words exactly.", "es": "En tu próxima conversación, repite exactamente las palabras clave de la otra persona." },
+      "by": "van Baaren et al., 2003"
+    },
+    {
+      "id": "psychology-024",
+      "tags": ["motivation", "autonomy", "self-determination"],
+      "hook": { "en": "People need three things to be motivated.", "es": "La gente necesita tres cosas para estar motivada." },
+      "body": {
+        "en": "Self-determination theory says: autonomy (some control), competence (feeling good at it) and relatedness (feeling connected).\nTake one away and motivation drains, whatever you pay.\nGive all three and people motivate themselves.",
+        "es": "La teoría de la autodeterminación dice: autonomía (algo de control), competencia (sentir que lo haces bien) y relación (sentirte conectado).\nQuita una y la motivación se vacía, pagues lo que pagues.\nDa las tres y la gente se motiva sola."
+      },
+      "action": { "en": "Which of the three is missing for you right now? Fix one small piece.", "es": "¿Cuál de las tres te falta ahora mismo? Arregla una pequeña parte." },
+      "by": "Edward Deci & Richard Ryan"
+    },
+    {
+      "id": "psychology-025",
+      "tags": ["motivation", "rewards", "passion"],
+      "hook": { "en": "Paying people for what they love can kill the love.", "es": "Pagar a alguien por lo que le encanta puede matar ese amor." },
+      "body": {
+        "en": "Children who loved drawing were promised a reward for it. Later, in free time, they drew less than children who got no reward.\nIt's the overjustification effect.\nWhen the reason becomes external, the inner spark fades.",
+        "es": "A unos niños a los que les encantaba dibujar se les prometió un premio por hacerlo. Después, en su tiempo libre, dibujaban menos que los que no recibieron premio.\nEs el efecto de sobrejustificación.\nCuando la razón pasa a ser externa, la chispa interior se apaga."
+      },
+      "action": { "en": "Praise someone today for the work itself, not the result or reward.", "es": "Elogia hoy a alguien por el trabajo en sí, no por el resultado o el premio." },
+      "by": "Lepper, Greene & Nisbett, 1973"
+    },
+    {
+      "id": "psychology-026",
+      "tags": ["persuasion", "requests", "communication"],
+      "hook": { "en": "Add \"because\". People say yes more.", "es": "Añade «porque». La gente dice más que sí." },
+      "body": {
+        "en": "Ellen Langer asked to cut in line at a copier. \"May I use the Xerox?\" got 60% yes.\nAdding \"because I have to make copies\" — a meaningless reason — got 93%.\nA reason, any reason, makes a request feel fair.",
+        "es": "Ellen Langer pedía colarse en la fotocopiadora. «¿Puedo usar la fotocopiadora?» consiguió un 60 % de síes.\nAñadir «porque tengo que hacer copias», una razón sin sentido, subió al 93 %.\nUna razón, la que sea, hace que una petición parezca justa."
+      },
+      "action": { "en": "Add a real \"because\" to your next request.", "es": "Añade un «porque» de verdad a tu próxima petición." },
+      "by": "Langer, Blank & Chanowitz, 1978"
+    },
+    {
+      "id": "psychology-027",
+      "tags": ["stress", "performance", "pressure"],
+      "hook": { "en": "A little pressure helps. Too much breaks you.", "es": "Un poco de presión ayuda. Demasiada te rompe." },
+      "body": {
+        "en": "Since Yerkes and Dodson in 1908, psychologists describe performance as an upside-down U.\nToo calm: sloppy. Too stressed: frozen. In between: sharp.\nThe sweet spot is lower for complex tasks than simple ones.",
+        "es": "Desde Yerkes y Dodson en 1908, los psicólogos describen el rendimiento como una U invertida.\nDemasiado tranquilo: descuidado. Demasiado estresado: bloqueado. En medio: afilado.\nEl punto óptimo es más bajo en tareas complejas que en las sencillas."
+      },
+      "action": { "en": "Before a complex task, lower the pressure. Before a boring one, raise it.", "es": "Antes de una tarea compleja, baja la presión. Antes de una aburrida, súbela." },
+      "by": "Yerkes & Dodson, 1908"
+    },
+    {
+      "id": "psychology-028",
+      "tags": ["emotions", "decisions", "self-awareness"],
+      "hook": { "en": "Calm you can't predict angry you.", "es": "Tu yo tranquilo no puede predecir a tu yo enfadado." },
+      "body": {
+        "en": "George Loewenstein calls it the hot-cold empathy gap.\nWhen calm, we underestimate how much hunger, anger or tiredness will change our choices.\nSo we promise things our future self won't keep.",
+        "es": "George Loewenstein lo llama la brecha de empatía frío-caliente.\nEn calma, subestimamos cuánto cambiarán nuestras decisiones el hambre, el enfado o el cansancio.\nAsí que prometemos cosas que nuestro yo futuro no cumplirá."
+      },
+      "action": { "en": "Decide now how you'll act the next time you're angry at work. Write it down.", "es": "Decide ahora cómo actuarás la próxima vez que te enfades en el trabajo. Escríbelo." },
+      "by": "George Loewenstein, 2005"
+    },
+    {
+      "id": "psychology-029",
+      "tags": ["goals", "motivation", "progress"],
+      "hook": { "en": "The closer the finish line, the faster we run.", "es": "Cuanto más cerca está la meta, más rápido corremos." },
+      "body": {
+        "en": "A café gave customers a 10-stamp card, or a 12-stamp card with 2 stamps already filled.\nSame 10 coffees to go. The second group finished faster.\nIt's the goal-gradient effect: feeling of progress fuels effort.",
+        "es": "Una cafetería daba una tarjeta de 10 sellos, o una de 12 con 2 ya puestos.\nLos mismos 10 cafés por delante. El segundo grupo la completaba antes.\nEs el efecto del gradiente de meta: sentir progreso alimenta el esfuerzo."
+      },
+      "action": { "en": "Starting something big? Count what you've already done as progress.", "es": "¿Empiezas algo grande? Cuenta como progreso lo que ya has hecho." },
+      "by": "Kivetz, Urminsky & Zheng, 2006"
+    },
+    {
+      "id": "psychology-030",
+      "tags": ["scarcity", "stress", "decisions"],
+      "hook": { "en": "Scarcity makes smart people make bad decisions.", "es": "La escasez hace que gente lista decida mal." },
+      "body": {
+        "en": "Indian sugarcane farmers scored worse on reasoning tests before harvest, when money was tight, than after.\nSame people. Less mental bandwidth.\nWhen you're short of time or money, your mind tunnels. Don't make big choices from there.",
+        "es": "Unos agricultores de caña de azúcar en la India puntuaban peor en tests de razonamiento antes de la cosecha, con poco dinero, que después.\nLa misma gente. Menos ancho de banda mental.\nCuando te falta tiempo o dinero, tu mente hace túnel. No tomes grandes decisiones desde ahí."
+      },
+      "action": { "en": "Overloaded today? Postpone any big decision until you've had a break.", "es": "¿Saturado hoy? Aplaza cualquier decisión importante hasta después de un descanso." },
+      "by": "Mani, Mullainathan, Shafir & Zhao, 2013"
+    }
+  ]
+}

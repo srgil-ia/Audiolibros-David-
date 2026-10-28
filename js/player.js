@@ -3,7 +3,7 @@
 // Cards with a recording in audio/ use it; the rest use the phone's voice.
 
 import { state } from './storage.js';
-import { narrationText, narrationLang } from './narration.js';
+import { narrationText } from './narration.js';
 import { createMusic } from './music.js';
 
 const GAP_MS = 1500; // silence between repetitions
@@ -82,13 +82,6 @@ export function stop() {
   current = null;
 }
 
-// Start the current card again from the beginning (e.g. the 🔊 button).
-export function replay() {
-  if (!current) return;
-  endPass(current);
-  startPass(current, true);
-}
-
 // Settings changed (voice / music on or off).
 export function refresh() {
   syncMusic();
@@ -129,8 +122,8 @@ function loadBuffer(id) {
   return buffers.get(id);
 }
 
-async function startPass(cur, force = false) {
-  if (!unlocked || (!state.settings.voice && !force) || current !== cur) return;
+async function startPass(cur) {
+  if (!unlocked || !state.settings.voice || current !== cur) return;
   const pass = { stopped: false, raf: 0, timer: 0, source: null, utterance: null };
   cur.pass = pass;
 
@@ -173,18 +166,19 @@ async function startPass(cur, force = false) {
     if (!('speechSynthesis' in window)) return;
     const text = narrationText(cur.card);
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = narrationLang(cur.card);
-    u.rate = cur.card.de ? 0.85 : 1;
-    const voice = speechSynthesis.getVoices().find((v) => v.lang.replace('_', '-') === u.lang)
-      || speechSynthesis.getVoices().find((v) => v.lang.startsWith(u.lang.slice(0, 2)));
-    if (voice) u.voice = voice;
+    u.lang = 'en-GB';
+    const voice = bestVoice();
+    if (voice) {
+      u.voice = voice;
+      u.lang = voice.lang;
+    }
     u.onend = finish;
     speechSynthesis.cancel();
     speechSynthesis.speak(u);
     pass.utterance = u;
     clock = () => performance.now() / 1000;
     startedAt = clock();
-    duration = text.length / TTS_CHARS_PER_SEC / u.rate;
+    duration = text.length / TTS_CHARS_PER_SEC;
   }
 
   duck(true);
@@ -194,6 +188,20 @@ async function startPass(cur, force = false) {
     pass.raf = requestAnimationFrame(tick);
   };
   tick();
+}
+
+// The most natural English voice on the phone. On iPhone, downloaded
+// "Enhanced"/"Premium" voices (Settings → Accessibility → Spoken Content →
+// Voices → English) sound far better than the default compact ones.
+function bestVoice() {
+  const score = (v) =>
+    (/premium/i.test(v.name) ? 4 : /enhanced|neural|natural/i.test(v.name) ? 3 : 0)
+    + (/^en[-_]GB/i.test(v.lang) ? 1 : 0)
+    + (/^en[-_](GB|US|AU|IE)/i.test(v.lang) ? 1 : 0)
+    - (/novelty|eloquence|bad news|bubbles|whisper|zarvox|trinoids|cellos|bells|organ|jester|superstar|wobble|boing|albert|fred|junior|ralph|kathy|grandma|grandpa|reed|rocko|sandy|shelley|flo/i.test(v.name) ? 10 : 0);
+  return speechSynthesis.getVoices()
+    .filter((v) => /^en/i.test(v.lang))
+    .sort((a, b) => score(b) - score(a))[0];
 }
 
 function endPass(cur) {

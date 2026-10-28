@@ -1,0 +1,335 @@
+{
+  "id": "leadership",
+  "title": { "en": "Leadership", "es": "Liderazgo" },
+  "emoji": "🧭",
+  "color": "#3f8fd1",
+  "cards": [
+    {
+      "id": "leadership-001",
+      "tags": ["psychological-safety", "teams", "trust"],
+      "hook": { "en": "The best teams aren't the smartest. They're the safest.", "es": "Los mejores equipos no son los más listos. Son los más seguros." },
+      "body": {
+        "en": "Google studied 180 teams. The number one factor in the best ones: psychological safety.\nFeeling you can speak up or admit a mistake without being punished.\nThose teams report more errors — because they hide fewer.",
+        "es": "Google estudió 180 equipos. El factor número uno de los mejores: la seguridad psicológica.\nSentir que puedes hablar o admitir un error sin que te castiguen.\nEsos equipos reportan más errores, porque esconden menos."
+      },
+      "action": { "en": "Next time someone admits a mistake, thank them before anything else.", "es": "La próxima vez que alguien admita un error, dale las gracias antes que nada." },
+      "by": "Amy Edmondson; Google Project Aristotle"
+    },
+    {
+      "id": "leadership-002",
+      "tags": ["standards", "accountability", "culture"],
+      "hook": { "en": "The standard you walk past is the standard you accept.", "es": "El estándar que dejas pasar es el estándar que aceptas." },
+      "body": {
+        "en": "Lieutenant General David Morrison said it to the whole Australian Army in 2013.\nEvery time you see something wrong and say nothing, you've just set the new rule.\nYour team learns from what you tolerate, not from what you say.",
+        "es": "El teniente general David Morrison se lo dijo a todo el ejército australiano en 2013.\nCada vez que ves algo mal y no dices nada, acabas de fijar la nueva norma.\nTu equipo aprende de lo que toleras, no de lo que dices."
+      },
+      "action": { "en": "Pick one small standard that's slipping. Address it calmly today.", "es": "Elige un estándar pequeño que se esté relajando. Corrígelo hoy con calma." },
+      "by": "Lt Gen David Morrison, 2013"
+    },
+    {
+      "id": "leadership-003",
+      "tags": ["communication", "clarity", "feedback"],
+      "hook": { "en": "Clear is kind. Unclear is unkind.", "es": "Ser claro es ser amable. No serlo, no." },
+      "body": {
+        "en": "Avoiding a hard truth feels nice. It isn't.\nVague feedback and unspoken expectations leave people guessing — and then failing at things nobody told them.\nBrené Brown's rule: say it clearly, with respect.",
+        "es": "Evitar una verdad incómoda parece amable. No lo es.\nEl feedback vago y las expectativas no dichas dejan a la gente adivinando, y luego fallando en cosas que nadie les dijo.\nLa regla de Brené Brown: dilo claro, con respeto."
+      },
+      "action": { "en": "Turn one vague expectation into a clear sentence and say it to the person.", "es": "Convierte una expectativa vaga en una frase clara y díselo a la persona." },
+      "by": "Brené Brown, Dare to Lead"
+    },
+    {
+      "id": "leadership-004",
+      "tags": ["feedback", "candor", "care"],
+      "hook": { "en": "Care personally. Challenge directly.", "es": "Preocúpate de verdad. Exige de frente." },
+      "body": {
+        "en": "Kim Scott's Radical Candor in one line.\nCare without challenge is \"ruinous empathy\": you're nice, they don't grow.\nChallenge without care is just being a jerk. Great bosses do both at once.",
+        "es": "Radical Candor de Kim Scott en una frase.\nPreocuparte sin exigir es «empatía destructiva»: eres majo, pero no crecen.\nExigir sin preocuparte es ser un capullo. Los grandes jefes hacen las dos cosas a la vez."
+      },
+      "action": { "en": "Give one piece of honest feedback today — and show why you care about them.", "es": "Da hoy un feedback sincero, y deja claro por qué te importa esa persona." },
+      "by": "Kim Scott, Radical Candor"
+    },
+    {
+      "id": "leadership-005",
+      "tags": ["feedback", "recognition", "communication"],
+      "hook": { "en": "\"Good job\" means nothing.", "es": "«Buen trabajo» no significa nada." },
+      "body": {
+        "en": "Useful feedback has three parts: Situation, Behaviour, Impact.\n\"Last night at table 4, you noticed the allergy before anyone asked — the guest felt completely safe.\"\nNow they know exactly what to repeat.",
+        "es": "El feedback útil tiene tres partes: Situación, Comportamiento, Impacto.\n«Anoche en la mesa 4 detectaste la alergia antes de que nadie preguntara; el cliente se sintió totalmente seguro».\nAhora saben exactamente qué repetir."
+      },
+      "action": { "en": "Give one person specific praise today: situation, behaviour, impact.", "es": "Elogia hoy a alguien de forma concreta: situación, comportamiento, impacto." },
+      "by": "Center for Creative Leadership (SBI model)"
+    },
+    {
+      "id": "leadership-006",
+      "tags": ["coaching", "questions", "listening"],
+      "hook": { "en": "The best coaching question has three words.", "es": "La mejor pregunta de coaching tiene tres palabras." },
+      "body": {
+        "en": "\"And what else?\"\nThe first answer is rarely the real one.\nMichael Bungay Stanier calls it the best coaching question in the world: it stops you from jumping in with advice and lets people find their own answer.",
+        "es": "«¿Y qué más?»\nLa primera respuesta rara vez es la de verdad.\nMichael Bungay Stanier la llama la mejor pregunta de coaching del mundo: te frena antes de dar consejos y deja que la gente encuentre su propia respuesta."
+      },
+      "action": { "en": "In your next conversation, ask \"And what else?\" at least twice.", "es": "En tu próxima conversación, pregunta «¿Y qué más?» al menos dos veces." },
+      "by": "Michael Bungay Stanier, The Coaching Habit"
+    },
+    {
+      "id": "leadership-007",
+      "tags": ["listening", "communication", "empathy"],
+      "hook": { "en": "Most people don't listen. They wait to talk.", "es": "Casi nadie escucha. Espera su turno para hablar." },
+      "body": {
+        "en": "Stephen Covey: most people listen with the intent to reply, not to understand.\nPeople can feel the difference instantly.\nListening to understand is the cheapest way to make someone feel respected.",
+        "es": "Stephen Covey: la mayoría escucha con intención de responder, no de entender.\nLa gente nota la diferencia al instante.\nEscuchar para entender es la forma más barata de que alguien se sienta respetado."
+      },
+      "action": { "en": "Before replying today, summarise what they said in one sentence.", "es": "Antes de responder hoy, resume en una frase lo que te han dicho." },
+      "by": "Stephen Covey, The 7 Habits of Highly Effective People"
+    },
+    {
+      "id": "leadership-008",
+      "tags": ["vulnerability", "trust", "psychological-safety"],
+      "hook": { "en": "If you want your team to admit mistakes, admit yours first.", "es": "Si quieres que tu equipo admita sus errores, admite tú los tuyos primero." },
+      "body": {
+        "en": "Teams copy their leader, not the rules on the wall.\nAmy Edmondson's advice for leaders: acknowledge your own fallibility out loud.\n\"I got that wrong\" from the boss gives everyone else permission.",
+        "es": "Los equipos copian a su líder, no las normas de la pared.\nEl consejo de Amy Edmondson para líderes: reconoce en voz alta que te equivocas.\nUn «me equivoqué» del jefe da permiso a todos los demás."
+      },
+      "action": { "en": "Share one mistake you made this week with your team.", "es": "Cuéntale a tu equipo un error que hayas cometido esta semana." },
+      "by": "Amy Edmondson, The Fearless Organization"
+    },
+    {
+      "id": "leadership-009",
+      "tags": ["emotions", "calm", "pressure"],
+      "hook": { "en": "Your mood is your team's weather.", "es": "Tu estado de ánimo es el clima de tu equipo." },
+      "body": {
+        "en": "Sigal Barsade placed one actor in work groups to act cheerful or gloomy. The whole group's mood shifted — and so did how well they cooperated.\nEmotions spread. A leader's spread fastest.\nIf you panic, they panic.",
+        "es": "Sigal Barsade metía a un actor en grupos de trabajo que se mostraba alegre o apagado. El ánimo de todo el grupo cambiaba, y también lo bien que colaboraban.\nLas emociones se contagian. Las del líder, más rápido.\nSi tú entras en pánico, ellos también."
+      },
+      "action": { "en": "Before the rush, take one slow breath. Walk in calm on purpose.", "es": "Antes del pico de trabajo, respira lento una vez. Entra en calma a propósito." },
+      "by": "Sigal Barsade, 2002"
+    },
+    {
+      "id": "leadership-010",
+      "tags": ["delegation", "ownership", "time"],
+      "hook": { "en": "Stop taking your team's monkeys.", "es": "Deja de cargar con los monos de tu equipo." },
+      "body": {
+        "en": "Someone comes with a problem. You say \"Let me think about it.\" Now the monkey is on your back.\nOncken and Wass's classic: managers end up working for their teams this way.\nGive the next move back.",
+        "es": "Alguien viene con un problema. Dices «Déjame pensarlo». Ahora el mono está en tu espalda.\nEl clásico de Oncken y Wass: así los jefes acaban trabajando para su equipo.\nDevuelve el siguiente paso."
+      },
+      "action": { "en": "Next time someone brings a problem, ask: \"What do you suggest?\"", "es": "La próxima vez que te traigan un problema, pregunta: «¿Tú qué propones?»" },
+      "by": "Oncken & Wass, Harvard Business Review, 1974"
+    },
+    {
+      "id": "leadership-011",
+      "tags": ["communication", "purpose", "autonomy"],
+      "hook": { "en": "Tell them why, not just what.", "es": "Diles el porqué, no solo el qué." },
+      "body": {
+        "en": "Armies call it commander's intent: say the goal and the reason, not just the orders.\nPlans break when reality changes. If people know the why, they adapt without you.\nIf they only know the what, they freeze.",
+        "es": "Los ejércitos lo llaman la intención del mando: di el objetivo y la razón, no solo las órdenes.\nLos planes se rompen cuando cambia la realidad. Si la gente sabe el porqué, se adapta sin ti.\nSi solo sabe el qué, se bloquea."
+      },
+      "action": { "en": "Add the reason to the next instruction you give.", "es": "Añade la razón a la próxima instrucción que des." },
+      "by": "US Army doctrine"
+    },
+    {
+      "id": "leadership-012",
+      "tags": ["ownership", "accountability", "responsibility"],
+      "hook": { "en": "There are no bad teams, only bad leaders.", "es": "No hay equipos malos, solo líderes malos." },
+      "body": {
+        "en": "Jocko Willink and Leif Babin, ex-Navy SEALs, call it extreme ownership.\nIf the team failed, ask what you didn't explain, train or check.\nIt's not about blame. It's about the one thing you can always fix: yourself.",
+        "es": "Jocko Willink y Leif Babin, exmiembros de los Navy SEAL, lo llaman responsabilidad extrema.\nSi el equipo falló, pregúntate qué no explicaste, entrenaste o comprobaste.\nNo va de culpas. Va de lo único que siempre puedes arreglar: a ti mismo."
+      },
+      "action": { "en": "Think of a recent team mistake. Name your part in it.", "es": "Piensa en un error reciente del equipo. Ponle nombre a tu parte." },
+      "by": "Willink & Babin, Extreme Ownership"
+    },
+    {
+      "id": "leadership-013",
+      "tags": ["feedback", "respect", "recognition"],
+      "hook": { "en": "Praise in public. Correct in private.", "es": "Elogia en público. Corrige en privado." },
+      "body": {
+        "en": "Public praise multiplies: the person feels seen and everyone learns the standard.\nPublic correction backfires: the person defends their pride instead of listening.\nSame words, different room, opposite result.",
+        "es": "El elogio en público se multiplica: la persona se siente vista y todos aprenden el estándar.\nLa corrección en público sale mal: la persona defiende su orgullo en vez de escuchar.\nMismas palabras, otro sitio, resultado opuesto."
+      },
+      "action": { "en": "Need to correct someone today? Take them aside first.", "es": "¿Tienes que corregir a alguien hoy? Llévalo aparte primero." }
+    },
+    {
+      "id": "leadership-014",
+      "tags": ["promotion", "friendship", "new-leader"],
+      "hook": { "en": "Promoted above your friends? Say it out loud.", "es": "¿Te han ascendido por encima de tus amigos? Dilo en voz alta." },
+      "body": {
+        "en": "Pretending nothing changed is the classic new-boss mistake.\nTalk to each person one to one: \"Our relationship matters to me. My role has changed, and sometimes I'll have to make calls you won't like.\"\nNaming it early prevents months of awkwardness.",
+        "es": "Fingir que nada ha cambiado es el error clásico del jefe nuevo.\nHabla con cada persona a solas: «Nuestra relación me importa. Mi papel ha cambiado y a veces tendré que tomar decisiones que no te gusten».\nNombrarlo pronto evita meses de incomodidad."
+      },
+      "action": { "en": "Write the sentence you'd say to your closest colleague when you step up.", "es": "Escribe la frase que le dirías a tu compañero más cercano cuando asciendas." }
+    },
+    {
+      "id": "leadership-015",
+      "tags": ["planning", "risk", "decisions"],
+      "hook": { "en": "Imagine it already failed. Now ask why.", "es": "Imagina que ya ha fallado. Ahora pregunta por qué." },
+      "body": {
+        "en": "Gary Klein's pre-mortem: before a big event, the team imagines it went badly and lists the reasons.\nResearch on \"prospective hindsight\" found it boosts people's ability to spot reasons for an outcome by about 30%.\nIt makes it safe to voice doubts.",
+        "es": "El pre-mortem de Gary Klein: antes de un gran evento, el equipo imagina que salió mal y enumera las razones.\nLa investigación sobre la «retrospectiva anticipada» vio que aumenta un 30 % la capacidad de detectar causas.\nY hace seguro expresar dudas."
+      },
+      "action": { "en": "Before your next big day, ask the team: \"It went wrong — what happened?\"", "es": "Antes de tu próximo gran día, pregunta al equipo: «Salió mal, ¿qué pasó?»" },
+      "by": "Gary Klein, HBR 2007; Mitchell, Russo & Pennington, 1989"
+    },
+    {
+      "id": "leadership-016",
+      "tags": ["learning", "debrief", "teams"],
+      "hook": { "en": "Four questions after every big day.", "es": "Cuatro preguntas después de cada gran día." },
+      "body": {
+        "en": "The US Army's after-action review:\nWhat was supposed to happen? What actually happened? Why was it different? What will we do next time?\nNo blame, five minutes, and the team gets better every week.",
+        "es": "La revisión posterior a la acción del ejército de EE. UU.:\n¿Qué tenía que pasar? ¿Qué pasó en realidad? ¿Por qué fue distinto? ¿Qué haremos la próxima vez?\nSin culpas, cinco minutos, y el equipo mejora cada semana."
+      },
+      "action": { "en": "Run a five-minute after-action review after your next busy shift.", "es": "Haz una revisión de cinco minutos después de tu próximo turno fuerte." },
+      "by": "US Army, After Action Review"
+    },
+    {
+      "id": "leadership-017",
+      "tags": ["expectations", "motivation", "growth"],
+      "hook": { "en": "People tend to rise — or sink — to what you expect.", "es": "La gente tiende a subir, o bajar, a lo que esperas de ella." },
+      "body": {
+        "en": "In Israeli army training, instructors were told some trainees had high potential — picked at random. Those trainees performed better.\nThe instructors' belief changed how they taught.\nIt's called the Pygmalion effect. The size varies, but the direction is real.",
+        "es": "En un entrenamiento del ejército israelí, se dijo a los instructores que ciertos reclutas tenían mucho potencial; estaban elegidos al azar. Esos reclutas rindieron más.\nLa creencia de los instructores cambiaba cómo enseñaban.\nSe llama efecto Pigmalión. Su tamaño varía, pero la dirección es real."
+      },
+      "action": { "en": "Tell one person on your team what you believe they can become.", "es": "Dile a alguien de tu equipo en qué crees que puede convertirse." },
+      "by": "Eden & Shani, 1982; Rosenthal & Jacobson, 1968"
+    },
+    {
+      "id": "leadership-018",
+      "tags": ["motivation", "progress", "recognition"],
+      "hook": { "en": "The best motivator isn't money. It's progress.", "es": "El mejor motivador no es el dinero. Es el progreso." },
+      "body": {
+        "en": "Teresa Amabile analysed about 12,000 daily diary entries from professionals.\nTheir best days were the ones when they made progress on meaningful work — even small.\nA leader's real job: remove obstacles and make progress visible.",
+        "es": "Teresa Amabile analizó unas 12.000 entradas de diario de profesionales.\nSus mejores días eran aquellos en los que avanzaban en un trabajo con sentido, aunque fuera poco.\nEl trabajo real de un líder: quitar obstáculos y hacer visible el progreso."
+      },
+      "action": { "en": "At the end of today, tell your team one thing that moved forward.", "es": "Al final de hoy, cuéntale a tu equipo algo que haya avanzado." },
+      "by": "Teresa Amabile & Steven Kramer, The Progress Principle"
+    },
+    {
+      "id": "leadership-019",
+      "tags": ["leadership-style", "coaching", "delegation"],
+      "hook": { "en": "Don't lead everyone the same way.", "es": "No lideres a todos igual." },
+      "body": {
+        "en": "Hersey and Blanchard's situational leadership: match your style to the person.\nNew and unsure? Tell and show. Learning? Coach. Skilled but hesitant? Support. Skilled and confident? Delegate.\nThe same style that helps one person smothers another.",
+        "es": "El liderazgo situacional de Hersey y Blanchard: adapta tu estilo a la persona.\n¿Nuevo e inseguro? Explica y enseña. ¿Aprendiendo? Haz de coach. ¿Capaz pero dudoso? Apoya. ¿Capaz y seguro? Delega.\nEl mismo estilo que ayuda a uno ahoga a otro."
+      },
+      "action": { "en": "Pick one teammate. Which of the four do they need from you right now?", "es": "Elige a un compañero. ¿Cuál de los cuatro necesita de ti ahora mismo?" },
+      "by": "Paul Hersey & Ken Blanchard"
+    },
+    {
+      "id": "leadership-020",
+      "tags": ["role-model", "culture", "behaviour"],
+      "hook": { "en": "Your team does what you do, not what you say.", "es": "Tu equipo hace lo que haces, no lo que dices." },
+      "body": {
+        "en": "Albert Bandura's experiments showed that people learn behaviour mostly by watching others — especially those with status.\nArrive late, and punctuality becomes optional.\nLeading by example isn't a nice extra. It's the main channel.",
+        "es": "Los experimentos de Albert Bandura mostraron que aprendemos los comportamientos sobre todo observando a otros, especialmente a quienes tienen estatus.\nLlega tarde y la puntualidad pasa a ser opcional.\nDar ejemplo no es un extra. Es el canal principal."
+      },
+      "action": { "en": "Pick one behaviour you want from your team. Do it visibly today.", "es": "Elige un comportamiento que quieras en tu equipo. Hazlo hoy a la vista de todos." },
+      "by": "Albert Bandura, social learning theory"
+    },
+    {
+      "id": "leadership-021",
+      "tags": ["humility", "credit", "accountability"],
+      "hook": { "en": "The window and the mirror.", "es": "La ventana y el espejo." },
+      "body": {
+        "en": "Jim Collins found the best leaders look out the window to give credit when things go well.\nWhen things go badly, they look in the mirror.\nWeak leaders do the opposite.",
+        "es": "Jim Collins vio que los mejores líderes miran por la ventana para repartir el mérito cuando las cosas van bien.\nCuando van mal, se miran al espejo.\nLos líderes flojos hacen lo contrario."
+      },
+      "action": { "en": "Today, say \"we\" for a win and \"I\" for a miss.", "es": "Hoy, di «nosotros» para un acierto y «yo» para un fallo." },
+      "by": "Jim Collins, Good to Great"
+    },
+    {
+      "id": "leadership-022",
+      "tags": ["fairness", "decisions", "trust"],
+      "hook": { "en": "People accept bad news if the process was fair.", "es": "La gente acepta malas noticias si el proceso fue justo." },
+      "body": {
+        "en": "Kim and Mauborgne's \"fair process\": involve people, explain the decision, and make expectations clear.\nPeople care about how a decision was made almost as much as the outcome.\nA fair \"no\" builds more trust than an unfair \"yes\".",
+        "es": "El «proceso justo» de Kim y Mauborgne: implica a la gente, explica la decisión y deja claras las expectativas.\nA la gente le importa cómo se tomó una decisión casi tanto como el resultado.\nUn «no» justo genera más confianza que un «sí» injusto."
+      },
+      "action": { "en": "Next unpopular decision: ask for input first, then explain your reasoning.", "es": "Próxima decisión impopular: pide opinión antes y luego explica tu razonamiento." },
+      "by": "W. Chan Kim & Renée Mauborgne, HBR 1997"
+    },
+    {
+      "id": "leadership-023",
+      "tags": ["engagement", "one-on-ones", "management"],
+      "hook": { "en": "Your team's engagement is mostly you.", "es": "La implicación de tu equipo depende sobre todo de ti." },
+      "body": {
+        "en": "Gallup found managers account for at least 70% of the difference in engagement between teams.\nNot the company, not the pay — the direct boss.\nThe cheapest tool: regular, short one-to-one conversations.",
+        "es": "Gallup vio que el jefe directo explica al menos el 70 % de la diferencia de implicación entre equipos.\nNo la empresa, no el sueldo: el jefe directo.\nLa herramienta más barata: conversaciones a solas, breves y regulares."
+      },
+      "action": { "en": "Have a ten-minute one-to-one with one team member this week.", "es": "Ten esta semana una charla a solas de diez minutos con alguien de tu equipo." },
+      "by": "Gallup, State of the American Manager, 2015"
+    },
+    {
+      "id": "leadership-024",
+      "tags": ["feedback", "humility", "trust"],
+      "hook": { "en": "Ask for criticism before you give it.", "es": "Pide críticas antes de darlas." },
+      "body": {
+        "en": "Kim Scott's advice: start by asking your team, \"What could I do or stop doing that would make it easier to work with me?\"\nThen stay quiet and count to six.\nOnce they see you take it well, your feedback lands better too.",
+        "es": "El consejo de Kim Scott: empieza preguntando a tu equipo «¿Qué podría hacer o dejar de hacer para que sea más fácil trabajar conmigo?».\nLuego cállate y cuenta hasta seis.\nCuando vean que lo encajas bien, tu feedback también llegará mejor."
+      },
+      "action": { "en": "Ask one person that exact question this week.", "es": "Hazle esa misma pregunta a una persona esta semana." },
+      "by": "Kim Scott, Radical Candor"
+    },
+    {
+      "id": "leadership-025",
+      "tags": ["retention", "management", "relationships"],
+      "hook": { "en": "People don't leave jobs. They leave bosses.", "es": "La gente no deja trabajos. Deja jefes." },
+      "body": {
+        "en": "In Gallup's research, about half of employees had left a job at some point to get away from their manager.\nThe pay can be right and the place beautiful.\nIf the boss makes them feel small, they go.",
+        "es": "En la investigación de Gallup, cerca de la mitad de los empleados había dejado alguna vez un trabajo para huir de su jefe.\nEl sueldo puede ser bueno y el sitio precioso.\nSi el jefe les hace sentir pequeños, se van."
+      },
+      "action": { "en": "Ask yourself: would I want to work for me? Fix one thing.", "es": "Pregúntate: ¿querría trabajar para mí? Arregla una cosa." },
+      "by": "Gallup, State of the American Manager, 2015"
+    },
+    {
+      "id": "leadership-026",
+      "tags": ["trust", "management", "mindset"],
+      "hook": { "en": "Treat people as lazy and they'll prove you right.", "es": "Trata a la gente como vaga y te darán la razón." },
+      "body": {
+        "en": "Douglas McGregor described two kinds of managers.\nTheory X: people avoid work, so control them. Theory Y: people want to do good work, so give them responsibility.\nEach belief creates the behaviour it expects.",
+        "es": "Douglas McGregor describió dos tipos de jefes.\nTeoría X: la gente evita trabajar, así que contrólala. Teoría Y: la gente quiere hacer un buen trabajo, así que dale responsabilidad.\nCada creencia crea el comportamiento que espera."
+      },
+      "action": { "en": "Give one person a responsibility you'd normally keep for yourself.", "es": "Dale a alguien una responsabilidad que normalmente te guardarías." },
+      "by": "Douglas McGregor, The Human Side of Enterprise, 1960"
+    },
+    {
+      "id": "leadership-027",
+      "tags": ["servant-leadership", "service", "teams"],
+      "hook": { "en": "The leader serves first.", "es": "El líder sirve primero." },
+      "body": {
+        "en": "Robert Greenleaf coined servant leadership in 1970.\nThe test: do the people you lead grow — healthier, wiser, more capable?\nYour job isn't to be served by the team. It's to make them better.",
+        "es": "Robert Greenleaf acuñó el liderazgo de servicio en 1970.\nLa prueba: ¿las personas que lideras crecen, están mejor, son más sabias, más capaces?\nTu trabajo no es que el equipo te sirva. Es hacerlos mejores."
+      },
+      "action": { "en": "Ask one teammate: \"What's one thing I can do to make your shift easier?\"", "es": "Pregúntale a un compañero: «¿Qué puedo hacer para que tu turno sea más fácil?»" },
+      "by": "Robert K. Greenleaf, The Servant as Leader"
+    },
+    {
+      "id": "leadership-028",
+      "tags": ["pressure", "calm", "execution"],
+      "hook": { "en": "Slow is smooth. Smooth is fast.", "es": "Lento es suave. Suave es rápido." },
+      "body": {
+        "en": "A military saying for high-pressure moments.\nRushing creates mistakes, and mistakes cost far more time than calm, steady movement.\nThe team copies your speed — so set the pace you want.",
+        "es": "Un dicho militar para los momentos de máxima presión.\nLas prisas generan errores, y los errores cuestan mucho más tiempo que moverse con calma y constancia.\nEl equipo copia tu velocidad, así que marca el ritmo que quieres."
+      },
+      "action": { "en": "At the peak of your next rush, slow your own movements slightly.", "es": "En el peor momento de tu próximo pico de trabajo, ralentiza un poco tus propios movimientos." }
+    },
+    {
+      "id": "leadership-029",
+      "tags": ["communication", "pressure", "instructions"],
+      "hook": { "en": "Under pressure, give one instruction, not five.", "es": "Bajo presión, da una instrucción, no cinco." },
+      "body": {
+        "en": "Working memory holds only about four chunks at once — and stress shrinks it further.\nFive instructions in a rush means three get lost.\nOne clear task, one person, one name.",
+        "es": "La memoria de trabajo solo retiene unos cuatro elementos a la vez, y el estrés la reduce aún más.\nCinco instrucciones con prisas significa que se pierden tres.\nUna tarea clara, una persona, un nombre."
+      },
+      "action": { "en": "During your next busy moment, give instructions one at a time, by name.", "es": "En tu próximo momento de estrés, da las instrucciones de una en una y por nombre." },
+      "by": "Nelson Cowan, 2001"
+    },
+    {
+      "id": "leadership-030",
+      "tags": ["purpose", "gratitude", "clarity"],
+      "hook": { "en": "A leader's first job: define reality. The last: say thank you.", "es": "El primer trabajo de un líder: definir la realidad. El último: dar las gracias." },
+      "body": {
+        "en": "Max De Pree, CEO of Herman Miller, summed up leadership in that line.\nFirst, tell the truth about where you stand.\nAt the end, recognise the people who got you there.",
+        "es": "Max De Pree, CEO de Herman Miller, resumió el liderazgo en esa frase.\nPrimero, di la verdad sobre dónde estáis.\nAl final, reconoce a las personas que os llevaron hasta allí."
+      },
+      "action": { "en": "End today by thanking one person for something specific.", "es": "Termina hoy dando las gracias a alguien por algo concreto." },
+      "by": "Max De Pree, Leadership Is an Art"
+    }
+  ]
+}
