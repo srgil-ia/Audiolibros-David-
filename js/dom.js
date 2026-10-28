@@ -11,7 +11,10 @@ export function h(tag, props = {}, ...children) {
     } else if (key === 'class') {
       el.className += ' ' + value;
     } else if (key === 'style' && typeof value === 'object') {
-      Object.assign(el.style, value);
+      // setProperty also handles CSS variables like --deck.
+      for (const [prop, v] of Object.entries(value)) {
+        el.style.setProperty(prop.startsWith('--') ? prop : prop.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`), v);
+      }
     } else if (key === 'html') {
       el.innerHTML = value;
     } else if (key === 'dataset') {

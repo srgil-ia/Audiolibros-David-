@@ -1,14 +1,7 @@
 // What the voice says for each card. Shared by the app (subtitles, phone
-// voice fallback) and tools/narration.mjs (to generate the audio files).
+// voice) and tools/narration.mjs (to generate audio files, if ever needed).
+// Keep in sync with the char offsets in views/card.js: parts joined by one space.
 
 export function narrationText(card) {
-  if (card.de) return `${card.de.text} … ${card.de.text}`;
-  const text = `${card.title.en}. ${card.idea.en} In the room: ${card.example.en}`;
-  return text
-    .replace(/ \([A-Z]\)/g, '') // drop SBI-style "(S)" markers
-    .replace(/ → /g, ' becomes ');
-}
-
-export function narrationLang(card) {
-  return card.de ? 'de-DE' : 'en-GB';
+  return [card.hook.en, card.body.en, card.action.en].join(' ');
 }

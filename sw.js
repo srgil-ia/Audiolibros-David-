@@ -5,7 +5,7 @@
 // Narration MP3s (audio/*.mp3) are not precached: each one is cached the
 // first time it plays, so the app stays light.
 
-const VERSION = 'mise-v3';
+const VERSION = 'mise-v4';
 
 const PRECACHE = [
   './',
@@ -34,10 +34,9 @@ const PRECACHE = [
   'js/views/saved.js',
   'content/index.json',
   'audio/index.json',
-  'content/team.json',
-  'content/wine.json',
-  'content/german.json',
-  'content/english.json',
+  'content/mindset.json',
+  'content/psychology.json',
+  'content/leadership.json',
   'icons/apple-touch-icon.png',
   'icons/icon-192.png',
   'icons/icon-512.png',

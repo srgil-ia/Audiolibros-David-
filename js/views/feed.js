@@ -158,7 +158,6 @@ function renderCard(card, st) {
       save();
     },
     onTranslate: () => signal(card, 'translate'),
-    onSpeak: () => player.replay(),
   });
   return view;
 }

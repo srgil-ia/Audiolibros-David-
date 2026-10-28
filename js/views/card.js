@@ -1,19 +1,18 @@
 // One full-screen card in the feed: content + TikTok-style action rail.
+// Reel layout: a big hook, a short "why" and one thing to try.
 
 import { h } from '../dom.js';
 import { icons } from '../icons.js';
 import { t, pick, lang, otherLang } from '../i18n.js';
 import { library } from '../content.js';
 
-// Renders the card. `handlers` = { onLike, onSave, onAgain, onTranslate, onSpeak }
+// Renders the card. `handlers` = { onLike, onSave, onAgain, onTranslate }
 // Returns { el, setLiked(b), setSaved(b), fit(), setProgress(f) }
 // — call fit() once the card is in the page; setProgress(0..1 | null) drives
 // the read-along subtitles while the narration plays.
 export function renderCard(card, cardSt, handlers) {
   const deck = library.decks.get(card.deck) || {};
   let shown = lang();
-  let revealed = false; // German translation revealed
-  let quizStep = 0; // 0 closed, 1 question, 2 answer
   let words = []; // read-along: [{ el, at }] with `at` = char offset in the narration
   let chars = 0;
   let lastWord = -1;
@@ -26,9 +25,8 @@ export function renderCard(card, cardSt, handlers) {
   const saveBtn = railButton(icons.bookmark, t('feed.save'), handlers.onSave, 'save');
   const langBtn = railButton(icons.translate, '', () => toggleLang(), 'lang');
   const againBtn = railButton(icons.again, t('feed.again'), handlers.onAgain, 'again');
-  const speakBtn = card.de ? railButton(icons.speaker, t('feed.listen'), handlers.onSpeak, 'speak') : null;
 
-  const rail = h('div.rail', {}, likeBtn, saveBtn, langBtn, againBtn, speakBtn);
+  const rail = h('div.rail', {}, likeBtn, saveBtn, langBtn, againBtn);
 
   const bar = h('span');
   const el = h(
@@ -46,13 +44,21 @@ export function renderCard(card, cardSt, handlers) {
     lastWord = -1;
     deckLabel.lastChild.textContent = pick(deck.title, shown);
     langBtn.querySelector('.rail-label').textContent = otherLang(shown).toUpperCase();
-    body.replaceChildren(...(card.de ? phraseContent() : ideaContent()).filter(Boolean));
+    const en = shown === 'en'; // only the English text is narrated
+    // Char offsets follow narrationText(): hook, body and action joined by spaces.
+    const hook = h('h2.card-hook', {}, spoken(pick(card.hook, shown), en));
+    chars += 1;
+    const text = h('p.card-text', {}, spoken(pick(card.body, shown), en));
+    chars += 1;
+    const action = h('div.card-action', {},
+      h('span.label', {}, t('feed.try')),
+      h('p', {}, spoken(pick(card.action, shown), en)));
+    body.replaceChildren(hook, text, action, card.by ? h('p.card-by', {}, `— ${card.by}`) : '');
     fit();
     setProgress(progress);
   }
 
   // Splits narrated text into word spans for the read-along highlight.
-  // Only the English text (and the German phrase) is narrated.
   function spoken(text, narrated) {
     if (!narrated) return text;
     return text.split(/(\s+)/).map((part) => {
@@ -71,8 +77,7 @@ export function renderCard(card, cardSt, handlers) {
     progress = f;
     el.classList.toggle('playing', f != null);
     bar.style.width = `${(f || 0) * 100}%`;
-    // The German phrase is said twice: highlight it twice.
-    const pos = (card.de ? (f * 2) % 1 : f) * chars;
+    const pos = f * chars;
     let idx = -1;
     if (f != null) while (idx + 1 < words.length && words[idx + 1].at <= pos) idx++;
     if (idx === lastWord) return;
@@ -94,60 +99,6 @@ export function renderCard(card, cardSt, handlers) {
     }
   }
 
-  function ideaContent() {
-    const en = shown === 'en';
-    const title = h('h2.card-title', {}, spoken(pick(card.title, shown), en));
-    chars += 2; // ". "
-    const idea = h('p.card-idea', {}, spoken(pick(card.idea, shown), en));
-    chars += ' In the room: '.length;
-    return [
-      title,
-      idea,
-      h('div.card-example', {},
-        h('span.label', {}, t('feed.example')),
-        h('p', {}, spoken(pick(card.example, shown), en)),
-      ),
-      quizBlock(),
-    ];
-  }
-
-  function phraseContent() {
-    const tr = revealed
-      ? h('div.card-translation', {},
-          h('p', {}, h('b', {}, 'EN '), card.translation.en),
-          h('p', {}, h('b', {}, 'ES '), card.translation.es))
-      : h('div.card-translation.hint', {}, t('feed.tapTranslate'));
-    return [
-      h('div.card-situation', {}, pick(card.title, shown)),
-      h('p.card-phrase', { lang: 'de' }, spoken(card.de.text, true)),
-      h('p.card-pron', {}, h('span.label', {}, t('feed.pron')), ' ', card.de.pron),
-      tr,
-      card.idea && h('div.card-example', {},
-        h('span.label', {}, t('feed.note')),
-        h('p', {}, pick(card.idea, shown))),
-      card.example && h('div.card-example', {},
-        h('span.label', {}, t('feed.example')),
-        h('p', {}, pick(card.example, shown))),
-      quizBlock(),
-    ];
-  }
-
-  // Collapsed by default to keep the card short: tap to see the question,
-  // tap again to see the answer.
-  function quizBlock() {
-    if (!card.quiz) return null;
-    if (quizStep === 0) {
-      return h('button.quiz-toggle', { onclick: (e) => { e.stopPropagation(); quizStep = 1; draw(); } },
-        '❓ ', t('feed.quiz'));
-    }
-    return h('div.card-quiz', {},
-      h('span.label', {}, t('feed.quiz')),
-      h('p.quiz-q', {}, pick(card.quiz.q, shown)),
-      quizStep === 2
-        ? h('p.quiz-a', {}, pick(card.quiz.a, shown))
-        : h('button.quiz-btn', { onclick: (e) => { e.stopPropagation(); quizStep = 2; draw(); } }, t('feed.showAnswer')));
-  }
-
   // Shrink the text a step or two when the card doesn't fit the screen.
   function fit() {
     el.classList.remove('dense', 'denser');
@@ -161,8 +112,7 @@ export function renderCard(card, cardSt, handlers) {
   }
 
   function toggleLang() {
-    if (card.de && !revealed) revealed = true;
-    else shown = otherLang(shown);
+    shown = otherLang(shown);
     draw();
     handlers.onTranslate?.();
   }

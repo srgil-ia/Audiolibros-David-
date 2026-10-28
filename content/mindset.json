@@ -1,0 +1,337 @@
+{
+  "id": "mindset",
+  "title": { "en": "Mindset", "es": "Mentalidad" },
+  "emoji": "🧠",
+  "color": "#e07a3f",
+  "cards": [
+    {
+      "id": "mindset-001",
+      "tags": ["stress", "control", "stoicism"],
+      "hook": { "en": "Stress doesn't come from hard work.", "es": "El estrés no viene del trabajo duro." },
+      "body": {
+        "en": "It comes from the things you could act on, but don't.\nThe unanswered message, the hard conversation you keep postponing.\nEpictetus split life in two: what's up to you, and what isn't. Worry lives in the gap.",
+        "es": "Viene de lo que podrías resolver y no resuelves.\nEl mensaje sin contestar, la conversación difícil que sigues aplazando.\nEpicteto dividía la vida en dos: lo que depende de ti y lo que no. La preocupación vive en el hueco."
+      },
+      "action": { "en": "Pick one thing you've been avoiding that is up to you. Do the first step today.", "es": "Elige algo que llevas evitando y que depende de ti. Da el primer paso hoy." },
+      "by": "Epictetus, Enchiridion 1"
+    },
+    {
+      "id": "mindset-002",
+      "tags": ["anxiety", "stoicism", "worry"],
+      "hook": { "en": "Most of what you fear never happens.", "es": "Casi nada de lo que temes llega a pasar." },
+      "body": {
+        "en": "\"We suffer more often in imagination than in reality,\" wrote Seneca.\nYour brain rehearses disasters to keep you safe, but it can't tell rehearsal from reality.\nSo you pay for the problem several times, and often it never arrives.",
+        "es": "«Sufrimos más a menudo en la imaginación que en la realidad», escribió Séneca.\nTu cerebro ensaya desastres para protegerte, pero no distingue el ensayo de la realidad.\nAsí que pagas el problema varias veces, y muchas veces ni siquiera llega."
+      },
+      "action": { "en": "Next time you worry, ask: \"Is this happening now, or only in my head?\"", "es": "La próxima vez que te preocupes, pregúntate: «¿Esto está pasando ahora o solo en mi cabeza?»" },
+      "by": "Seneca, Letters to Lucilius 13"
+    },
+    {
+      "id": "mindset-003",
+      "tags": ["obstacles", "stoicism", "resilience"],
+      "hook": { "en": "The obstacle is the way.", "es": "El obstáculo es el camino." },
+      "body": {
+        "en": "Marcus Aurelius: \"What stands in the way becomes the way.\"\nEvery problem is training for the exact skill you're missing.\nThe difficult colleague teaches patience. The chaotic night teaches calm.",
+        "es": "Marco Aurelio: «Lo que se interpone en el camino se convierte en el camino».\nCada problema es entrenamiento para justo la habilidad que te falta.\nEl compañero difícil te enseña paciencia. La noche caótica te enseña calma."
+      },
+      "action": { "en": "Name today's biggest annoyance. Ask: \"What is this training me for?\"", "es": "Ponle nombre a lo que más te ha molestado hoy. Pregúntate: «¿Para qué me está entrenando esto?»" },
+      "by": "Marcus Aurelius, Meditations 5.20"
+    },
+    {
+      "id": "mindset-004",
+      "tags": ["attitude", "meaning", "resilience"],
+      "hook": { "en": "They can take everything — except this.", "es": "Te lo pueden quitar todo, menos esto." },
+      "body": {
+        "en": "Viktor Frankl survived Auschwitz.\nHis conclusion: everything can be taken from a person but one thing — the freedom to choose your attitude in any situation.\nYou rarely choose what happens. You always choose your response.",
+        "es": "Viktor Frankl sobrevivió a Auschwitz.\nSu conclusión: a una persona se le puede quitar todo menos una cosa, la libertad de elegir su actitud ante cualquier situación.\nRara vez eliges lo que pasa. Siempre eliges cómo respondes."
+      },
+      "action": { "en": "When something goes wrong today, pause one breath and choose your reaction on purpose.", "es": "Cuando algo salga mal hoy, para una respiración y elige tu reacción a propósito." },
+      "by": "Viktor Frankl, Man's Search for Meaning"
+    },
+    {
+      "id": "mindset-005",
+      "tags": ["stress", "reframing", "performance"],
+      "hook": { "en": "Your racing heart is trying to help you.", "es": "Tu corazón acelerado intenta ayudarte." },
+      "body": {
+        "en": "Before a big moment, your body pumps blood and oxygen to get you ready.\nIn studies by Jamieson and Crum, people taught to see stress as fuel performed better and had healthier stress responses.\nSame body. Different story. Different result.",
+        "es": "Antes de un momento importante, tu cuerpo bombea sangre y oxígeno para prepararte.\nEn estudios de Jamieson y Crum, quienes aprendían a ver el estrés como combustible rendían mejor y tenían una respuesta al estrés más sana.\nMismo cuerpo. Otra historia. Otro resultado."
+      },
+      "action": { "en": "Before your next rush, say: \"This is my body getting ready.\"", "es": "Antes de tu próximo pico de trabajo, dite: «Es mi cuerpo preparándose»." },
+      "by": "Jamieson et al. 2012; Crum, Salovey & Achor 2013"
+    },
+    {
+      "id": "mindset-006",
+      "tags": ["anxiety", "reframing", "confidence"],
+      "hook": { "en": "Don't calm down. Get excited.", "es": "No te calmes. Emociónate." },
+      "body": {
+        "en": "Anxiety and excitement feel almost the same in the body.\nAlison Wood Brooks (Harvard) had people say \"I am excited\" before singing, speaking or a maths test. They did better than those told to stay calm.\nIt's easier to relabel the energy than to switch it off.",
+        "es": "La ansiedad y la emoción se sienten casi igual en el cuerpo.\nAlison Wood Brooks (Harvard) hizo que la gente dijera «estoy emocionado» antes de cantar, hablar en público o un examen de mates. Lo hicieron mejor que quienes intentaban calmarse.\nEs más fácil cambiarle el nombre a esa energía que apagarla."
+      },
+      "action": { "en": "Nervous before something? Say out loud: \"I'm excited.\"", "es": "¿Nervioso antes de algo? Di en voz alta: «Estoy emocionado»." },
+      "by": "Alison Wood Brooks, 2014"
+    },
+    {
+      "id": "mindset-007",
+      "tags": ["motivation", "action", "discipline"],
+      "hook": { "en": "Motivation comes after you start, not before.", "es": "La motivación llega después de empezar, no antes." },
+      "body": {
+        "en": "Waiting to \"feel like it\" is a trap.\nTherapists use behavioural activation for low mood: act first, and the feeling follows.\nAction creates motivation far more often than motivation creates action.",
+        "es": "Esperar a «tener ganas» es una trampa.\nLos terapeutas usan la activación conductual para el ánimo bajo: primero actúas y la emoción viene detrás.\nLa acción crea motivación mucho más a menudo que la motivación crea acción."
+      },
+      "action": { "en": "Do just five minutes of the task you're avoiding. You're allowed to stop after.", "es": "Haz solo cinco minutos de lo que estás evitando. Luego puedes parar." }
+    },
+    {
+      "id": "mindset-008",
+      "tags": ["productivity", "habits", "action"],
+      "hook": { "en": "If it takes two minutes, do it now.", "es": "Si tardas dos minutos, hazlo ya." },
+      "body": {
+        "en": "David Allen's two-minute rule.\nSmall tasks you postpone don't disappear — they stay open in your head and drain attention.\nClosing them immediately costs less than remembering them.",
+        "es": "La regla de los dos minutos de David Allen.\nLas tareas pequeñas que aplazas no desaparecen: se quedan abiertas en tu cabeza y te roban atención.\nCerrarlas al momento cuesta menos que acordarte de ellas."
+      },
+      "action": { "en": "Clear three two-minute tasks right now.", "es": "Cierra ahora mismo tres tareas de dos minutos." },
+      "by": "David Allen, Getting Things Done"
+    },
+    {
+      "id": "mindset-009",
+      "tags": ["habits", "patience", "science"],
+      "hook": { "en": "A habit doesn't take 21 days.", "es": "Un hábito no se forma en 21 días." },
+      "body": {
+        "en": "In a UCL study, it typically took about 66 days for a habit to become automatic — anywhere from 18 to 254.\nIf it still feels hard after three weeks, you're not failing.\nYou're just in the middle.",
+        "es": "En un estudio del University College London, un hábito tardaba normalmente unos 66 días en volverse automático, entre 18 y 254.\nSi a las tres semanas aún cuesta, no estás fallando.\nSimplemente vas por la mitad."
+      },
+      "action": { "en": "Pick one habit and commit to 66 days, not 21.", "es": "Elige un hábito y comprométete a 66 días, no a 21." },
+      "by": "Phillippa Lally et al., 2010"
+    },
+    {
+      "id": "mindset-010",
+      "tags": ["habits", "consistency", "self-compassion"],
+      "hook": { "en": "Missing once is an accident. Twice is a new habit.", "es": "Fallar una vez es un accidente. Dos, un hábito nuevo." },
+      "body": {
+        "en": "In habit research, missing a single day barely affected long-term progress.\nWhat kills habits is the all-or-nothing story: \"I broke the streak, so why bother?\"\nPerfection isn't the goal. Getting back on is.",
+        "es": "En la investigación sobre hábitos, saltarse un solo día apenas afectaba al progreso a largo plazo.\nLo que mata los hábitos es el «todo o nada»: «He roto la racha, ¿para qué seguir?».\nEl objetivo no es la perfección. Es volver a subirse."
+      },
+      "action": { "en": "Missed something this week? Do it today, even a tiny version.", "es": "¿Te saltaste algo esta semana? Hazlo hoy, aunque sea en versión mini." },
+      "by": "James Clear, Atomic Habits; Lally et al. 2010"
+    },
+    {
+      "id": "mindset-011",
+      "tags": ["identity", "habits", "discipline"],
+      "hook": { "en": "Don't try to read a book. Become a reader.", "es": "No intentes leer un libro. Conviértete en lector." },
+      "body": {
+        "en": "Goals are about what you want to get. Identity is about who you are.\n\"I'm trying to quit\" keeps the door open. \"I don't smoke\" closes it.\nEvery small action is a vote for the person you're becoming.",
+        "es": "Los objetivos van de lo que quieres conseguir. La identidad, de quién eres.\n«Estoy intentando dejarlo» deja la puerta abierta. «No fumo» la cierra.\nCada pequeña acción es un voto por la persona en la que te estás convirtiendo."
+      },
+      "action": { "en": "Finish this sentence and act on it once today: \"I'm the kind of person who…\"", "es": "Completa esta frase y actúa según ella una vez hoy: «Soy el tipo de persona que…»" },
+      "by": "James Clear, Atomic Habits"
+    },
+    {
+      "id": "mindset-012",
+      "tags": ["willpower", "environment", "habits"],
+      "hook": { "en": "Disciplined people don't resist more. They're tempted less.", "es": "La gente disciplinada no resiste más. Se tienta menos." },
+      "body": {
+        "en": "Hofmann tracked people's temptations through the day.\nThose with high self-control didn't fight harder — they set up their lives to face fewer temptations.\nDesign beats willpower.",
+        "es": "Hofmann registró las tentaciones de la gente a lo largo del día.\nQuienes tenían más autocontrol no luchaban más: organizaban su vida para enfrentarse a menos tentaciones.\nEl diseño gana a la fuerza de voluntad."
+      },
+      "action": { "en": "Make one bad habit harder: move the phone, hide the snacks, log out of the app.", "es": "Pon difícil un mal hábito: aleja el móvil, esconde el picoteo, cierra sesión en la app." },
+      "by": "Wilhelm Hofmann et al., 2012"
+    },
+    {
+      "id": "mindset-013",
+      "tags": ["goals", "planning", "habits"],
+      "hook": { "en": "\"I'll try\" fails. \"If X, then I'll Y\" works.", "es": "«Lo intentaré» falla. «Si pasa X, haré Y» funciona." },
+      "body": {
+        "en": "Peter Gollwitzer calls them implementation intentions.\nAcross 94 studies, deciding when and where you'll act made people far more likely to follow through.\nYou stop relying on remembering — the situation triggers the action.",
+        "es": "Peter Gollwitzer las llama intenciones de implementación.\nEn 94 estudios, decidir cuándo y dónde vas a actuar hacía mucho más probable cumplirlo.\nDejas de depender de acordarte: la situación dispara la acción."
+      },
+      "action": { "en": "Write one plan: \"After I [daily event], I will [new habit].\"", "es": "Escribe un plan: «Después de [algo diario], haré [hábito nuevo]»." },
+      "by": "Gollwitzer & Sheeran, 2006"
+    },
+    {
+      "id": "mindset-014",
+      "tags": ["self-compassion", "failure", "growth"],
+      "hook": { "en": "Being hard on yourself doesn't make you better.", "es": "Ser duro contigo no te hace mejor." },
+      "body": {
+        "en": "In Berkeley studies, people who treated a mistake with self-compassion studied longer afterwards and were more motivated to improve.\nHarsh self-talk makes you defensive. Kindness makes it safe to look at what went wrong.",
+        "es": "En estudios de Berkeley, quienes trataban un error con autocompasión estudiaban más tiempo después y estaban más motivados para mejorar.\nHablarte con dureza te pone a la defensiva. La amabilidad hace seguro mirar qué salió mal."
+      },
+      "action": { "en": "After your next mistake, talk to yourself like you'd talk to a good friend.", "es": "Tras tu próximo error, háblate como le hablarías a un buen amigo." },
+      "by": "Breines & Chen, 2012"
+    },
+    {
+      "id": "mindset-015",
+      "tags": ["comparison", "growth", "confidence"],
+      "hook": { "en": "Compare yourself to who you were yesterday.", "es": "Compárate con quien eras ayer." },
+      "body": {
+        "en": "Someone will always be better, richer, further ahead.\nThat game has no finish line.\nThe only comparison that's fair — and that you can win — is with your past self.",
+        "es": "Siempre habrá alguien mejor, más rico, más adelantado.\nEse juego no tiene meta.\nLa única comparación justa, y que puedes ganar, es con tu yo de antes."
+      },
+      "action": { "en": "Write down one thing you do better than a year ago.", "es": "Apunta una cosa que haces mejor que hace un año." },
+      "by": "Jordan Peterson, 12 Rules for Life (rule 4)"
+    },
+    {
+      "id": "mindset-016",
+      "tags": ["confidence", "self-efficacy", "practice"],
+      "hook": { "en": "Confidence is the result, not the requirement.", "es": "La confianza es el resultado, no el requisito." },
+      "body": {
+        "en": "Albert Bandura found the strongest source of self-belief is mastery: doing the thing and seeing it work.\nNot pep talks. Not waiting until you feel ready.\nReps first. Confidence follows.",
+        "es": "Albert Bandura descubrió que la fuente más fuerte de confianza en uno mismo es el dominio: hacer la cosa y ver que funciona.\nNo los discursos motivadores. No esperar a sentirte preparado.\nPrimero repeticiones. La confianza viene después."
+      },
+      "action": { "en": "Do one small, scary thing today. Count it as a rep.", "es": "Haz hoy una cosa pequeña que te dé miedo. Cuéntala como una repetición." },
+      "by": "Albert Bandura, self-efficacy theory"
+    },
+    {
+      "id": "mindset-017",
+      "tags": ["goals", "motivation", "timing"],
+      "hook": { "en": "Use fresh starts on purpose.", "es": "Usa los nuevos comienzos a propósito." },
+      "body": {
+        "en": "People go to the gym more after a Monday, a new month, a birthday.\nWharton researchers call it the fresh start effect: new dates make the old you feel like someone else.\nYou can create those moments yourself.",
+        "es": "La gente va más al gimnasio después de un lunes, un mes nuevo o un cumpleaños.\nInvestigadores de Wharton lo llaman el efecto del nuevo comienzo: las fechas nuevas hacen que tu yo de antes parezca otra persona.\nPuedes crear esos momentos tú mismo."
+      },
+      "action": { "en": "Pick a date this week to restart one goal. Put it in your calendar.", "es": "Elige una fecha esta semana para reiniciar un objetivo. Ponla en el calendario." },
+      "by": "Dai, Milkman & Riis, 2014"
+    },
+    {
+      "id": "mindset-018",
+      "tags": ["emotions", "anger", "self-awareness"],
+      "hook": { "en": "Name it to tame it.", "es": "Ponle nombre para domarlo." },
+      "body": {
+        "en": "In a UCLA brain-scan study, simply putting a feeling into words — \"angry\", \"scared\" — calmed the amygdala, the brain's alarm.\nYou don't need to fix the emotion.\nJust labelling it gives you back some control.",
+        "es": "En un estudio de la UCLA con escáneres cerebrales, solo con poner en palabras una emoción («enfadado», «asustado») se calmaba la amígdala, la alarma del cerebro.\nNo hace falta arreglar la emoción.\nSolo con nombrarla recuperas algo de control."
+      },
+      "action": { "en": "Next time you feel a spike, say silently: \"This is frustration.\"", "es": "La próxima vez que sientas un pico, dite por dentro: «Esto es frustración»." },
+      "by": "Matthew Lieberman et al., 2007"
+    },
+    {
+      "id": "mindset-019",
+      "tags": ["stress", "breathing", "body"],
+      "hook": { "en": "The fastest way to calm down: two breaths in, one long out.", "es": "La forma más rápida de calmarte: dos inspiraciones, una espiración larga." },
+      "body": {
+        "en": "It's called the physiological sigh. Inhale through the nose, top up with a second short inhale, then exhale slowly through the mouth.\nIn a Stanford study, five minutes a day of it improved mood more than mindfulness meditation.",
+        "es": "Se llama suspiro fisiológico. Inspira por la nariz, añade una segunda inspiración corta y suelta el aire despacio por la boca.\nEn un estudio de Stanford, cinco minutos al día mejoraban más el ánimo que la meditación mindfulness."
+      },
+      "action": { "en": "Do three physiological sighs right now.", "es": "Haz ahora mismo tres suspiros fisiológicos." },
+      "by": "Balban, Huberman et al., 2023"
+    },
+    {
+      "id": "mindset-020",
+      "tags": ["sleep", "emotions", "health"],
+      "hook": { "en": "Everything feels worse when you're tired. Because it is.", "es": "Todo parece peor cuando estás cansado. Porque lo es." },
+      "body": {
+        "en": "After one night without sleep, the brain's emotional alarm reacted about 60% more to negative images in a Berkeley study.\nThe part that keeps it in check went quieter.\nThat argument at 1 a.m.? Have it after you sleep.",
+        "es": "Tras una noche sin dormir, la alarma emocional del cerebro reaccionaba un 60 % más a imágenes negativas en un estudio de Berkeley.\nLa parte que la mantiene a raya se apagaba.\n¿Esa discusión a la una de la mañana? Tenla después de dormir."
+      },
+      "action": { "en": "Tonight, no big decisions or hard messages after midnight.", "es": "Esta noche, nada de grandes decisiones ni mensajes difíciles después de medianoche." },
+      "by": "Yoo, Walker et al., 2007"
+    },
+    {
+      "id": "mindset-021",
+      "tags": ["worry", "planning", "focus"],
+      "hook": { "en": "Can't stop thinking about it? Make a plan, not a solution.", "es": "¿No puedes dejar de pensarlo? Haz un plan, no una solución." },
+      "body": {
+        "en": "Unfinished goals keep popping into your head.\nIn experiments by Masicampo and Baumeister, just writing a specific plan for them stopped the intrusive thoughts — even without doing the task yet.\nYour brain only needs to know it's handled.",
+        "es": "Los objetivos sin terminar no paran de volver a tu cabeza.\nEn experimentos de Masicampo y Baumeister, solo con escribir un plan concreto dejaban de aparecer esos pensamientos, aunque aún no se hubiera hecho la tarea.\nTu cerebro solo necesita saber que está controlado."
+      },
+      "action": { "en": "Before sleeping, write tomorrow's top three tasks and when you'll do them.", "es": "Antes de dormir, escribe las tres tareas clave de mañana y cuándo las harás." },
+      "by": "Masicampo & Baumeister, 2011"
+    },
+    {
+      "id": "mindset-022",
+      "tags": ["perfectionism", "burnout", "action"],
+      "hook": { "en": "Perfectionism isn't high standards. It's fear.", "es": "El perfeccionismo no es exigencia. Es miedo." },
+      "body": {
+        "en": "A meta-analysis by Hill and Curran found that perfectionistic worry — fear of mistakes, never good enough — is linked to burnout.\nHigh standards push you forward.\nFear of imperfection keeps you stuck.",
+        "es": "Un metaanálisis de Hill y Curran encontró que la preocupación perfeccionista (miedo a fallar, nunca es suficiente) se asocia al burnout.\nLos estándares altos te empujan.\nEl miedo a no ser perfecto te bloquea."
+      },
+      "action": { "en": "Ship one thing today at 80%. Notice nothing terrible happens.", "es": "Entrega hoy algo al 80 %. Fíjate en que no pasa nada terrible." },
+      "by": "Hill & Curran, 2016"
+    },
+    {
+      "id": "mindset-023",
+      "tags": ["productivity", "time", "focus"],
+      "hook": { "en": "Work expands to fill the time you give it.", "es": "El trabajo se expande hasta llenar el tiempo que le das." },
+      "body": {
+        "en": "That's Parkinson's law.\nGive yourself all afternoon and it takes all afternoon. Give yourself 30 minutes and you'll find the essential.\nDeadlines don't just limit work — they focus it.",
+        "es": "Es la ley de Parkinson.\nDate toda la tarde y te llevará toda la tarde. Date 30 minutos y encontrarás lo esencial.\nLos plazos no solo limitan el trabajo: lo enfocan."
+      },
+      "action": { "en": "Give your next task half the time you'd normally allow.", "es": "Dale a tu próxima tarea la mitad del tiempo que le darías normalmente." },
+      "by": "C. Northcote Parkinson, 1955"
+    },
+    {
+      "id": "mindset-024",
+      "tags": ["learning", "growth", "discomfort"],
+      "hook": { "en": "If learning feels easy, you're probably not learning.", "es": "Si aprender te resulta fácil, probablemente no estás aprendiendo." },
+      "body": {
+        "en": "Robert Bjork calls them desirable difficulties.\nTesting yourself, spacing practice, mixing topics — all feel harder and slower.\nBut they're exactly what makes knowledge stick.",
+        "es": "Robert Bjork las llama dificultades deseables.\nPonerte a prueba, espaciar la práctica, mezclar temas: todo parece más difícil y lento.\nPero es justo lo que hace que el conocimiento se quede."
+      },
+      "action": { "en": "Close this app and recall, from memory, three ideas you saw today.", "es": "Cierra la app y recuerda de memoria tres ideas que hayas visto hoy." },
+      "by": "Robert Bjork, UCLA"
+    },
+    {
+      "id": "mindset-025",
+      "tags": ["thoughts", "anxiety", "acceptance"],
+      "hook": { "en": "You are not your thoughts.", "es": "No eres tus pensamientos." },
+      "body": {
+        "en": "\"I'm useless\" is a thought, not a fact.\nAcceptance and Commitment Therapy teaches a simple trick: add \"I'm having the thought that…\" in front of it.\nThe thought stays. Its grip on you loosens.",
+        "es": "«Soy un inútil» es un pensamiento, no un hecho.\nLa Terapia de Aceptación y Compromiso enseña un truco sencillo: poner delante «Estoy teniendo el pensamiento de que…».\nEl pensamiento sigue ahí. Pero te agarra menos."
+      },
+      "action": { "en": "Catch one harsh thought today and add \"I'm having the thought that…\"", "es": "Pilla hoy un pensamiento duro y añádele «Estoy teniendo el pensamiento de que…»." },
+      "by": "Steven Hayes, ACT"
+    },
+    {
+      "id": "mindset-026",
+      "tags": ["gratitude", "happiness", "habits"],
+      "hook": { "en": "Gratitude is a workout, not a feeling.", "es": "La gratitud es un entrenamiento, no un sentimiento." },
+      "body": {
+        "en": "In Emmons and McCullough's study, people who wrote down a few things they were grateful for each week felt more optimistic about life — and even exercised more.\nYour brain gets better at what you train it to notice.",
+        "es": "En el estudio de Emmons y McCullough, quienes apuntaban cada semana algunas cosas por las que estaban agradecidos se sentían más optimistas con su vida, e incluso hacían más ejercicio.\nTu cerebro mejora en aquello que lo entrenas a ver."
+      },
+      "action": { "en": "Tonight, write three specific good things from today.", "es": "Esta noche, escribe tres cosas buenas y concretas de hoy." },
+      "by": "Emmons & McCullough, 2003"
+    },
+    {
+      "id": "mindset-027",
+      "tags": ["acceptance", "resilience", "stoicism"],
+      "hook": { "en": "Don't just accept what happens. Love it.", "es": "No te limites a aceptar lo que pasa. Ámalo." },
+      "body": {
+        "en": "Nietzsche called it amor fati — love of fate.\nNot pretending bad things are good, but treating everything that happens as material to build with.\nThe setback becomes part of your story, not a hole in it.",
+        "es": "Nietzsche lo llamó amor fati: amor al destino.\nNo es fingir que lo malo es bueno, sino tratar todo lo que pasa como material para construir.\nEl tropiezo pasa a ser parte de tu historia, no un agujero en ella."
+      },
+      "action": { "en": "Think of a past setback. Name one thing you only have because of it.", "es": "Piensa en un tropiezo pasado. Nombra algo que solo tienes gracias a él." },
+      "by": "Friedrich Nietzsche, The Gay Science"
+    },
+    {
+      "id": "mindset-028",
+      "tags": ["growth-mindset", "learning", "language"],
+      "hook": { "en": "Add one word: \"yet\".", "es": "Añade una palabra: «todavía»." },
+      "body": {
+        "en": "\"I can't lead a team\" sounds final.\n\"I can't lead a team yet\" sounds like a plan.\nCarol Dweck's growth mindset is simple: abilities grow with effort and strategy. The research says the effect is modest — but the habit of thinking this way costs nothing.",
+        "es": "«No sé liderar un equipo» suena definitivo.\n«Todavía no sé liderar un equipo» suena a plan.\nLa mentalidad de crecimiento de Carol Dweck es sencilla: las capacidades crecen con esfuerzo y estrategia. La investigación dice que el efecto es modesto, pero pensar así no cuesta nada."
+      },
+      "action": { "en": "Catch yourself saying \"I can't\" today and add \"yet\".", "es": "Cuando hoy te pilles diciendo «no puedo», añade «todavía»." },
+      "by": "Carol Dweck, Mindset"
+    },
+    {
+      "id": "mindset-029",
+      "tags": ["discipline", "choices", "long-term"],
+      "hook": { "en": "Easy choices, hard life. Hard choices, easy life.", "es": "Decisiones fáciles, vida difícil. Decisiones difíciles, vida fácil." },
+      "body": {
+        "en": "Skipping training feels easy today and costs you for years.\nThe hard conversation hurts for ten minutes and saves months of tension.\nYou always pay — you only choose when.",
+        "es": "Saltarte el entrenamiento es fácil hoy y te cuesta durante años.\nLa conversación difícil duele diez minutos y te ahorra meses de tensión.\nSiempre pagas: solo eliges cuándo."
+      },
+      "action": { "en": "Choose the hard option once today, on purpose.", "es": "Elige hoy la opción difícil una vez, a propósito." },
+      "by": "Jerzy Gregorek"
+    },
+    {
+      "id": "mindset-030",
+      "tags": ["stoicism", "priorities", "meaning"],
+      "hook": { "en": "You could leave life right now.", "es": "Podrías irte de esta vida ahora mismo." },
+      "body": {
+        "en": "Marcus Aurelius wrote it as advice to himself: let that decide what you do, say and think.\nNot to scare you — to sort what matters from what doesn't.\nMost of today's dramas disappear under that question.",
+        "es": "Marco Aurelio se lo escribió a sí mismo como consejo: que eso decida lo que haces, dices y piensas.\nNo para asustarte, sino para separar lo que importa de lo que no.\nLa mayoría de los dramas de hoy desaparecen ante esa pregunta."
+      },
+      "action": { "en": "Ask about one worry today: \"Will this matter in a year?\"", "es": "Pregúntate hoy sobre una preocupación: «¿Importará esto dentro de un año?»" },
+      "by": "Marcus Aurelius, Meditations 2.11"
+    }
+  ]
+}

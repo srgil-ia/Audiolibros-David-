@@ -17,11 +17,11 @@ export function renderSaved(container) {
     const item = h('details.saved-item', { style: { '--deck': deck.color || 'var(--accent)' } },
       h('summary', {},
         h('span.saved-emoji', {}, deck.emoji || '•'),
-        h('span.saved-title', {}, card.de ? card.de.text : pick(card.title))),
+        h('span.saved-title', {}, pick(card.hook))),
       h('div.saved-body', {},
-        card.de && h('p.muted', {}, pick(card.translation)),
-        card.idea && h('p', {}, pick(card.idea)),
-        card.example && h('p.muted', {}, pick(card.example)),
+        h('p.pre', {}, pick(card.body)),
+        h('p.muted', {}, `→ ${pick(card.action)}`),
+        card.by && h('p.muted', {}, `— ${card.by}`),
         h('div.row', {},
           h('button.btn.small', {
             onclick: async () => {
@@ -54,11 +54,7 @@ export function renderSaved(container) {
 
 // Plain text in both languages, ready to adapt into a post.
 export function cardToText(card) {
-  const block = (l) => {
-    if (card.de) {
-      return [card.de.text, `(${card.de.pron})`, card.translation[l], card.idea?.[l]].filter(Boolean).join('\n');
-    }
-    return [card.title[l], card.idea[l], card.example ? `→ ${card.example[l]}` : ''].filter(Boolean).join('\n\n');
-  };
+  const block = (l) =>
+    [card.hook[l], card.body[l], `→ ${card.action[l]}`, card.by ? `— ${card.by}` : ''].filter(Boolean).join('\n\n');
   return `${block('en')}\n\n— ES —\n${block('es')}`;
 }

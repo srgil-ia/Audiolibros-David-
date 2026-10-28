@@ -8,28 +8,28 @@ import { topTags } from './taste.js';
 export function buildMorePrompt() {
   const tags = topTags(10).map(([tag]) => tag);
   const deckScores = Object.entries(state.taste.decks).sort((a, b) => b[1] - a[1]);
-  const favDeck = deckScores[0]?.[0] || 'team';
+  const favDeck = deckScores[0]?.[0] || 'mindset';
   const liked = Object.entries(state.cards)
     .filter(([id, st]) => st.liked && library.cards.has(id))
     .slice(-8)
-    .map(([id]) => `- ${library.cards.get(id).title.en}`);
+    .map(([id]) => `- ${library.cards.get(id).hook.en}`);
   const deckIds = [...library.decks.keys()].join(', ');
 
-  return `I use "Mise", my personal microlearning app. I'm David, sommelier and chef de rang in a 5-star hotel in Zermatt (Switzerland), becoming Chef de Service in January 2027. Spanish native, English C1, learning German.
+  return `I use "Mise", my personal app of short mindset & psychology cards (like Instagram reels in text). I'm David, Spanish, English C1, working in hospitality and about to lead a team.
 
-Please create 10 NEW cards I'll enjoy, focused on these topics: ${tags.length ? tags.join(', ') : 'leadership, Swiss wine, German for service'}.
+Please create 10 NEW cards I'll enjoy, focused on these topics: ${tags.length ? tags.join(', ') : 'stress, discipline, confidence, leadership'}.
 Cards I liked recently:
 ${liked.length ? liked.join('\n') : '- (none yet)'}
 
 Rules:
-- Accurate, verifiable content only. Each "idea" max 3–4 sentences.
-- "example": a concrete situation in the dining room of a luxury hotel restaurant.
+- Style of a great short reel: a punchy "hook" (max ~12 words), a "body" of 2–3 short sentences (max ~50 words) explaining why, and one concrete "action" to try today.
+- Accurate content only: real studies and real quotes. Put the author/study in "by". Don't use debunked findings (power posing, 21-day habits, etc.).
 - Every text field in English ("en") and Spanish ("es").
 - Use the deck id "${favDeck}" unless another fits better (existing decks: ${deckIds}).
 - Card ids must be unique, e.g. "${favDeck}-x-001".
 - Answer ONLY with the JSON, no comments.
 
-Format (normal card):
+Format:
 {
   "id": "${favDeck}",
   "title": { "en": "...", "es": "..." },
@@ -37,18 +37,11 @@ Format (normal card):
     {
       "id": "${favDeck}-x-001",
       "tags": ["topic-a", "topic-b"],
-      "title":   { "en": "...", "es": "..." },
-      "idea":    { "en": "...", "es": "..." },
-      "example": { "en": "...", "es": "..." },
-      "quiz": { "q": { "en": "...", "es": "..." }, "a": { "en": "...", "es": "..." } }
+      "hook":   { "en": "...", "es": "..." },
+      "body":   { "en": "...", "es": "..." },
+      "action": { "en": "...", "es": "..." },
+      "by": "Author, source (optional)"
     }
   ]
-}
-"quiz" is optional.
-
-For German phrase cards (deck "german") use instead:
-{ "id": "german-x-001", "tags": ["..."], "title": {"en","es"},
-  "de": { "text": "German phrase", "pron": "approximate pronunciation for a Spanish speaker, stressed syllable in CAPITALS" },
-  "translation": { "en": "...", "es": "..." },
-  "idea": { "en": "short usage note", "es": "..." } }`;
+}`;
 }

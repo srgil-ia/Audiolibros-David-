@@ -1,9 +1,10 @@
-# Mise — microlearning para sala
+# Mise — mentalidad y psicología en formato reel
 
-App personal de microlearning (estilo TikTok/Deepstash) para David: gestión de equipos, vino suizo, alemán e inglés para servicio de lujo.
+App personal de microlearning (estilo TikTok/Deepstash) para David: ideas cortas de mentalidad, psicología y liderazgo, en inglés con traducción al español.
 
 - **PWA**: se instala en el iPhone y funciona sin conexión.
-- **Feed vertical infinito**: una tarjeta por pantalla; tocar = traducir EN/ES, doble toque = me gusta.
+- **Feed vertical infinito**: una tarjeta por pantalla con gancho, explicación corta y algo para probar; tocar = traducir EN/ES, doble toque = me gusta.
+- **Modo vídeo**: la voz lee la tarjeta en bucle con subtítulos tipo karaoke y música lo‑fi generada, hasta que haces scroll.
 - **Aprende tus gustos**: los me gusta, las tarjetas guardadas, el tiempo de lectura y los saltos rápidos ajustan qué temas aparecen más.
 - **Repetición espaciada** integrada en el scroll: las tarjetas leídas vuelven cuando toca; el botón ↻ las trae antes.
 - **Racha y objetivo diario**, tarjetas guardadas para ideas de Instagram, importación de JSON.
@@ -19,7 +20,7 @@ css/styles.css          diseño (tokens de color claro/oscuro arriba del todo)
 i18n/ui.js              textos de la interfaz en inglés y español
 content/                ← EL CONTENIDO (un JSON por mazo)
   index.json            lista de mazos que carga la app
-  team.json  wine.json  german.json  english.json
+  mindset.json  psychology.json  leadership.json
 js/
   app.js                arranque, pestañas, tema
   storage.js            todo lo que se guarda en el móvil
@@ -29,7 +30,8 @@ js/
   taste.js              algoritmo de recomendación ("lo que te gusta")
   stats.js              racha y objetivo diario
   prompt.js             texto del botón "Get more like this"
-  speech.js             voz alemana del propio iPhone
+  player.js  music.js    voz en bucle + música lo-fi
+  narration.js          qué texto lee la voz
   views/                pantallas: feed, card, decks, saved, me
 tools/validate.mjs      comprueba que el contenido es correcto
 ```
